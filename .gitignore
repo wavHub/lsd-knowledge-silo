@@ -6,3 +6,4 @@ data/*
 models/*
 *.pem
 *.key
+docs/*.log
