@@ -1,0 +1,598 @@
+{
+  "generated_at": "2026-03-23T18:32:18Z",
+  "run_id": "full-20260323182249-01d0ac",
+  "app_name": "lsd-lightrag-full-pass",
+  "gpu_profile": "H100",
+  "model": "llama3.2:3b",
+  "segments_total": 5,
+  "results": [
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-engineering-32153017981eb4d7",
+      "collection": "ref-engineering",
+      "division": "engineering",
+      "file_name": "ASME-Y14.5-2018-R2024-Dimensioning-and-Tolerancing.md",
+      "heading": "Introduction",
+      "char_count": 6882,
+      "token_est": 1720,
+      "time_seconds": 88.47,
+      "nodes_extracted": 28,
+      "edges_extracted": 17,
+      "entities": [
+        "ASME Y14.5-2018",
+        "ASME Y14.5-2009",
+        "US Army Research, Development and Engineering Center",
+        "Department of Defense",
+        "The American Society of Mechanical Engineers",
+        "Adopting Activity: Commander, U.S. Army Research, Development and Engineering Center",
+        "Clovis Road",
+        "Little Falls",
+        "NJ 07424-2139",
+        "Picatinny Arsenal",
+        "Atlantic Ocean",
+        "US Department of Defense",
+        "ASME Committee Page",
+        "American Society of Mechanical Engineers (ASME)",
+        "Y14 Committee Page",
+        "Clove Road",
+        "ASME",
+        "Y14 Series Conventions",
+        "Worldwide Decimal System",
+        "Metric System",
+        "United States Customary Units",
+        "United States Customs Service",
+        "Adopting Activity: Commander",
+        "Commander, U.S. Army Research, Development and Engineering Center",
+        "Army - AR",
+        "Commander,",
+        "ASMC N/A,",
+        "ASME Y14 Series Conventions"
+      ],
+      "relationships": [
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "The US Army adopted this standard in 2009 for use within their organization.",
+          "to": "US Army Research, Development and Engineering Center"
+        },
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "ASME developed this standard for dimensioning and tolerancing.",
+          "to": "The American Society of Mechanical Engineers"
+        },
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "The standard was published by ASME and does not have an adopter within ASMC.",
+          "to": "ASMC N/A,"
+        },
+        {
+          "from": "US Army Research, Development and Engineering Center",
+          "relation": "The Department of Defense was involved in the adoption of this standard by its research and development arm.",
+          "to": "Department of Defense"
+        },
+        {
+          "from": "US Army Research, Development and Engineering Center",
+          "relation": "ASME developed this standard for dimensioning and tolerancing.",
+          "to": "The American Society of Mechanical Engineers"
+        },
+        {
+          "from": "US Army Research, Development and Engineering Center",
+          "relation": "The Army is involved in the adoption of this standard by its research and development arm.",
+          "to": "Army - AR"
+        },
+        {
+          "from": "US Army Research, Development and Engineering Center",
+          "relation": "The Commander is responsible for adopting this standard within their organization.",
+          "to": "Commander,"
+        },
+        {
+          "from": "Department of Defense",
+          "relation": "ASME publishes standards such as ASME Y14.5, which is adopted by the Department of Defense.",
+          "to": "The American Society of Mechanical Engineers"
+        },
+        {
+          "from": "American Society of Mechanical Engineers (ASME)",
+          "relation": "The Y14 Committee page on the ASME website provides information related to ASME Y14.5.",
+          "to": "Y14 Committee Page"
+        },
+        {
+          "from": "ASME",
+          "relation": "ASME developed the Y14 Series Conventions for standardizing dimensional tolerancing and metrology practices.",
+          "to": "Y14 Series Conventions"
+        },
+        {
+          "from": "ASME",
+          "relation": "ASME contributes to the development of the Worldwide Decimal System by collaborating with global authorities and standards organizations.",
+          "to": "Worldwide Decimal System"
+        },
+        {
+          "from": "Worldwide Decimal System",
+          "relation": "The Worldwide Decimal System is an effort to standardize measurement units globally, involving the development of new standards and updating existing ones.<SEP>The Worldwide Decimal System aims to harmonize measurement units across countries and industries, building upon existing metric systems.",
+          "to": "Metric System"
+        },
+        {
+          "from": "Metric System",
+          "relation": "The Metric System is used globally, while the United States Customary Units remain in use in the US for everyday applications.",
+          "to": "United States Customary Units"
+        },
+        {
+          "from": "Metric System",
+          "relation": "ASME developed the Y14 Series Conventions for standardizing dimensional tolerancing and metrology practices.",
+          "to": "ASME Y14 Series Conventions"
+        },
+        {
+          "from": "United States Customary Units",
+          "relation": "The ASME Y14 Series Conventions provide guidelines for converting between US customary units and metric units.",
+          "to": "ASME Y14 Series Conventions"
+        },
+        {
+          "from": "Adopting Activity: Commander",
+          "relation": "The person responsible for adopting this standard within their organization.",
+          "to": "Commander, U.S. Army Research, Development and Engineering Center"
+        },
+        {
+          "from": "Adopting Activity: Commander",
+          "relation": "The person responsible for adopting this standard within",
+          "to": "Army - AR"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-finance-b583a39bcb13c35d",
+      "collection": "ref-finance",
+      "division": "finance",
+      "file_name": "_MConverter.eu_Cost Estimation Methods and Tools.md",
+      "heading": "Introduction",
+      "char_count": 6984,
+      "token_est": 1746,
+      "time_seconds": 91.68,
+      "nodes_extracted": 37,
+      "edges_extracted": 11,
+      "entities": [
+        "Gregory K. Mislick",
+        "Daniel A. Nussbaum",
+        "Naval Postgraduate School",
+        "Monterey, California",
+        "John Wiley & Sons, Inc.",
+        "Wiley Series in Operations Research and Management Science",
+        "Federal Aviation Administration",
+        "The Mitre Corporation",
+        "Federally Funded Research and Development Centers",
+        "The Library of Congress Cataloging-in-Publication Data",
+        "The Naval Postgraduate School",
+        "Mitre Corporation",
+        "Rand Corporation",
+        "The Cost Estimating Process",
+        "Definition and Planning.",
+        "Selecting the Estimating Approach.",
+        "Putting the Team Together.",
+        "Data Collection.",
+        "Formulation of the Estimate.",
+        "Review and Documentation.",
+        "Work Breakdown Structure (WBS).",
+        "Program Work Breakdown Structure.",
+        "MIL-STD 881C.",
+        "Cost Element Structure (CES).",
+        "Defense Cost and Resource Center (DCARC)",
+        "Operating and Support Costs Databases.",
+        "Defense Acquisition Management Information Retrieval (DAMIR)",
+        "Constant Year Dollars (CY$).",
+        "Base Year Dollars (BY$).",
+        "DoD Inflation Indices.",
+        "Then Year Dollars (TY$).",
+        "Cost Estimation",
+        "Copyright",
+        "The Institute for Defense Analysis",
+        "NASA",
+        "Mislick, Gregory K.",
+        "Nussbaum, Daniel A."
+      ],
+      "relationships": [
+        {
+          "from": "Gregory K. Mislick",
+          "relation": "Mislick teaches at the Naval Postgraduate School.",
+          "to": "Naval Postgraduate School"
+        },
+        {
+          "from": "Daniel A. Nussbaum",
+          "relation": "Nussbaum also teaches at the Naval Postgraduate School.",
+          "to": "Naval Postgraduate School"
+        },
+        {
+          "from": "Naval Postgraduate School",
+          "relation": "The Naval Postgraduate School is located in Monterey, California.",
+          "to": "Monterey, California"
+        },
+        {
+          "from": "Naval Postgraduate School",
+          "relation": "IDA provides consulting services to the Naval Postgraduate School.",
+          "to": "The Institute for Defense Analysis"
+        },
+        {
+          "from": "Naval Postgraduate School",
+          "relation": "The Rand Corporation provides consulting services to the Naval Postgraduate School.",
+          "to": "Rand Corporation"
+        },
+        {
+          "from": "John Wiley & Sons, Inc.",
+          "relation": "John Wiley & Sons, Inc. published the book on cost estimation.",
+          "to": "Cost Estimation"
+        },
+        {
+          "from": "John Wiley & Sons, Inc.",
+          "relation": "The copyright for the book is held by John Wiley & Sons, Inc.",
+          "to": "Copyright"
+        },
+        {
+          "from": "Federal Aviation Administration",
+          "relation": "IDA provides services to the FAA in areas such as defense planning and policy analysis.",
+          "to": "The Institute for Defense Analysis"
+        },
+        {
+          "from": "Cost Estimation",
+          "relation": "Gregory K. Mislick is the author of the cost estimation book.",
+          "to": "Mislick, Gregory K."
+        },
+        {
+          "from": "Cost Estimation",
+          "relation": "Daniel A. Nussbaum is the co-author of the cost estimation book.",
+          "to": "Nussbaum, Daniel A."
+        },
+        {
+          "from": "The Institute for Defense Analysis",
+          "relation": "IDA collaborates with NASA on various projects.",
+          "to": "NASA"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-negotiation-003cf42db059e285",
+      "collection": "ref-negotiation",
+      "division": "sales",
+      "file_name": "Power Negotiations.md",
+      "heading": "Introduction",
+      "char_count": 833,
+      "token_est": 208,
+      "time_seconds": 79.81,
+      "nodes_extracted": 7,
+      "edges_extracted": 6,
+      "entities": [
+        "Roger Dawson",
+        "America",
+        "Drive-In Window Clerk",
+        "Waiter",
+        "Retail Clerk",
+        "Airport Salesperson",
+        "Wall Street Wizard"
+      ],
+      "relationships": [
+        {
+          "from": "Roger Dawson",
+          "relation": "Roger Dawson dedicates his work to the salespeople of America.",
+          "to": "America"
+        },
+        {
+          "from": "Roger Dawson",
+          "relation": "The drive-in window clerk is profiled as an example of a salesperson who can effectively negotiate and sell products.",
+          "to": "Drive-In Window Clerk"
+        },
+        {
+          "from": "Roger Dawson",
+          "relation": "The waiter's ability to suggest better wines is seen as a skill by Roger Dawson.",
+          "to": "Waiter"
+        },
+        {
+          "from": "Roger Dawson",
+          "relation": "The retail clerk demonstrates the importance of being knowledgeable about products and having a caring demeanor in order to sell effectively.",
+          "to": "Retail Clerk"
+        },
+        {
+          "from": "Roger Dawson",
+          "relation": "This example highlights Roger Dawson's emphasis on adapting to different sales situations while maintaining effective negotiation techniques.",
+          "to": "Airport Salesperson"
+        },
+        {
+          "from": "Roger Dawson",
+          "relation": "The Wall Street wizard showcases Roger Dawson's focus on mastering financial products and sales techniques in a high-stakes setting.",
+          "to": "Wall Street Wizard"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-networking-c7eb3bfd1c66b2db",
+      "collection": "ref-networking",
+      "division": "networking",
+      "file_name": "Data Communications and Networking 5th Edition.md",
+      "heading": "Introduction",
+      "char_count": 6995,
+      "token_est": 1748,
+      "time_seconds": 107.01,
+      "nodes_extracted": 35,
+      "edges_extracted": 13,
+      "entities": [
+        "Mypdfsite.com",
+        "Behrouz Forouzan",
+        "McGraw-Hill Companies",
+        "World Athletics Championship",
+        "TCP/IP Protocol Suite",
+        "Computer Networks: A Top-Down Approach",
+        "Cryptography and Network Security",
+        "The McGraw-Hill Companies",
+        "Digital Vision/Getty Images RF",
+        "Behrouz A. Forouzan",
+        "Introduction",
+        "Chapter 1",
+        "Network Models",
+        "Part II: Physical Layer",
+        "Chapter 3",
+        "Digital Transmission",
+        "Analog Transmission",
+        "Bandwidth Utilization: Multiplexing and Spectrum *Spreading*",
+        "Transmission Media",
+        "Switching",
+        "Chapter 10",
+        "Data Link Control \\(DLC\\)",
+        "Media Access Control \\(MAC\\)",
+        "Wired LANs: Ethernet",
+        "Other Wired Networks",
+        "Wireless LANs",
+        "Other Wireless Networks",
+        "Connecting Devices and Virtual LANs",
+        "Chapter 18",
+        "Network-Layer Protocols",
+        "Data Communications and Networking, Fifth Edition",
+        "data communications",
+        "William",
+        "Network Layer",
+        "Chapter 2"
+      ],
+      "relationships": [
+        {
+          "from": "Mypdfsite.com",
+          "relation": "Behrouz A. Forouzan is the author of the book \"Data Communications and Networking, Fifth Edition\", which was published by Mypdfsite.com.<SEP>Mypdfsite.com is the publisher of several books written by Behrouz Forouzan, including \"Data Communications and Networking, Fifth Edition\".",
+          "to": "Behrouz Forouzan"
+        },
+        {
+          "from": "Mypdfsite.com",
+          "relation": "Mypdfsite.com is the publisher of the book \"Data Communications and Networking, Fifth Edition\".",
+          "to": "McGraw-Hill Companies"
+        },
+        {
+          "from": "Mypdfsite.com",
+          "relation": "Mypdfsite.com is the publisher of the book \"Cryptography and Network Security\" by Behrouz Forouzan.",
+          "to": "Cryptography and Network Security"
+        },
+        {
+          "from": "Behrouz Forouzan",
+          "relation": "Behrouz A. Forouzan is the author of several books on computer networking and security.",
+          "to": "TCP/IP Protocol Suite"
+        },
+        {
+          "from": "Behrouz Forouzan",
+          "relation": "Behrouz A. Forouzan is also the author of \"Computer Networks: A Top-Down Approach\", providing additional insight into his thought process and approach to computer networking.",
+          "to": "Computer Networks: A Top-Down Approach"
+        },
+        {
+          "from": "Behrouz Forouzan",
+          "relation": "Behrouz A. Forouzan is associated with the creation of the image used on the cover of \"Data Communications and Networking, Fifth Edition\".",
+          "to": "Digital Vision/Getty Images RF"
+        },
+        {
+          "from": "McGraw-Hill Companies",
+          "relation": "The McGraw-Hill Companies, Inc., a business unit of which published the book \"Data Communications and Networking, Fifth Edition\".",
+          "to": "Data Communications and Networking, Fifth Edition"
+        },
+        {
+          "from": "World Athletics Championship",
+          "relation": "The World Athletics Championship is not related to the topic of data communications.",
+          "to": "data communications"
+        },
+        {
+          "from": "TCP/IP Protocol Suite",
+          "relation": "The book \"Data Communications and Networking, Fifth Edition\" covers the TCP/IP protocol suite as part of its discussion on data communications.",
+          "to": "Data Communications and Networking, Fifth Edition"
+        },
+        {
+          "from": "Cryptography and Network Security",
+          "relation": "The book \"Cryptography and Network Security\" by Behrouz Forouzan is a companion volume to \"Data Communications and Networking, Fifth Edition\", covering topics in network security that are relevant to the field of data communications.",
+          "to": "data communications"
+        },
+        {
+          "from": "Behrouz A. Forouzan",
+          "relation": "William is the grandson of Behrouz A. Forouzan, mentioned as a source of inspiration for this book.",
+          "to": "William"
+        },
+        {
+          "from": "Introduction",
+          "relation": "The Introduction chapter serves as an event location or general overview for Network Layer.",
+          "to": "Network Layer"
+        },
+        {
+          "from": "Network Models",
+          "relation": "Network Models is a chapter within the larger topic of Network Models.",
+          "to": "Chapter 2"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-software-a01d5729719b156d",
+      "collection": "ref-software",
+      "division": "software",
+      "file_name": "Fundentals-of-Software-Architecture-an-Engineering-Approach-1.md",
+      "heading": "Introduction",
+      "char_count": 6973,
+      "token_est": 1743,
+      "time_seconds": 105.11,
+      "nodes_extracted": 33,
+      "edges_extracted": 10,
+      "entities": [
+        "Mark Richards",
+        "Neal Ford",
+        "Rebecca J. Parsons",
+        "Cassie Shum",
+        "Nathaniel Schutta",
+        "O'Reilly Media",
+        "Chris Guzikowski",
+        "Amanda Kersey",
+        "O'Reilly Media, Inc.",
+        "Cohesion",
+        "Coupling",
+        "Connascence",
+        "Module",
+        "Component",
+        "Architecture Characteristic",
+        "Operational Architecture Characteristic",
+        "Structural Architecture Characteristic",
+        "Cross-Cutting Architecture Characteristic",
+        "Trade-Offs and Least Worst Architecture",
+        "Domain Concerns",
+        "Requirements",
+        "Silicon Sandwiches",
+        "Explicit Characteristics",
+        "Implicit Characteristics",
+        "Architecture Governance",
+        "Fitness Function",
+        "Architecture Quanta and Granularity",
+        "Silicon Sandwiches (Case Study)",
+        "Architect Role",
+        "Developer Role",
+        "Component Scope",
+        "Architectural Partitioning",
+        "Governance and Fitness Functions"
+      ],
+      "relationships": [
+        {
+          "from": "Mark Richards",
+          "relation": "Mark Richards and Neal Ford co-authored the book *Fundamentals of Software Architecture*.",
+          "to": "Neal Ford"
+        },
+        {
+          "from": "Mark Richards",
+          "relation": "Rebecca J. Parsons praised Mark Richards' work on *Fundamentals of Software Architecture*, highlighting its value for architects and developers.",
+          "to": "Rebecca J. Parsons"
+        },
+        {
+          "from": "Mark Richards",
+          "relation": "Nathaniel Schutta expressed his admiration for Mark Richards' work on *Fundamentals of Software Architecture*, considering it a valuable resource for architects and developers.",
+          "to": "Nathaniel Schutta"
+        },
+        {
+          "from": "Mark Richards",
+          "relation": "Mark Richards' book was published by O'Reilly Media under the title *Fundamentals of Software Architecture*.<SEP>Mark Richards' book was under the editorial supervision of Chris Guzikowski at O'Reilly Media.",
+          "to": "O'Reilly Media"
+        },
+        {
+          "from": "Mark Richards",
+          "relation": "Mark Richards' book was published by O'Reilly Media under the title *Fundamentals of Software Architecture*, with editorial supervision by Chris Guzikowski.<SEP>Mark Richards' book was co-authored with Neal Ford at O'Reilly Media, under the title *Fundamentals of Software Architecture*.<SEP>Chris Guzikowski supervised Mark Richards' work at O'Reilly Media.",
+          "to": "O'Reilly Media, Inc."
+        },
+        {
+          "from": "Neal Ford",
+          "relation": "Cassie Shum commended Neal Ford's work alongside Mark Richards in *Fundamentals of Software Architecture*.",
+          "to": "Cassie Shum"
+        },
+        {
+          "from": "Neal Ford",
+          "relation": "Neal Ford's book was also published by O'Reilly Media under the title *Fundamentals of Software Architecture*, co-authored with Mark Richards.<SEP>Neal Ford's book *Fundamentals of Software Architecture* also received editorial supervision from Chris Guzikowski at O'Reilly Media.",
+          "to": "O'Reilly Media"
+        },
+        {
+          "from": "Chris Guzikowski",
+          "relation": "O'Reilly Media provided editorial support to Chris Guzikowski for his role as acquisitions editor.",
+          "to": "O'Reilly Media, Inc."
+        },
+        {
+          "from": "Cross-Cutting Architecture Characteristic",
+          "relation": "Cross-cutting characteristics influence the overall stability of a system by cutting across multiple aspects.",
+          "to": "Governance and Fitness Functions"
+        },
+        {
+          "from": "Architecture Governance",
+          "relation": "Governing architecture characteristics ensure design adherence to established principles.",
+          "to": "Governance and Fitness Functions"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    }
+  ],
+  "per_collection": {
+    "ref-engineering": {
+      "segments_total": 1,
+      "segments_success": 1,
+      "time_seconds_total": 88.47,
+      "nodes_total": 28,
+      "edges_total": 17
+    },
+    "ref-finance": {
+      "segments_total": 1,
+      "segments_success": 1,
+      "time_seconds_total": 91.68,
+      "nodes_total": 37,
+      "edges_total": 11
+    },
+    "ref-negotiation": {
+      "segments_total": 1,
+      "segments_success": 1,
+      "time_seconds_total": 79.81,
+      "nodes_total": 7,
+      "edges_total": 6
+    },
+    "ref-networking": {
+      "segments_total": 1,
+      "segments_success": 1,
+      "time_seconds_total": 107.01,
+      "nodes_total": 35,
+      "edges_total": 13
+    },
+    "ref-software": {
+      "segments_total": 1,
+      "segments_success": 1,
+      "time_seconds_total": 105.11,
+      "nodes_total": 33,
+      "edges_total": 10
+    }
+  },
+  "graphml_summary": {
+    "ref-engineering": {
+      "nodes": 28,
+      "edges": 17
+    },
+    "ref-finance": {
+      "nodes": 37,
+      "edges": 11
+    },
+    "ref-negotiation": {
+      "nodes": 7,
+      "edges": 6
+    },
+    "ref-networking": {
+      "nodes": 35,
+      "edges": 13
+    },
+    "ref-software": {
+      "nodes": 33,
+      "edges": 10
+    }
+  },
+  "supabase": {
+    "status": "ok",
+    "inserted_nodes": 140,
+    "inserted_edges": 57,
+    "inserted_chunks": 5,
+    "inserted_runs": 5
+  },
+  "graph_nodes_payload": 140,
+  "graph_edges_payload": 57
+}

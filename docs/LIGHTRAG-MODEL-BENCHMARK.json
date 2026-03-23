@@ -1,0 +1,1107 @@
+{
+  "generated_at": "2026-03-23T18:13:48Z",
+  "app_name": "lsd-lightrag-benchmark-h100",
+  "gpu_profile": "H100",
+  "collections": [
+    "ref-engineering",
+    "ref-finance",
+    "ref-negotiation",
+    "ref-networking",
+    "ref-software"
+  ],
+  "segment_count": 5,
+  "models": [
+    "llama3.2:3b",
+    "llama3.1:8b",
+    "qwen2.5:32b"
+  ],
+  "results": [
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-finance-01-72d374d51678",
+      "collection": "ref-finance",
+      "division": "finance",
+      "file_name": "managerial accounting, 16th edition.md",
+      "heading": "Document Outline",
+      "segment_tokens_est": 2169,
+      "time_seconds": 44.2,
+      "nodes_extracted": 57,
+      "edges_extracted": 3,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Job-Order Costing",
+        "Process Costing",
+        "FIFO Method",
+        "Service Department",
+        "Variable Expense Ratio",
+        "Contribution Margin Ratio",
+        "Absorption Costing",
+        "Selling and Administrative Expenses"
+      ],
+      "sample_relationships": [
+        {
+          "from": "FIFO Method",
+          "relation": "The FIFO method can be used to assign costs to service departments.",
+          "to": "Service Department"
+        },
+        {
+          "from": "Common Costs",
+          "relation": "Common costs are shared expenses that are incurred by multiple departments or segments, and arbitrarily dividing them can lead to incorrect financial analysis.",
+          "to": "Arbitrarily Divided Common Costs"
+        },
+        {
+          "from": "Arbitrarily Dividing Common Costs",
+          "relation": "Arbitrarily dividing common costs among segments is a common mistake that can lead to incorrect financial analysis.<SEP>Arbitrarily dividing common costs among segments is a common mistake that can lead to incorrect",
+          "to": "Income Statements-Arbitrarily Dividing Common Costs among Segments"
+        }
+      ],
+      "query_preview": "**Cost of Goods Sold (COGS)** **Definition:** COGS is the direct cost of producing and selling a company's products or services. **Calculation:** There are several methods to calculate COGS, but the most common ones are: 1. **Job-Order Costing (JOC)**: * Calculate the cost of direct materials, labor, and overhead for each job or production run. * Add up the costs for all jobs or production runs to get the total COGS. 2. **Process Costing**: * Calculate the cost of materials, labor, and overhead for each unit produced. * Add up the costs for all units produced to get the total COGS. 3. **Per Unit Cost**: * Calculate the total COGS for a batch or lot of products. * Divide the total COGS by the"
+    },
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-negotiation-01-4af18a4060cb",
+      "collection": "ref-negotiation",
+      "division": "sales",
+      "file_name": "Power Negotiations.md",
+      "heading": "Chapter 4",
+      "segment_tokens_est": 2199,
+      "time_seconds": 98.92,
+      "nodes_extracted": 26,
+      "edges_extracted": 17,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Private Label",
+        "Brand Name",
+        "Aspirin",
+        "Roger",
+        "Saddam Hussein",
+        "George Bush",
+        "Peggy Noonan",
+        "Henry Kissinger"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Private Label",
+          "relation": "$1 vs. $2",
+          "to": "Brand Name"
+        },
+        {
+          "from": "Brand Name",
+          "relation": "The brand name aspirin's pricing strategy relies on creating a perceived value increase through the use of psychological tactics like anchoring and framing effects.<SEP>$2 pricing raises the perceived value of the brand name aspirin.",
+          "to": "Aspirin"
+        },
+        {
+          "from": "Brand Name",
+          "relation": "The reason the brand name is more expensive due to higher quality control standards.",
+          "to": "Reason for Price Difference"
+        },
+        {
+          "from": "Aspirin",
+          "relation": "The fourth reason for asking for more than expected is to raise the perceived value of the product or service through price anchoring.",
+          "to": "Reason for Price Difference"
+        },
+        {
+          "from": "Saddam Hussein",
+          "relation": "President George Bush described a clear and precise opening negotiating position that included three key demands.",
+          "to": "George Bush"
+        },
+        {
+          "from": "George Bush",
+          "relation": "The situation was a deadlock due to the egos of the negotiators, which needed to be managed through clever tactics and strategic communication.",
+          "to": "Persian Gulf War"
+        },
+        {
+          "from": "Henry Kissinger",
+          "relation": "Henry Kissinger supports the idea of overstating demands in negotiations.",
+          "to": "Global Sales Negotiation Gambits"
+        },
+        {
+          "from": "Henry Kissinger",
+          "relation": "Henry Kissinger's use of coercive power in negotiations can be seen as influencing others through fear or intimidation.",
+          "to": "Coercive Power"
+        }
+      ],
+      "query_preview": "### Bracketing Gambit The bracketing gambit refers to a sales negotiating technique where the seller asks for more than they expect to get, often to create an illusion of flexibility and openness. This approach allows the seller to make an initial demand that is higher than their true maximum plausible position (MPP), while still leaving room for negotiation. #### Key Elements: * **Initial High Demand**: The seller makes an opening offer that is higher than their MPP. * **Appeal to Buyer's Ego**: By asking for more, the seller appeals to the buyer's ego and creates a sense of value perception. * **Implied Flexibility**: The seller implies flexibility by stating they are willing to modify the"
+    },
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-engineering-01-d9e9791de037",
+      "collection": "ref-engineering",
+      "division": "engineering",
+      "file_name": "ASME-Y14.5-2018-R2024-Dimensioning-and-Tolerancing.md",
+      "heading": "PART",
+      "segment_tokens_est": 2195,
+      "time_seconds": 93.31,
+      "nodes_extracted": 22,
+      "edges_extracted": 21,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "ASME Y14.5-2018",
+        "Datum Reference Frame",
+        "Datum Feature",
+        "Physical Datum Feature Simulator",
+        "True Geometric Counterpart",
+        "Datums",
+        "Feature Control Frame",
+        "MMB"
+      ],
+      "sample_relationships": [
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "The ASME Y14.5-2018 standard is used for establishing and applying datums in engineering design.",
+          "to": "Datums"
+        },
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "The ASME Y14.5-2018 standard is applied in the establishment and use of datum reference frames.",
+          "to": "Datum Reference Frame"
+        },
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "The ASME Y14.5-2018 standard is applied in the establishment and use of datums and datum reference frames.",
+          "to": "Standard Application"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The datum reference frame is a theoretical framework used to establish simulated dimensions.",
+          "to": "Datums"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The datum reference frame serves as a theoretical framework for establishing feature control frames that describe relationships between datums and features.",
+          "to": "Feature Control Frame"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The size specified in the MMB unit is fixed at a certain value within the datum reference frame.",
+          "to": "MMB"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The size specified in the LMB unit is adjustable within the datum reference frame.",
+          "to": "LMB"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The size specified in the RMB unit is fixed at a certain value within the datum reference frame.",
+          "to": "RMB"
+        }
+      ],
+      "query_preview": "**Geometric Dimensioning and Tolerancing** Geometric Dimensioning and Tolerancing (GD&T) is a system for defining and communicating the geometric and dimensional requirements of a part or product. GD&T provides a standardized way to describe the functional requirements of a part, including its shape, size, location, orientation, and other characteristics. It is used in engineering design, manufacturing, and quality control to ensure that parts meet their intended specifications. **Key Concepts** * ** Datum Feature**: A datum feature is a surface or diameter on an object that serves as a basis for measuring and tolerancing. * **Datum Reference Frame**: A datum reference frame is a theoretical"
+    },
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-networking-01-819b5f2932be",
+      "collection": "ref-networking",
+      "division": "networking",
+      "file_name": "Data Communications and Networking 5th Edition.md",
+      "heading": "Document Outline",
+      "segment_tokens_est": 2159,
+      "time_seconds": 137.05,
+      "nodes_extracted": 65,
+      "edges_extracted": 28,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Line Coding",
+        "Delta Modulation",
+        "Twisted-Pair Cable",
+        "Coaxial Cable",
+        "Fiber-Optic Cable",
+        "Radio Waves",
+        "Microwaves",
+        "Infrared"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Line Coding",
+          "relation": "Both line coding and delta modulation are used for digital-to-digital conversion.<SEP>Delta modulation is used in digital-to-digital conversion along with line coding.",
+          "to": "Delta Modulation"
+        },
+        {
+          "from": "Line Coding",
+          "relation": "Digital-to-digital conversion using line coding.",
+          "to": "Digital-TO-Digital Conversion"
+        },
+        {
+          "from": "Twisted-Pair Cable",
+          "relation": "Twisted-pair cables are designed to prevent electromagnetic interference compared to coaxial cables for high-speed data transmission.",
+          "to": "Coaxial Cable"
+        },
+        {
+          "from": "Twisted-Pair Cable",
+          "relation": "Twisted-pair cables are used for different types of transmissions than fiber-optic cables.<SEP>Coaxial cables transmit data at a higher speed than fiber-optic cables due to their larger bandwidth.",
+          "to": "Fiber-Optic Cable"
+        },
+        {
+          "from": "Twisted-Pair Cable",
+          "relation": "Twisted-pair cables are designed to prevent electromagnetic interference compared to radio waves.",
+          "to": "Radio Waves"
+        },
+        {
+          "from": "Coaxial Cable",
+          "relation": "Coaxial cables transmit data at a higher speed than fiber-optic cables due to their larger bandwidth.",
+          "to": "Fiber-Optic Cable"
+        },
+        {
+          "from": "Fiber-Optic Cable",
+          "relation": "Fiber-optic signals use light for transmission and microwaves use electromagnetic radiation.",
+          "to": "Microwaves"
+        },
+        {
+          "from": "Radio Waves",
+          "relation": "Radio waves have a longer wavelength and higher frequency than microwaves, making them more suitable for long-distance communication.",
+          "to": "Microwaves"
+        }
+      ],
+      "query_preview": "**TCP Handshake Overview** ========================== The TCP handshake is a three-way process used by devices to establish a connection over a network. It involves an exchange of packets between two devices, typically a client and a server. **Step 1: SYN (Synchronize) Packet** ------------------------------------ The client initiates the handshake by sending a SYN packet to the server with its own sequence number and a request to establish a connection. The server responds with a SYN-ACK (Synchronize-Acknowledgment) packet, which includes the server's sequence number, an acknowledgment of the client's sequence number, and a request for the client to send its next sequence number. **Step 2: "
+    },
+    {
+      "model": "llama3.2:3b",
+      "segment_id": "ref-software-01-c0211c27d426",
+      "collection": "ref-software",
+      "division": "software",
+      "file_name": "Fundentals-of-Software-Architecture-an-Engineering-Approach-1.md",
+      "heading": "Introduction",
+      "segment_tokens_est": 2196,
+      "time_seconds": 117.24,
+      "nodes_extracted": 34,
+      "edges_extracted": 25,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "2nd Edition",
+        "3rd Edition",
+        "Architectural Thinking",
+        "Design",
+        "Architecture",
+        "Example",
+        "Mark Richards",
+        "Neal Ford"
+      ],
+      "sample_relationships": [
+        {
+          "from": "2nd Edition",
+          "relation": "A logical connection between different editions of the same publication.",
+          "to": "3rd Edition"
+        },
+        {
+          "from": "Architectural Thinking",
+          "relation": "Concept relationship between a book and its concept.",
+          "to": "Architecture Thinking"
+        },
+        {
+          "from": "Example",
+          "relation": "This example illustrates how the pipeline architecture style can be applied.",
+          "to": "Pipeline Architecture Style"
+        },
+        {
+          "from": "Rebecca J. Parsons",
+          "relation": "Rebecca J. Parsons praises Mark Richards and Neal Ford's expertise in software architecture.<SEP>Rebecca J. Parsons sees Mark Richards and Neal Ford as mentors for architects.",
+          "to": "Mark Richards and Neal Ford"
+        },
+        {
+          "from": "Cassie Shum",
+          "relation": "Cassie Shum recommends Mark Richards and Neal Ford's advice for technological excellence.<SEP>Cassie Shum recommends Mark Richards and Neal Ford's technical expertise.",
+          "to": "Mark Richards and Neal Ford"
+        },
+        {
+          "from": "Nathaniel Schutta",
+          "relation": "Nathaniel Schutta endorses the book by Mark Richards and Neal Ford.",
+          "to": "Mark Richards and Neal Ford"
+        },
+        {
+          "from": "Chris Guzikowski",
+          "relation": "Chris Guzikowski works with Amanda Kersey as a Proofreader for O'Reilly Media and editor in this context.<SEP>Amanda Kersey works with Chris Guzikowski as a Proofreader for O'Reilly Media.",
+          "to": "Amanda Kersey"
+        },
+        {
+          "from": "Alicia Young",
+          "relation": "Virginia and Alicia Young are Development Editors for O'Reilly Media.",
+          "to": "Virginia"
+        }
+      ],
+      "query_preview": "### **Fundamentals of Software Architecture** #### **Microkernel Architecture Style** **12. Microkernel Architecture Style. . . . . . . .** **Topology 149** **Core System 150** **Plug-In Components 153** **Registry 157** **Contracts 158** According to the `Document Chunks`, the microservices pattern is not explicitly defined within the context provided; however, a related concept can be inferred from `Document Chunks` for \"Microkernel Architecture Style\". In the context of **Fundamentals of Software Architecture**, Microkernel Architecture Style is described as an architecture style that emphasizes the separation of components and the use of a core system and plug-in components. ### **Defini"
+    },
+    {
+      "model": "llama3.1:8b",
+      "segment_id": "ref-finance-01-72d374d51678",
+      "collection": "ref-finance",
+      "division": "finance",
+      "file_name": "managerial accounting, 16th edition.md",
+      "heading": "Document Outline",
+      "segment_tokens_est": 2169,
+      "time_seconds": 108.72,
+      "nodes_extracted": 41,
+      "edges_extracted": 24,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Cost-Volume-Profit Relationships",
+        "Contribution Margin Ratio \\(CM Ratio\\)",
+        "Break-Even Analysis",
+        "Target Profit Analysis",
+        "Variable Costing",
+        "Absorption Costing",
+        "Job-Order Costing System",
+        "Process Costing"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Cost-Volume-Profit Relationships",
+          "relation": "The Cost-Volume-Profit Relationship is closely related to the Contribution Margin Ratio, as both concepts are used to analyze profitability and understand the relationship between costs, volume, and profit.",
+          "to": "Contribution Margin Ratio \\(CM Ratio\\)"
+        },
+        {
+          "from": "Cost-Volume-Profit Relationships",
+          "relation": "The Cost-Volume-Profit Relationship is closely related to Break-Even Analysis, as both concepts are used to analyze profitability and determine the point at which a business will break even.",
+          "to": "Break-Even Analysis"
+        },
+        {
+          "from": "Break-Even Analysis",
+          "relation": "Break-even analysis is used in decision making to determine the point at which revenues equal costs.",
+          "to": "Decision Making"
+        },
+        {
+          "from": "Variable Costing",
+          "relation": "Variable Costing and Absorption Costing are two different accounting methods that serve distinct purposes in costing management.",
+          "to": "Absorption Costing"
+        },
+        {
+          "from": "Job-Order Costing System",
+          "relation": "The Job-Order Costing System and Process Costing are two different costing methods used to track costs associated with specific jobs or projects and assign costs based on the manufacturing process.",
+          "to": "Process Costing"
+        },
+        {
+          "from": "Job-Order Costing System",
+          "relation": "The movement of cost flows through a Job-Order Costing System is essential for accurately tracking costs associated with specific jobs or projects.",
+          "to": "Cost Flows"
+        },
+        {
+          "from": "Chapter 5 Cost-Volume-Profit Relationships",
+          "relation": "The CVP Relationship discussed in Chapter 5 is closely related to the Equation Method for analyzing costs and determining break-even points.",
+          "to": "Equation Method"
+        },
+        {
+          "from": "Chapter 5 Cost-Volume-Profit Relationships",
+          "relation": "Similarly, the CVP Relationship in Chapter 5 is also connected to the Formula Method for calculating break-even points and target profits.",
+          "to": "Formula Method"
+        }
+      ],
+      "query_preview": "### Calculating Cost of Goods Sold #### Overview The cost of goods sold, also known as COGS, is a critical component of a company's financial statements. It represents the direct costs associated with producing or purchasing the products that are sold by a business. #### Formula Cost of Goods Sold (COGS) = Beginning Inventory + Purchases - Ending Inventory Where: * **Beginning Inventory**: The inventory level at the beginning of the accounting period. * **Purchases**: The total cost of goods purchased during the accounting period, including any discounts or returns. * **Ending Inventory**: The inventory level at the end of the accounting period. Alternatively, COGS can also be calculated usi"
+    },
+    {
+      "model": "llama3.1:8b",
+      "segment_id": "ref-negotiation-01-4af18a4060cb",
+      "collection": "ref-negotiation",
+      "division": "sales",
+      "file_name": "Power Negotiations.md",
+      "heading": "Chapter 4",
+      "segment_tokens_est": 2199,
+      "time_seconds": 109.32,
+      "nodes_extracted": 19,
+      "edges_extracted": 15,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Peggy Noonan",
+        "President George Bush",
+        "Saddam Hussein",
+        "General Schwarzkopf",
+        "Roger Fisher",
+        "The Persian Gulf War",
+        "Kuwait",
+        "Private Label"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Peggy Noonan",
+          "relation": "Peggy Noonan wrote alliterations for President George Bush's speeches, including the State of the Union Address.",
+          "to": "President George Bush"
+        },
+        {
+          "from": "President George Bush",
+          "relation": "President George Bush's negotiating position was presented as part of the Persian Gulf War negotiations with Saddam Hussein.",
+          "to": "Saddam Hussein"
+        },
+        {
+          "from": "President George Bush",
+          "relation": "President George Bush's negotiating position was presented as part of the negotiations with Saddam Hussein during The Persian Gulf War.",
+          "to": "The Persian Gulf War"
+        },
+        {
+          "from": "Saddam Hussein",
+          "relation": "Saddam Hussein was involved in a conflict over Kuwait during the Persian Gulf War.",
+          "to": "Kuwait"
+        },
+        {
+          "from": "Saddam Hussein",
+          "relation": "Saddam Hussein was involved in a conflict over Kuwait during The Persian Gulf War.",
+          "to": "The Persian Gulf War"
+        },
+        {
+          "from": "General Schwarzkopf",
+          "relation": "General Schwarzkopf's military actions contributed to resolving the conflict in the Persian Gulf War.",
+          "to": "The Persian Gulf War"
+        },
+        {
+          "from": "Roger Fisher",
+          "relation": "Roger Fisher suggests that pricing private label products higher can increase their perceived value.",
+          "to": "Private Label"
+        },
+        {
+          "from": "Roger Fisher",
+          "relation": "Roger Fisher recommends using branding to create a perception of better quality for products.",
+          "to": "Brand Name"
+        }
+      ],
+      "query_preview": "### The Bracketing Gambit The Bracketing Gambit is one of the sales negotiating strategies discussed in Chapter 4 of \"ref-negotiation\". It involves presenting a high initial price or position while implying flexibility to negotiate downwards. **Why Use the Bracketing Gambit?** * It provides negotiation room, as you can always come down on price but never go up. * It raises the perceived value of your product or service by implanting a higher price in the buyer's mind. * It is an effective strategy for avoiding deadlocks caused by conflicting egos of negotiators. **How to Apply the Bracketing Gambit** To apply the Bracketing Gambit effectively, consider the following: 1. **Present a high init"
+    },
+    {
+      "model": "llama3.1:8b",
+      "segment_id": "ref-engineering-01-d9e9791de037",
+      "collection": "ref-engineering",
+      "division": "engineering",
+      "file_name": "ASME-Y14.5-2018-R2024-Dimensioning-and-Tolerancing.md",
+      "heading": "PART",
+      "segment_tokens_est": 2195,
+      "time_seconds": 100.14,
+      "nodes_extracted": 25,
+      "edges_extracted": 16,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "ASME Y14.5-2018",
+        "Figures 7-12, 7-39, and 7-59",
+        "Datum Reference Frame",
+        "True Geometric Counterparts",
+        "Physical Datum Feature Simulators",
+        "Machine Tables and Surface Plates",
+        "Ring and Plug Gages and Mandrels",
+        "RMB (Right Mouse Button)"
+      ],
+      "sample_relationships": [
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "The ASME Y14.5-2018 standard is applied in establishing a datum reference frame for geometric dimensioning and tolerancing purposes.<SEP>The ASME Y14.5-2018 standard document outlines the specifications for establishing a datum reference frame as a theoretical coordinate system.",
+          "to": "Datum Reference Frame"
+        },
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "The ASME Y14.",
+          "to": "True Geometric Counterparts"
+        },
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "The ASME Y14.5-2018 standard document outlines the specifications for establishing a datum reference frame using machine tables and surface plates to derive planes.",
+          "to": "Machine Tables and Surface Plates"
+        },
+        {
+          "from": "ASME Y14.5-2018",
+          "relation": "The ASME Y14.5-2018 standard applies to geometric dimensioning and tolerancing for specifying tolerances.",
+          "to": "Geometric Dimensioning and Tolerancing"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The planes derived from machine tables and surface plates are used to establish the simulated datums within a datum reference frame.",
+          "to": "Machine Tables and Surface Plates"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "These tools are used to measure and verify dimensions by establishing simulated datums within a datum reference frame.",
+          "to": "Ring and Plug Gages and Mandrels"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The datum reference frame is simulated by a MMB (Minimum Material Boundary), LMB (Least Material Boundary), or AME (Actual Minimum Material Envelope) to establish a datum boundary and constrain the degrees of freedom between the part and the associated datum reference frame.",
+          "to": "MMB/LMB/AME"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The datum reference frame is simulated by a feature control frame to establish the relationships between datum features and true geometric counterparts.",
+          "to": "Feature Control Frame"
+        }
+      ],
+      "query_preview": "### Geometric Dimensioning and Tolerancing Geometric Dimensioning and Tolerancing (GD&T) is a system for defining the geometric characteristics of a part. It ensures that parts are manufactured correctly, so they fit together properly and function as intended. GD&T uses a combination of symbols, notes, and tolerancing to specify the geometric requirements of a part. #### Key Components Some key components of GD&T include: * **Datum Reference Frame (DRF):** A theoretical reference frame used to simulate the actual features of a part. * **True Geometric Counterparts (TGCs):** Inverse shapes of datum features that simulate their behavior under various conditions. * **Mutually Perpendicular Plan"
+    },
+    {
+      "model": "llama3.1:8b",
+      "segment_id": "ref-networking-01-819b5f2932be",
+      "collection": "ref-networking",
+      "division": "networking",
+      "file_name": "Data Communications and Networking 5th Edition.md",
+      "heading": "Document Outline",
+      "segment_tokens_est": 2159,
+      "time_seconds": 128.43,
+      "nodes_extracted": 64,
+      "edges_extracted": 33,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Chapter 4 Digital Transmission",
+        "Chapter 5 Analog Transmission",
+        "Chapter 6 Bandwidth Utilization: Multiplexing and Spectrum Spreading",
+        "Chapter 7 Transmission Media",
+        "Chapter 8 Switching",
+        "3.6.2 Throughput",
+        "3.6.3 Latency (Delay)",
+        "3.6.4 Bandwidth-Delay Product"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Chapter 4 Digital Transmission",
+          "relation": "Chapter 4 precedes Chapter 5 in the textbook's sequence and covers related digital transmission concepts.",
+          "to": "Chapter 5 Analog Transmission"
+        },
+        {
+          "from": "Chapter 5 Analog Transmission",
+          "relation": "The principles discussed in Chapter 5 are applied to the bandwidth utilization methods presented in Chapter 6.",
+          "to": "Chapter 6 Bandwidth Utilization: Multiplexing and Spectrum Spreading"
+        },
+        {
+          "from": "Chapter 7 Transmission Media",
+          "relation": "Chapter 7 is followed by Chapter 8, which deals with switching techniques used in communication systems.",
+          "to": "Chapter 8 Switching"
+        },
+        {
+          "from": "Chapter 7 Transmission Media",
+          "relation": "Chapter 7 Transmission Media categorizes transmission media into guided and unguided types.",
+          "to": "Guided Media"
+        },
+        {
+          "from": "Chapter 7 Transmission Media",
+          "relation": "The subcategory Unguided Media: Wireless is discussed in Chapter 7 Transmission Media.",
+          "to": "Unguided Media: Wireless"
+        },
+        {
+          "from": "Chapter 7",
+          "relation": "The material in Chapter 7 is followed by that in Chapter 8, which discusses switching methods.",
+          "to": "Chapter 8"
+        },
+        {
+          "from": "World Athletics Championship",
+          "relation": "Noah Carter participated in the World Athletics Championship.",
+          "to": "Noah Carter"
+        },
+        {
+          "from": "World Athletics Championship",
+          "relation": "Chapter 8 mentions the World Athletics Championship as an example of a major athletic event.",
+          "to": "Chapter 8"
+        }
+      ],
+      "query_preview": "### TCP Handshake Overview The Transmission Control Protocol (TCP) is a connection-oriented protocol used for reliable data transfer between devices. The three-way handshake, also known as the SYN-SYN-ACK handshake, is the process by which two devices establish a connection over a network. #### Three-Way Handshake Steps To set up a TCP connection, the following steps occur: 1. **SYN Sent** (Step 1): The client initiates the connection by sending a SYN packet to the server. 2. **SYN-ACK Received** (Step 2): The server responds with an ACKnowledgment packet containing its own SYN flag set. 3. **ACK Sent** (Step 3): The client sends another ACK packet acknowledging the received packet. #### TCP"
+    },
+    {
+      "model": "llama3.1:8b",
+      "segment_id": "ref-software-01-c0211c27d426",
+      "collection": "ref-software",
+      "division": "software",
+      "file_name": "Fundentals-of-Software-Architecture-an-Engineering-Approach-1.md",
+      "heading": "Introduction",
+      "segment_tokens_est": 2196,
+      "time_seconds": 132.29,
+      "nodes_extracted": 63,
+      "edges_extracted": 30,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Architectural Thinking",
+        "Architecture Versus Design",
+        "Technical Breadth",
+        "Analyzing Trade-Offs",
+        "Understanding Business Drivers",
+        "Balancing Architecture and Hands-On Coding",
+        "Modularity",
+        "Definition"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Architecture Versus Design",
+          "relation": "The discussion on \"Architecture Versus Design\" involves trade-offs in relation to analyzing trade-offs.",
+          "to": "Analyzing Trade-Offs"
+        },
+        {
+          "from": "Analyzing Trade-Offs",
+          "relation": "The process of analyzing trade-offs is related to measuring modularity in system design and architecture.",
+          "to": "Measuring Modularity"
+        },
+        {
+          "from": "Understanding Business Drivers",
+          "relation": "Understanding business drivers is crucial for balancing architecture with hands-on coding skills.",
+          "to": "Balancing Architecture and Hands-On Coding"
+        },
+        {
+          "from": "Modularity",
+          "relation": "Modularity is an essential aspect of unifying coupling and connascence metrics in system design and architecture.",
+          "to": "Unifying Coupling and Connascence Metrics"
+        },
+        {
+          "from": "Architecture Characteristics Defined",
+          "relation": "The definition of architectural characteristics encompasses both operational and structural aspects.",
+          "to": "Operational Architecture Characteristics"
+        },
+        {
+          "from": "Identifying Architectural Characteristics",
+          "relation": "Methods for identifying architectural characteristics involve extracting them from domain concerns.",
+          "to": "Extracting Architecture Characteristics from Domain Concerns"
+        },
+        {
+          "from": "Microkernel Architecture Style",
+          "relation": "The microkernel and layered architecture styles differ in their approaches to system design.",
+          "to": "Layered Architecture Style"
+        },
+        {
+          "from": "Microkernel Architecture Style",
+          "relation": "The Microkernel Architecture Style is centered around the Core System, which manages resources and provides basic services.",
+          "to": "Core System"
+        }
+      ],
+      "query_preview": "### Microservices Pattern #### Definition The microservices pattern involves breaking down an application into smaller, independent services. Each service is responsible for a specific business capability and can be developed, tested, and deployed independently. #### Characteristics - **Loose Coupling**: Services communicate with each other through well-defined APIs. - **Organized Around Business Capabilities**: Services are designed around the business capabilities they provide. - **Scaling and Reusability**: Services can scale independently and be reused across different applications. #### Advantages * Improved maintainability and flexibility * Enhanced scalability and performance * Better"
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ref-finance-01-72d374d51678",
+      "collection": "ref-finance",
+      "division": "finance",
+      "file_name": "managerial accounting, 16th edition.md",
+      "heading": "Document Outline",
+      "segment_tokens_est": 2169,
+      "time_seconds": 169.06,
+      "nodes_extracted": 67,
+      "edges_extracted": 20,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Cost of Goods Sold",
+        "Underapplied or Overapplied Overhead",
+        "Job-Order Costing System",
+        "Process Costing",
+        "Cost Flows in Process Costing",
+        "Weighted-Average Method",
+        "Operation Costing",
+        "Cost-Volume-Profit Analysis"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Cost of Goods Sold",
+          "relation": "The Job-Order Costing System is used to track the cost of goods sold in a manufacturing setting.",
+          "to": "Job-Order Costing System"
+        },
+        {
+          "from": "Cost of Goods Sold",
+          "relation": "The difference between underapplied and overapplied overhead impacts the Cost of Goods Sold calculations.",
+          "to": "Underapplied or Overapplied Overhead"
+        },
+        {
+          "from": "Job-Order Costing System",
+          "relation": "The Job-Order Costing System is compared with process costing to understand their respective methodologies for tracking costs.",
+          "to": "Comparison of Job-Order and Process Costing"
+        },
+        {
+          "from": "Process Costing",
+          "relation": "Process costing involves tracking the flow of costs through various processing departments as part of its methodology.",
+          "to": "Cost Flows in Process Costing"
+        },
+        {
+          "from": "Process Costing",
+          "relation": "The Weighted-Average Method is used within process costing to calculate the cost per unit.",
+          "to": "Weighted-Average Method"
+        },
+        {
+          "from": "Cost Flows in Process Costing",
+          "relation": "Operation costing integrates aspects of both job-order and process costing to track costs in operations with varying production types.",
+          "to": "Operation Costing"
+        },
+        {
+          "from": "Cost-Volume-Profit Analysis",
+          "relation": "The Cost-Volume-Profit (CVP) Analysis can be represented using equations to express relationships between costs, volume, and profit.",
+          "to": "CVP Relationships in Equation Form"
+        },
+        {
+          "from": "Cost-Volume-Profit Analysis",
+          "relation": "The Cost-Volume-Profit (CVP) Analysis can be visually represented using graphs to show cost-volume-profit relationships.",
+          "to": "Preparation of the CVP Graph"
+        }
+      ],
+      "query_preview": "The calculation of Cost of Goods Sold (COGS) involves tracking all expenses directly related to producing and selling goods. In a manufacturing setting, COGS includes direct materials, direct labor, and manufacturing overhead. The Job-Order Costing System is often used to track these costs in detail. Here are the steps typically involved in calculating COGS: 1. **Direct Materials**: This covers the cost of raw materials that go directly into producing goods. 2. **Direct Labor**: This includes wages paid to workers who are directly involved in manufacturing processes. 3. **Manufacturing Overhead**: These are indirect costs associated with production, such as utilities and depreciation of fact"
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ref-negotiation-01-4af18a4060cb",
+      "collection": "ref-negotiation",
+      "division": "sales",
+      "file_name": "Power Negotiations.md",
+      "heading": "Chapter 4",
+      "segment_tokens_est": 2199,
+      "time_seconds": 278.02,
+      "nodes_extracted": 24,
+      "edges_extracted": 20,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Brand Name Aspirin",
+        "Private Label Aspirin",
+        "Saddam Hussein",
+        "Persian Gulf War",
+        "George Bush",
+        "Peggy Noonan",
+        "General Schwarzkopf",
+        "Chain Drug Stores"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Brand Name Aspirin",
+          "relation": "The brand name aspirin is priced higher than private label aspirin but may be perceived as having better quality control.",
+          "to": "Private Label Aspirin"
+        },
+        {
+          "from": "Brand Name Aspirin",
+          "relation": "Brand name aspirin can be purchased at chain drug stores.",
+          "to": "Chain Drug Stores"
+        },
+        {
+          "from": "Private Label Aspirin",
+          "relation": "Private label aspirin is available for purchase at chain drug stores.",
+          "to": "Chain Drug Stores"
+        },
+        {
+          "from": "Saddam Hussein",
+          "relation": "Saddam Hussein was the leader whose actions led to and were subject of negotiations during the Persian Gulf War.",
+          "to": "Persian Gulf War"
+        },
+        {
+          "from": "Saddam Hussein",
+          "relation": "Saddam Hussein's military presence in Kuwait was the subject of negotiations during the Persian Gulf War.",
+          "to": "Kuwait"
+        },
+        {
+          "from": "Persian Gulf War",
+          "relation": "President George Bush outlined the U.S.'s negotiating position regarding Saddam Hussein's actions in Kuwait.",
+          "to": "George Bush"
+        },
+        {
+          "from": "Persian Gulf War",
+          "relation": "General Schwarzkopf was a military leader involved in the Persian Gulf War and provided insights into the negotiations and outcomes.",
+          "to": "General Schwarzkopf"
+        },
+        {
+          "from": "George Bush",
+          "relation": "Peggy Noonan possibly wrote George Bush's State of the Union Address outlining negotiation strategies for the Persian Gulf War.",
+          "to": "Peggy Noonan"
+        }
+      ],
+      "query_preview": "The provided information does not explicitly define or describe the \"bracketing gambit\" as a specific negotiation tactic. However, it does discuss related concepts and strategies within sales negotiations that might be associated with this term. In the context of beginning sales negotiating gambits, a key strategy is to ask for more than you expect to get initially. This approach is described as an effective way to establish your initial position in a negotiation, often referred to as setting your \"Maximum Plausible Position\" (MPP). The MPP represents the most that a negotiator can ask for while still being seen as plausible by the buyer. One of the reasons for this tactic is to create negot"
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ref-engineering-01-d9e9791de037",
+      "collection": "ref-engineering",
+      "division": "engineering",
+      "file_name": "ASME-Y14.5-2018-R2024-Dimensioning-and-Tolerancing.md",
+      "heading": "PART",
+      "segment_tokens_est": 2195,
+      "time_seconds": 142.38,
+      "nodes_extracted": 26,
+      "edges_extracted": 17,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Datum Reference Frame",
+        "Movable Datum Target Symbol",
+        "MMB (Mutually Perpendicular Relationship)",
+        "LMB (Datum Reference Frame Fixed at Designated Size)",
+        "RMB (Adjustable Size Datum Feature)",
+        "True Geometric Counterparts",
+        "Physical Datum Feature Simulators",
+        "Datum Features"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The Datum Reference Frame uses MMB to provide direction and origin for related dimensions.",
+          "to": "MMB"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The Datum Reference Frame can be fixed at a designated size using LMB for specific applications.",
+          "to": "LMB"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The Datum Reference Frame is illustrated in Figures 7-12, 7-39, and 7-59.",
+          "to": "Figures 7-12, 7-39, and 7-59"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "Datum features are used to establish a datum reference frame that positions parts relative to one or more planes.",
+          "to": "Datum Feature"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The true geometric counterpart simulates the theoretical reference frame from the actual features of the part.",
+          "to": "True Geometric Counterpart"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "The part is positioned relative to one or more planes of the datum reference frame, constraining its motion.",
+          "to": "Part"
+        },
+        {
+          "from": "Datum Reference Frame",
+          "relation": "Figure 7-2 illustrates the relationships between geometric tolerance zones and the datum reference frame.",
+          "to": "Figure 7-2"
+        },
+        {
+          "from": "True Geometric Counterparts",
+          "relation": "Simulated datums from Physical Datum Feature Simulators are based on the concept of True Geometric Counterparts but adapted for practical use.",
+          "to": "Physical Datum Feature Simulators"
+        }
+      ],
+      "query_preview": "Geometric Dimensioning and Tolerancing (GD&T) is an engineering standard used for specifying how features on manufactured parts should be designed, fabricated, inspected, and assembled. It employs a system of symbols, rules, and conventions to define the size, orientation, form, and location of part features relative to one another and to establish datum reference frames that serve as theoretical constructs for positioning parts. ### Key Concepts in GD&T #### Datum Reference Frame The datum reference frame is a fundamental component of GD&T. It consists of three mutually perpendicular planes, each derived from specified datum features on the part, which theoretically position the part relati"
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ref-networking-01-819b5f2932be",
+      "collection": "ref-networking",
+      "division": "networking",
+      "file_name": "Data Communications and Networking 5th Edition.md",
+      "heading": "Document Outline",
+      "segment_tokens_est": 2159,
+      "time_seconds": 231.7,
+      "nodes_extracted": 100,
+      "edges_extracted": 36,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Throughput",
+        "Latency \\(Delay\\)",
+        "Bandwidth-Delay Product",
+        "Jitter",
+        "Recommended Reading",
+        "Key Terms",
+        "Summary",
+        "Quizzes"
+      ],
+      "sample_relationships": [
+        {
+          "from": "Throughput",
+          "relation": "Throughput and Latency \\(Delay\\) are related network metrics that together influence the efficiency of data transfer over a network.",
+          "to": "Latency \\(Delay\\)"
+        },
+        {
+          "from": "Bandwidth-Delay Product",
+          "relation": "The Bandwidth-Delay Product affects how much data",
+          "to": "Jitter"
+        },
+        {
+          "from": "Recommended Reading",
+          "relation": "End-Chapter Materials include Recommended Reading to provide additional resources beyond the main text.",
+          "to": "End-Chapter Materials"
+        },
+        {
+          "from": "Recommended Reading",
+          "relation": "Chapter 7 includes recommended readings as part of its end-of-chapter materials.",
+          "to": "Chapter 7"
+        },
+        {
+          "from": "Recommended Reading",
+          "relation": "Chapter 8 includes recommended readings in its end-of-chapter materials.",
+          "to": "Chapter 8"
+        },
+        {
+          "from": "Key Terms",
+          "relation": "Chapter 7 includes key terms as part of its end-of-chapter materials.",
+          "to": "Chapter 7"
+        },
+        {
+          "from": "Key Terms",
+          "relation": "Chapter 8 includes key terms in its end-of-chapter materials.",
+          "to": "Chapter 8"
+        },
+        {
+          "from": "Summary",
+          "relation": "Chapter 7 includes a summary as part of its end-of-chapter materials.",
+          "to": "Chapter 7"
+        }
+      ],
+      "query_preview": "The provided context does not contain information about how the TCP three-way handshake works. Therefore, I cannot provide an answer based on the given information. ### References - None available from the provided context."
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ref-software-01-c0211c27d426",
+      "collection": "ref-software",
+      "division": "software",
+      "file_name": "Fundentals-of-Software-Architecture-an-Engineering-Approach-1.md",
+      "heading": "Introduction",
+      "segment_tokens_est": 2196,
+      "time_seconds": 164.15,
+      "nodes_extracted": 59,
+      "edges_extracted": 29,
+      "status": "success",
+      "error_message": "",
+      "sample_entities": [
+        "Fundamentals of Software Architecture",
+        "Mark Richards",
+        "Neal Ford",
+        "Nathaniel Schutta",
+        "Rebecca J. Parsons",
+        "Cassie Shum",
+        "ThoughtWorks",
+        "OReilly Media, Inc."
+      ],
+      "sample_relationships": [
+        {
+          "from": "Fundamentals of Software Architecture",
+          "relation": "Mark Richards co-authored Fundamentals of Software Architecture, contributing to its comprehensive coverage on software architecture principles.",
+          "to": "Mark Richards"
+        },
+        {
+          "from": "Fundamentals of Software Architecture",
+          "relation": "Neal Ford co-authored Fundamentals of Software Architecture alongside Mark Richards, providing insights into engineering approaches in software architecture.",
+          "to": "Neal Ford"
+        },
+        {
+          "from": "Fundamentals of Software Architecture",
+          "relation": "Nathaniel Schutta has reviewed and endorsed the book Fundamentals of Software Architecture, emphasizing its value for both new and experienced architects.",
+          "to": "Nathaniel Schutta"
+        },
+        {
+          "from": "Fundamentals of Software Architecture",
+          "relation": "Rebecca J. Parsons, the CTO at ThoughtWorks, has endorsed Fundamentals of Software Architecture for offering guidance to navigate the journey towards architectural mastery.",
+          "to": "Rebecca J. Parsons"
+        },
+        {
+          "from": "Fundamentals of Software Architecture",
+          "relation": "Cassie Shum, a Technical Director at ThoughtWorks, has commended Fundamentals of Software Architecture for capturing real-world advice and identifying critical architecture trade-offs.",
+          "to": "Cassie Shum"
+        },
+        {
+          "from": "Fundamentals of Software Architecture",
+          "relation": "Chris Guzikowski was the Acquisitions Editor for the book Fundamentals of Software Architecture.",
+          "to": "Chris Guzikowski"
+        },
+        {
+          "from": "Fundamentals of Software Architecture",
+          "relation": "Amanda Kersey performed proofreading duties for Fundamentals of Software Architecture.",
+          "to": "Amanda Kersey"
+        },
+        {
+          "from": "Fundamentals of Software Architecture",
+          "relation": "Alicia Young was a Development Editor for the book Fundamentals of Software Architecture.",
+          "to": "Alicia Young"
+        }
+      ],
+      "query_preview": "The provided context does not contain specific information about the microservices pattern. Instead, it focuses on architectural styles such as Pipeline and Microkernel architecture styles. If you are interested in learning more about specific architectural patterns or would like details on other aspects covered in the book *Fundamentals of Software Architecture*, please let me know! ### References - [1] Fundamentals of Software Architecture - [2] Modularity - [3] Architectural Thinking - [4] Microkernel Architecture Style - [5] Pipeline Architecture Style"
+    }
+  ],
+  "summary_by_model": {
+    "llama3.2:3b": {
+      "runs": 5,
+      "success": 5,
+      "time_seconds_total": 490.72,
+      "nodes_total": 204,
+      "edges_total": 94,
+      "by_collection": {
+        "ref-finance": {
+          "nodes": 57,
+          "edges": 3,
+          "time_seconds": 44.2
+        },
+        "ref-negotiation": {
+          "nodes": 26,
+          "edges": 17,
+          "time_seconds": 98.92
+        },
+        "ref-engineering": {
+          "nodes": 22,
+          "edges": 21,
+          "time_seconds": 93.31
+        },
+        "ref-networking": {
+          "nodes": 65,
+          "edges": 28,
+          "time_seconds": 137.05
+        },
+        "ref-software": {
+          "nodes": 34,
+          "edges": 25,
+          "time_seconds": 117.24
+        }
+      },
+      "time_seconds_avg": 98.14
+    },
+    "llama3.1:8b": {
+      "runs": 5,
+      "success": 5,
+      "time_seconds_total": 578.9,
+      "nodes_total": 212,
+      "edges_total": 118,
+      "by_collection": {
+        "ref-finance": {
+          "nodes": 41,
+          "edges": 24,
+          "time_seconds": 108.72
+        },
+        "ref-negotiation": {
+          "nodes": 19,
+          "edges": 15,
+          "time_seconds": 109.32
+        },
+        "ref-engineering": {
+          "nodes": 25,
+          "edges": 16,
+          "time_seconds": 100.14
+        },
+        "ref-networking": {
+          "nodes": 64,
+          "edges": 33,
+          "time_seconds": 128.43
+        },
+        "ref-software": {
+          "nodes": 63,
+          "edges": 30,
+          "time_seconds": 132.29
+        }
+      },
+      "time_seconds_avg": 115.78
+    },
+    "qwen2.5:32b": {
+      "runs": 5,
+      "success": 5,
+      "time_seconds_total": 985.31,
+      "nodes_total": 276,
+      "edges_total": 122,
+      "by_collection": {
+        "ref-finance": {
+          "nodes": 67,
+          "edges": 20,
+          "time_seconds": 169.06
+        },
+        "ref-negotiation": {
+          "nodes": 24,
+          "edges": 20,
+          "time_seconds": 278.02
+        },
+        "ref-engineering": {
+          "nodes": 26,
+          "edges": 17,
+          "time_seconds": 142.38
+        },
+        "ref-networking": {
+          "nodes": 100,
+          "edges": 36,
+          "time_seconds": 231.7
+        },
+        "ref-software": {
+          "nodes": 59,
+          "edges": 29,
+          "time_seconds": 164.15
+        }
+      },
+      "time_seconds_avg": 197.06
+    }
+  }
+}
