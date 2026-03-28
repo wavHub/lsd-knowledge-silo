@@ -1,6 +1,8 @@
 -- DEC-013 / FL-028 schema for lsd-knowledge-silo.
 -- Idempotent migration: safe to run multiple times.
 
+CREATE EXTENSION IF NOT EXISTS vector;
+
 CREATE OR REPLACE FUNCTION is_valid_division(value TEXT)
 RETURNS BOOLEAN
 LANGUAGE SQL
@@ -55,7 +57,7 @@ CREATE TABLE IF NOT EXISTS knowledge_chunks (
   chunk_index INTEGER,
   char_count INTEGER,
   token_est INTEGER,
-  chunk_hash TEXT UNIQUE,
+  chunk_hash TEXT,
   storage_path TEXT,
   status TEXT NOT NULL DEFAULT 'pending'
     CHECK (status IN ('pending', 'processing', 'extracted', 'failed')),
@@ -68,9 +70,33 @@ CREATE TABLE IF NOT EXISTS knowledge_chunks (
   created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
+ALTER TABLE knowledge_chunks
+  ADD COLUMN IF NOT EXISTS embedding vector(768),
+  ADD COLUMN IF NOT EXISTS content TEXT,
+  ADD COLUMN IF NOT EXISTS document_id TEXT,
+  ADD COLUMN IF NOT EXISTS document_title TEXT,
+  ADD COLUMN IF NOT EXISTS file_path TEXT,
+  ADD COLUMN IF NOT EXISTS heading TEXT,
+  ADD COLUMN IF NOT EXISTS section_name TEXT,
+  ADD COLUMN IF NOT EXISTS metadata JSONB DEFAULT '{}'::jsonb;
+
 CREATE INDEX IF NOT EXISTS idx_knowledge_chunks_division ON knowledge_chunks (division);
 CREATE INDEX IF NOT EXISTS idx_knowledge_chunks_collection ON knowledge_chunks (collection);
 CREATE INDEX IF NOT EXISTS idx_knowledge_chunks_status ON knowledge_chunks (status);
+CREATE INDEX IF NOT EXISTS idx_knowledge_chunks_chunk_hash ON knowledge_chunks (chunk_hash);
+
+DO $$
+BEGIN
+  IF EXISTS (
+    SELECT 1
+    FROM pg_constraint
+    WHERE conname = 'knowledge_chunks_chunk_hash_key'
+      AND conrelid = 'knowledge_chunks'::regclass
+  ) THEN
+    ALTER TABLE knowledge_chunks DROP CONSTRAINT knowledge_chunks_chunk_hash_key;
+  END IF;
+END
+$$;
 
 CREATE TABLE IF NOT EXISTS extraction_runs (
   id TEXT PRIMARY KEY,
