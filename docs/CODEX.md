@@ -1,5 +1,12 @@
 # LSD Knowledge Silo — Codex Instructions
 
+## FORK OF IAN MASTER
+Read before any work:
+1. /home/niiboAdmin/dev/qwinn/docs/CODEX-SOP.md
+2. /home/niiboAdmin/dev/qwinn/docs/CODEX-CHANGELOG.md
+3. /home/niiboAdmin/dev/qwinn/docs/CODEX-LESSONS.md
+4. DEC-012 (Grounding Protocol)
+
 ## Project
 Little Spark Digital Knowledge Silo — textbook-trained domain intelligence.
 Separate from Niibo/Qwinn (Azure). Connected later via FRAG.
