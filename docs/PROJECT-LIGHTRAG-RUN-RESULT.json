@@ -1,0 +1,5136 @@
+{
+  "generated_at": "2026-03-25T02:03:45Z",
+  "run_id": "project-20260325002633-483bff",
+  "app_name": "lsd-lightrag-project-pass",
+  "gpu_profile": "H100",
+  "model": "qwen2.5:32b",
+  "segments_total": 43,
+  "results": [
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-fd1dd9485f835e04",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "10 Infrastructure/00-INDEX.md",
+      "heading": "00 INDEX",
+      "char_count": 275,
+      "token_est": 68,
+      "time_seconds": 111.42,
+      "nodes_extracted": 4,
+      "edges_extracted": 3,
+      "entities": [
+        "Niibo Ops Binder",
+        "INFRA-DEV-ONBOARDING.md",
+        "Section 10",
+        "Dev Team Onboarding"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo Ops Binder",
+          "relation": "The INFRA-DEV-ONBOARDING.md document is included in the Niibo Ops Binder as part of its content on infrastructure operations and dev team onboarding.",
+          "to": "INFRA-DEV-ONBOARDING.md"
+        },
+        {
+          "from": "Niibo Ops Binder",
+          "relation": "Section 10 is a part of the Niibo Ops Binder that focuses on infrastructure-related content.",
+          "to": "Section 10"
+        },
+        {
+          "from": "INFRA-DEV-ONBOARDING.md",
+          "relation": "The document INFRA-DEV-ONBOARDING.md contains information related to dev team onboarding for MCP servers, APIs, tools, and environment.",
+          "to": "Dev Team Onboarding"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-d1d564a8233dc9f4",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "10 Infrastructure/INFRA-DEV-ONBOARDING.md",
+      "heading": "INFRA DEV ONBOARDING",
+      "char_count": 6461,
+      "token_est": 1615,
+      "time_seconds": 130.87,
+      "nodes_extracted": 43,
+      "edges_extracted": 19,
+      "entities": [
+        "Little Spark Digital",
+        "MCP Servers",
+        "Microsoft Learn",
+        "Azure DevOps",
+        "GitHub",
+        "Google Developer Knowledge",
+        "Work IQ Teams",
+        "Work IQ Mail",
+        "Work IQ Calendar",
+        "Work IQ SharePoint",
+        "Work IQ OneDrive",
+        "Work IQ Word",
+        "Azure Cosmos DB",
+        "Microsoft Dataverse",
+        "Azure Key Vault",
+        "Claude Code",
+        "Codex",
+        "Project Root",
+        "Qwinn Codebase",
+        "Python Venv",
+        "Qdrant",
+        "Ollama",
+        "PostgreSQL",
+        "Keymaster",
+        "Ian",
+        "Woz",
+        "Nina",
+        "Levy",
+        "Louis",
+        "Niibo-Joplin-Mirror",
+        "WavHub/Niibo-Admin-Tools",
+        "WavHub/Niibo-Ops-Binder",
+        "WavHub/Qwinn-Ea",
+        "WavHub/Niibo-Wiz",
+        "WavHub/Cortex-Map",
+        "WavHub/Lsd-*",
+        "Git Rules DEC-011",
+        "Claude Desktop",
+        "Onboarding Checklist for New Agent/Developer",
+        "DEC-010 (security governance)",
+        "Web-Automation-Playbook.md",
+        "CODEX.md",
+        "CHANGELOG.md"
+      ],
+      "relationships": [
+        {
+          "from": "Little Spark Digital",
+          "relation": "Little Spark Digital manages the MCP servers used by developers and agents.",
+          "to": "MCP Servers"
+        },
+        {
+          "from": "Microsoft Learn",
+          "relation": "Woz has access to the Microsoft Learn MCP server for searching M365/Azure/Entra documentation.",
+          "to": "Woz"
+        },
+        {
+          "from": "Azure DevOps",
+          "relation": "Levy uses the Azure DevOps MCP server for managing work items, boards, repos, and pipelines.",
+          "to": "Levy"
+        },
+        {
+          "from": "Claude Code",
+          "relation": "Nina manages Claude Code on a Windows machine.<SEP>Nina uses the Claude Code method for her development tasks.",
+          "to": "Nina"
+        },
+        {
+          "from": "Claude Code",
+          "relation": "Nina uses Claude Code within the Niibo Admin Tools repository for development purposes.",
+          "to": "WavHub/Niibo-Admin-Tools"
+        },
+        {
+          "from": "Codex",
+          "relation": "Ian uses Codex for development tasks in WSL2.<SEP>Ian uses Codex to execute automated tasks.",
+          "to": "Ian"
+        },
+        {
+          "from": "Codex",
+          "relation": "The Qwinn codebase in WavHub/Qwinn-Ea is used by Ian with Codex to perform automated tasks.",
+          "to": "WavHub/Qwinn-Ea"
+        },
+        {
+          "from": "Codex",
+          "relation": "Ian's Codex operates under the Git rules outlined in DEC-011 to ensure proper commit messages and document handling.",
+          "to": "Git Rules DEC-011"
+        },
+        {
+          "from": "Keymaster",
+          "relation": "Louis manages Keymaster in the WSL2 environment for handling API keys and credentials securely.",
+          "to": "Louis"
+        },
+        {
+          "from": "Ian",
+          "relation": "The Onboarding Checklist provides Ian with necessary steps to onboard as a new developer.",
+          "to": "Onboarding Checklist for New Agent/Developer"
+        },
+        {
+          "from": "Nina",
+          "relation": "The Onboarding Checklist guides Nina and other new agents through initial setup processes.",
+          "to": "Onboarding Checklist for New Agent/Developer"
+        },
+        {
+          "from": "Levy",
+          "relation": "Levy utilizes Claude Desktop for browser-based access to MCP tools and Azure DevOps.",
+          "to": "Claude Desktop"
+        },
+        {
+          "from": "Levy",
+          "relation": "The Onboarding Checklist guides Levy through the initial setup processes required for joining the team.",
+          "to": "Onboarding Checklist for New Agent/Developer"
+        },
+        {
+          "from": "WavHub/Niibo-Admin-Tools",
+          "relation": "The repository WavHub/Niibo-Admin-Tools follows the Git rules defined in DEC-011 for commits and document management.",
+          "to": "Git Rules DEC-011"
+        },
+        {
+          "from": "WavHub/Niibo-Ops-Binder",
+          "relation": "Levy uses Claude Desktop for accessing the Niibo Ops Binder, which contains company operations manuals.",
+          "to": "Claude Desktop"
+        },
+        {
+          "from": "Onboarding Checklist for New Agent/Developer",
+          "relation": "The Onboarding Checklist directs new agents to read DEC-010 for an understanding of security governance policies.",
+          "to": "DEC-010 (security governance)"
+        },
+        {
+          "from": "Onboarding Checklist for New Agent/Developer",
+          "relation": "The Onboarding Checklist references the Web-Automation-Playbook.md for guidance on browser automation tasks.",
+          "to": "Web-Automation-Playbook.md"
+        },
+        {
+          "from": "Onboarding Checklist for New Agent/Developer",
+          "relation": "The Onboarding Checklist directs new agents to read the relevant CODEX.md in their respective project directories.",
+          "to": "CODEX.md"
+        },
+        {
+          "from": "Onboarding Checklist for New Agent/Developer",
+          "relation": "The Onboarding Checklist directs new agents to read the CHANGELOG.md in their respective project directories.",
+          "to": "CHANGELOG.md"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-956945865118d558",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "11 Tools/00-INDEX.md",
+      "heading": "00 INDEX",
+      "char_count": 965,
+      "token_est": 241,
+      "time_seconds": 99.22,
+      "nodes_extracted": 17,
+      "edges_extracted": 16,
+      "entities": [
+        "Alibaba Conversation Extractor",
+        "Bank Statement Extractor",
+        "Cortex Ingestion Pipeline",
+        "Qwinn Graph Tools (Function App)",
+        "Cortex Map (File Audit Engine)",
+        "Louis (Keymaster)",
+        "Joplin Sync from Git",
+        "Reference Library - Markdown Textbooks",
+        "Niibo Ops Binder",
+        "D:\\dev\\alibaba-extractor\\",
+        "D:\\dev\\statement-extractor\\",
+        "/home/niiboAdmin/niibo-project/",
+        "/home/niiboAdmin/dev/qwinn/",
+        "wavHub/cortex-map",
+        "/home/niiboAdmin/dev/keymaster/",
+        "joplin-sync-from-git.py",
+        "D:\\markdown\\"
+      ],
+      "relationships": [
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "The Alibaba Conversation Extractor tool is stored and active at the specified directory path.",
+          "to": "D:\\dev\\alibaba-extractor\\"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "The Alibaba Conversation Extractor tool is included in the Niibo Ops Binder collection.",
+          "to": "Niibo Ops Binder"
+        },
+        {
+          "from": "Bank Statement Extractor",
+          "relation": "The Bank Statement Extractor tool is planned to be located at the specified directory path.",
+          "to": "D:\\dev\\statement-extractor\\"
+        },
+        {
+          "from": "Bank Statement Extractor",
+          "relation": "The Bank Statement Extractor tool is included in the Niibo Ops Binder collection.",
+          "to": "Niibo Ops Binder"
+        },
+        {
+          "from": "Cortex Ingestion Pipeline",
+          "relation": "The Cortex Ingestion Pipeline tool is stored and active at the specified directory path.",
+          "to": "/home/niiboAdmin/niibo-project/"
+        },
+        {
+          "from": "Cortex Ingestion Pipeline",
+          "relation": "The Cortex Ingestion Pipeline tool is included in the Niibo Ops Binder collection.",
+          "to": "Niibo Ops Binder"
+        },
+        {
+          "from": "Qwinn Graph Tools (Function App)",
+          "relation": "The Qwinn Graph Tools (Function App) tool is stored and active at the specified directory path.",
+          "to": "/home/niiboAdmin/dev/qwinn/"
+        },
+        {
+          "from": "Qwinn Graph Tools (Function App)",
+          "relation": "The Qwinn Graph Tools (Function App) tool is included in the Niibo Ops Binder collection.",
+          "to": "Niibo Ops Binder"
+        },
+        {
+          "from": "Cortex Map (File Audit Engine)",
+          "relation": "The Cortex Map (File Audit Engine) tool is stored and active at the specified repository path.",
+          "to": "wavHub/cortex-map"
+        },
+        {
+          "from": "Cortex Map (File Audit Engine)",
+          "relation": "The Cortex Map (File Audit Engine) tool is included in the Niibo Ops Binder collection.",
+          "to": "Niibo Ops Binder"
+        },
+        {
+          "from": "Louis (Keymaster)",
+          "relation": "The Louis (Keymaster) tool is stored and active at the specified directory path.",
+          "to": "/home/niiboAdmin/dev/keymaster/"
+        },
+        {
+          "from": "Louis (Keymaster)",
+          "relation": "The Louis (Keymaster) tool is included in the Niibo Ops Binder collection.",
+          "to": "Niibo Ops Binder"
+        },
+        {
+          "from": "Joplin Sync from Git",
+          "relation": "The Joplin Sync from Git tool uses a script named joplin-sync-from-git.py for its operations.",
+          "to": "joplin-sync-from-git.py"
+        },
+        {
+          "from": "Joplin Sync from Git",
+          "relation": "The Joplin Sync from Git tool is included in the Niibo Ops Binder collection.",
+          "to": "Niibo Ops Binder"
+        },
+        {
+          "from": "Reference Library - Markdown Textbooks",
+          "relation": "The Reference Library - Markdown Textbooks is stored and available at the specified directory path.",
+          "to": "D:\\markdown\\"
+        },
+        {
+          "from": "Reference Library - Markdown Textbooks",
+          "relation": "The Reference Library - Markdown Textbooks is included in the Niibo Ops Binder collection.",
+          "to": "Niibo Ops Binder"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-fcceecec17576806",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "11 Tools/TOOL-001-ALIBABA-EXTRACTOR.md",
+      "heading": "ALIBABA EXTRACTOR",
+      "char_count": 4827,
+      "token_est": 1206,
+      "time_seconds": 102.76,
+      "nodes_extracted": 13,
+      "edges_extracted": 12,
+      "entities": [
+        "Alibaba Conversation Extractor",
+        "Little Spark Digital",
+        "D:\\dev\\alibaba-extractor\\",
+        "ag-sourcing agent",
+        "vendor knowledge base",
+        "Python 3.10+",
+        "Playwright Chromium with anti-detection flags",
+        "auth_state.json",
+        "D:\\dev\\alibaba\\",
+        "CODEX.md",
+        "CHANGELOG.md",
+        "Web Automation Playbook",
+        "ag-sourcing project"
+      ],
+      "relationships": [
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "Little Spark Digital owns and manages the Alibaba Conversation Extractor tool.",
+          "to": "Little Spark Digital"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "The Alibaba Conversation Extractor provides structured conversation data for training the ag-sourcing agent.",
+          "to": "ag-sourcing agent"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "The Alibaba Conversation Extractor files are stored on the local drive at D:\\dev\\alibaba-extractor\\.",
+          "to": "D:\\dev\\alibaba-extractor\\"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "The extracted conversation data from Alibaba Conversation Extractor is used to populate the vendor knowledge base.",
+          "to": "vendor knowledge base"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "The Alibaba Conversation Extractor is developed using Python 3.10+ programming language.",
+          "to": "Python 3.10+"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "The Playwright framework configured with anti-detection flags is used to automate browser interactions in the Alibaba Conversation Extractor.",
+          "to": "Playwright Chromium with anti-detection flags"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "Structured .md files extracted from Alibaba.com are stored locally at D:\\dev\\alibaba\\ by the Alibaba Conversation Extractor.",
+          "to": "D:\\dev\\alibaba\\"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "The CODEX document provides supplementary information about the Alibaba Conversation Extractor tool.",
+          "to": "CODEX.md"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "The CHANGELOG document tracks changes and updates made to the Alibaba Conversation Extractor tool over time.",
+          "to": "CHANGELOG.md"
+        },
+        {
+          "from": "Alibaba Conversation Extractor",
+          "relation": "Data extracted from the Alibaba Conversation Extractor is used as part of the ag-sourcing project for training purposes.",
+          "to": "ag-sourcing project"
+        },
+        {
+          "from": "Little Spark Digital",
+          "relation": "Little Spark Digital manages and uses the auth_state.json for session persistence in the Alibaba Conversation Extractor.",
+          "to": "auth_state.json"
+        },
+        {
+          "from": "Little Spark Digital",
+          "relation": "Little Spark Digital utilizes the Web Automation Playbook for best practices in web automation related to the Alibaba Conversation Extractor.",
+          "to": "Web Automation Playbook"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-507ea29a1c2f2c57",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "11 Tools/TOOL-002-STATEMENT-EXTRACTOR.md",
+      "heading": "STATEMENT EXTRACTOR",
+      "char_count": 5579,
+      "token_est": 1394,
+      "time_seconds": 156.3,
+      "nodes_extracted": 29,
+      "edges_extracted": 21,
+      "entities": [
+        "PayPal",
+        "Chase",
+        "Veem",
+        "Windows Task Scheduler",
+        "Full workflow spec",
+        "Web Automation Playbook",
+        "Alibaba Extractor",
+        "Accounting scaffolding",
+        "Ops Binder accounting section",
+        "Rename tool",
+        "niibo-accounting SharePoint site",
+        "CSV transaction data",
+        "QBO reconciliation",
+        "Bank & Credit Card Statement Extractor",
+        "Little Spark Digital",
+        "Playwright Chromium",
+        "Click CLI",
+        "Rich (terminal UI)",
+        "Niibo-Admin",
+        "BofA",
+        "Amex",
+        "Citi",
+        "D:\\dev\\statement-extractor\\",
+        "OneDrive Accounting folders",
+        "Future Work",
+        "finance agent pipeline",
+        "downloaded statements",
+        "extracted statements",
+        "OneDrive - Niibo\\@1 Admin\\Accounting\\"
+      ],
+      "relationships": [
+        {
+          "from": "PayPal",
+          "relation": "Both PayPal and Windows Task Scheduler are part of not yet started tasks, indicating they will be addressed in upcoming project phases.",
+          "to": "Windows Task Scheduler"
+        },
+        {
+          "from": "PayPal",
+          "relation": "The Bank & Credit Card Statement Extractor extracts credit card and Mastercard information from PayPal.",
+          "to": "Bank & Credit Card Statement Extractor"
+        },
+        {
+          "from": "Chase",
+          "relation": "Both Chase and Windows Task Scheduler are part of not yet started tasks, indicating they will be addressed in upcoming project phases.",
+          "to": "Windows Task Scheduler"
+        },
+        {
+          "from": "Chase",
+          "relation": "The Bank & Credit Card Statement Extractor extracts Visa statements from JPMorgan Chase & Co. (Chase).",
+          "to": "Bank & Credit Card Statement Extractor"
+        },
+        {
+          "from": "Veem",
+          "relation": "Both Veem and Windows Task Scheduler are part of not yet started tasks, indicating they will be addressed in upcoming project phases.",
+          "to": "Windows Task Scheduler"
+        },
+        {
+          "from": "Veem",
+          "relation": "The Bank & Credit Card Statement Extractor extracts data from the Veem payment platform.",
+          "to": "Bank & Credit Card Statement Extractor"
+        },
+        {
+          "from": "Windows Task Scheduler",
+          "relation": "The Windows Task Scheduler is part of future work items for automated monthly scheduling, showing its planned integration into ongoing tasks.",
+          "to": "Future Work"
+        },
+        {
+          "from": "Windows Task Scheduler",
+          "relation": "The rename tool with polish is part of the not yet started tasks along with Windows Task Scheduler, indicating they will be addressed in upcoming project phases.",
+          "to": "Rename tool"
+        },
+        {
+          "from": "Full workflow spec",
+          "relation": "The full workflow specification document is related to the Web Automation Playbook as both are listed under relevant documents for the current task.",
+          "to": "Web Automation Playbook"
+        },
+        {
+          "from": "Accounting scaffolding",
+          "relation": "The Accounting scaffolding content is linked with the Ops Binder accounting section, indicating a connection in the overall project documentation and planning.",
+          "to": "Ops Binder accounting section"
+        },
+        {
+          "from": "niibo-accounting SharePoint site",
+          "relation": "Extracted statements are planned to be uploaded to the niibo-accounting SharePoint site as part of future work.",
+          "to": "extracted statements"
+        },
+        {
+          "from": "CSV transaction data",
+          "relation": "The CSV transaction data is planned to be fed into the finance agent pipeline as part of future work.",
+          "to": "finance agent pipeline"
+        },
+        {
+          "from": "QBO reconciliation",
+          "relation": "The QBO reconciliation involves reconciling against downloaded statements and is listed under future work items.",
+          "to": "downloaded statements"
+        },
+        {
+          "from": "Bank & Credit Card Statement Extractor",
+          "relation": "The Bank & Credit Card Statement Extractor tool is owned and developed by Little Spark Digital.",
+          "to": "Little Spark Digital"
+        },
+        {
+          "from": "Bank & Credit Card Statement Extractor",
+          "relation": "The Bank & Credit Card Statement Extractor uses Playwright Chromium for automated login processes.",
+          "to": "Playwright Chromium"
+        },
+        {
+          "from": "Bank & Credit Card Statement Extractor",
+          "relation": "The tool integrates Click CLI as part of its command-line interface to facilitate various operations such as extracting data and listing accounts.",
+          "to": "Click CLI"
+        },
+        {
+          "from": "Bank & Credit Card Statement Extractor",
+          "relation": "The Bank & Credit Card Statement Extractor uses Rich for enhancing the appearance of terminal output.",
+          "to": "Rich (terminal UI)"
+        },
+        {
+          "from": "Bank & Credit Card Statement Extractor",
+          "relation": "The Bank & Credit Card Statement Extractor extracts bank statements and transaction exports from Bank of America (BofA).",
+          "to": "BofA"
+        },
+        {
+          "from": "Bank & Credit Card Statement Extractor",
+          "relation": "The Bank & Credit Card Statement Extractor extracts credit card statements and transaction data from American Express (Amex).",
+          "to": "Amex"
+        },
+        {
+          "from": "Bank & Credit Card Statement Extractor",
+          "relation": "The Bank & Credit Card Statement Extractor extracts various types of account information, including Mastercard and store cards, from Citibank (Citi).",
+          "to": "Citi"
+        },
+        {
+          "from": "Niibo-Admin",
+          "relation": "Files extracted by the tool are saved under the OneDrive folder managed by Niibo-Admin for accounting purposes.",
+          "to": "OneDrive - Niibo\\@1 Admin\\Accounting\\"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-cf1b15d29b73db41",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "11 Tools/TOOL-003-CORTEX-INGESTION-PIPELINE.md",
+      "heading": "CORTEX INGESTION PIPELINE",
+      "char_count": 2456,
+      "token_est": 614,
+      "time_seconds": 117.42,
+      "nodes_extracted": 18,
+      "edges_extracted": 14,
+      "entities": [
+        "Cortex MicrosoftDocs Ingestion Pipeline",
+        "Little Spark Digital",
+        "/home/niiboAdmin/niibo-project/",
+        "wavHub/cortex-map",
+        "Qdrant native WSL2",
+        "RTX 4070",
+        "/home/niiboAdmin/niibo-project/cortex-venv/",
+        ".md files",
+        "Qdrant",
+        "Ollama nomic-embed-text",
+        "ms-graph",
+        "ms-security",
+        "Woz",
+        "memory/cortex_ingestion_lessons.md",
+        "RN-021",
+        "RN-024",
+        "Ian",
+        "SysAdmin"
+      ],
+      "relationships": [
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "The Cortex MicrosoftDocs Ingestion Pipeline is owned and operated by Little Spark Digital.",
+          "to": "Little Spark Digital"
+        },
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "The Cortex MicrosoftDocs Ingestion Pipeline is hosted at the specified directory.",
+          "to": "/home/niiboAdmin/niibo-project/"
+        },
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "The Cortex MicrosoftDocs Ingestion Pipeline's codebase is stored in the wavHub/cortex-map repository.",
+          "to": "wavHub/cortex-map"
+        },
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "The Cortex MicrosoftDocs Ingestion Pipeline uses Qdrant running on WSL2 for storing embeddings.",
+          "to": "Qdrant native WSL2"
+        },
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "The Cortex MicrosoftDocs Ingestion Pipeline utilizes an RTX 4070 GPU with 12GB VRAM for processing embeddings.",
+          "to": "RTX 4070"
+        },
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "Markdown files from cloned repositories are the input content ingested by the Cortex MicrosoftDocs Ingestion Pipeline.",
+          "to": ".md files"
+        },
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "The Cortex MicrosoftDocs Ingestion Pipeline uses Ollama nomic-embed-text for embedding input data into 768d vectors.",
+          "to": "Ollama nomic-embed-text"
+        },
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "The memory/cortex_ingestion_lessons.md provides architectural insights into the design and operation of the Cortex MicrosoftDocs Ingestion Pipeline.",
+          "to": "memory/cortex_ingestion_lessons.md"
+        },
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "The RN-021 document is related to the architectural design of the Cortex Compound Intelligence as part of the Cortex Ingestion Pipeline.",
+          "to": "RN-021"
+        },
+        {
+          "from": "Cortex MicrosoftDocs Ingestion Pipeline",
+          "relation": "The RN-024 document provides information on the Knowledge Repository Ingestion Architecture as part of the Cortex Ingestion Pipeline.",
+          "to": "RN-024"
+        },
+        {
+          "from": "Qdrant native WSL2",
+          "relation": "The Qdrant vector store technology is installed within the specified virtual environment directory.",
+          "to": "/home/niiboAdmin/niibo-project/cortex-venv/"
+        },
+        {
+          "from": "Qdrant",
+          "relation": "Woz queries across all domains in the Qdrant vector database.",
+          "to": "Woz"
+        },
+        {
+          "from": "ms-graph",
+          "relation": "Ian queries ms-graph before writing Graph API code.",
+          "to": "Ian"
+        },
+        {
+          "from": "ms-security",
+          "relation": "SysAdmin queries ms-security for security-related information.",
+          "to": "SysAdmin"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-3d7d55cf4603f2dd",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "11 Tools/TOOL-004-QWINN-GRAPH-TOOLS.md",
+      "heading": "QWINN GRAPH TOOLS",
+      "char_count": 2576,
+      "token_est": 644,
+      "time_seconds": 108.66,
+      "nodes_extracted": 31,
+      "edges_extracted": 7,
+      "entities": [
+        "Qwinn Graph Tools",
+        "Ian (Codex)",
+        "/home/niiboAdmin/dev/qwinn/",
+        "wavHub/qwinn-ea",
+        "Azure (East US 2)",
+        "NinaPM cert auth, DEC-010 governance",
+        "Python 3.11",
+        "Azure Functions (Consumption plan)",
+        "NinaPM cert-based MSAL",
+        "Microsoft Graph",
+        "Azure OpenAI",
+        "Cosmos DB Gremlin",
+        "Azure AI Search",
+        "Doc Intelligence",
+        "Azure AI Foundry (qwinn-ea v81)",
+        "/health",
+        "/email/messages, /all, /send, /attachments, /extract-attachments, /attachment-status, /quarantine/review, /quarantine/release, /threads/run, /threads/status",
+        "/calendar/events (GET, POST, PATCH)",
+        "/files/recent, /search, /content, /upload, /vision",
+        "/sharepoint/files, /inventory, /create-folder, /move-file",
+        "/graph/vertices, /edges, /traverse, /add-vertex, /add-edge, /search",
+        "/docai/analyze, /invoice, /layout",
+        "/contacts/extract, /classify, /create-entra, /process/run, /process/status",
+        "/pipeline/run, /pipeline/status",
+        "/reminders/send",
+        "FL-010",
+        "Qwinn ExecAssist setup tracker",
+        "RN-030",
+        "Cloud Knowledge Infrastructure",
+        "DEC-010",
+        "Data Security Governance"
+      ],
+      "relationships": [
+        {
+          "from": "Qwinn Graph Tools",
+          "relation": "Ian (Codex) is the owner of the Qwinn Graph Tools Azure Function App.",
+          "to": "Ian (Codex)"
+        },
+        {
+          "from": "Qwinn Graph Tools",
+          "relation": "The file location for deploying the Qwinn Graph Tools Azure Function App is /home/niiboAdmin/dev/qwinn/.",
+          "to": "/home/niiboAdmin/dev/qwinn/"
+        },
+        {
+          "from": "Qwinn Graph Tools",
+          "relation": "The repository containing the source code for Qwinn Graph Tools is wavHub/qwinn-ea.",
+          "to": "wavHub/qwinn-ea"
+        },
+        {
+          "from": "Qwinn Graph Tools",
+          "relation": "Qwinn Graph Tools processes data and computations in Azure (East US 2).",
+          "to": "Azure (East US 2)"
+        },
+        {
+          "from": "Qwinn Graph Tools",
+          "relation": "Security policies including NinaPM certificate-based authentication and DEC-010 governance apply to Qwinn Graph Tools.",
+          "to": "NinaPM cert auth, DEC-010 governance"
+        },
+        {
+          "from": "Qwinn Graph Tools",
+          "relation": "Python 3.11 is the programming language used in developing the Qwinn Graph Tools Azure Function App.",
+          "to": "Python 3.11"
+        },
+        {
+          "from": "Qwinn Graph Tools",
+          "relation": "The platform for hosting Qwinn Graph Tools is Azure Functions under a consumption plan.",
+          "to": "Azure Functions (Consumption plan)"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-f0ad59d7c7402a03",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "11 Tools/TOOL-005-CORTEX-MAP.md",
+      "heading": "CORTEX MAP",
+      "char_count": 1551,
+      "token_est": 387,
+      "time_seconds": 100.23,
+      "nodes_extracted": 11,
+      "edges_extracted": 9,
+      "entities": [
+        "Cortex Map",
+        "Cartographer agent",
+        "/home/niiboAdmin/niibo-project/cortex-map/",
+        "wavHub/cortex-map (master branch)",
+        "Python",
+        "PostgreSQL (Docker, port 5432)",
+        "cortex, onedrive, sharepoint, dedup, finance, ingest, protonmail",
+        "Niibo Ops Binder",
+        "D: drive",
+        "OneDrive",
+        "SharePoint"
+      ],
+      "relationships": [
+        {
+          "from": "Cortex Map",
+          "relation": "The Cartographer agent owns and oversees the operation of the Cortex Map file audit engine.",
+          "to": "Cartographer agent"
+        },
+        {
+          "from": "Cortex Map",
+          "relation": "The Cortex Map tool is located in the specified directory on a local system.",
+          "to": "/home/niiboAdmin/niibo-project/cortex-map/"
+        },
+        {
+          "from": "Cortex Map",
+          "relation": "The source code of the Cortex Map resides in the wavHub repository at the master branch.",
+          "to": "wavHub/cortex-map (master branch)"
+        },
+        {
+          "from": "Cortex Map",
+          "relation": "The Cortex Map is developed and operates using Python as its programming language.",
+          "to": "Python"
+        },
+        {
+          "from": "Cortex Map",
+          "relation": "PostgreSQL serves as the database for storing file audit information generated by the Cortex Map tool.",
+          "to": "PostgreSQL (Docker, port 5432)"
+        },
+        {
+          "from": "Cortex Map",
+          "relation": "The Niibo Ops Binder project is associated with and manages the Cortex Map tool as part of its operational infrastructure.",
+          "to": "Niibo Ops Binder"
+        },
+        {
+          "from": "Cortex Map",
+          "relation": "The Cortex Map scans and audits files located on the D: drive as part of its operation.",
+          "to": "D: drive"
+        },
+        {
+          "from": "Cortex Map",
+          "relation": "The Cortex Map tool audits OneDrive accounts to catalog their contents.",
+          "to": "OneDrive"
+        },
+        {
+          "from": "Cortex Map",
+          "relation": "The Cortex Map scans and audits SharePoint sites for file inventory purposes.",
+          "to": "SharePoint"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-a1046522d2cd66e0",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "11 Tools/TOOL-006-KEYMASTER-LOUIS.md",
+      "heading": "KEYMASTER LOUIS",
+      "char_count": 2469,
+      "token_est": 617,
+      "time_seconds": 111.27,
+      "nodes_extracted": 13,
+      "edges_extracted": 12,
+      "entities": [
+        "Louis - The Keymaster",
+        "Niibo Project",
+        "Azure Key Vault (niibo-it-secrets)",
+        "/home/niiboAdmin/dev/keymaster/keymaster.py",
+        "cortex-venv",
+        "Proton Pass",
+        "Google Custom Search + Knowledge Graph",
+        "Google Places + Geocoding",
+        "Google Developer Knowledge API",
+        "Google Programmable Search Engine CX ID",
+        "Serper.dev (Google search results API)",
+        "OpenAI, Cosmos DB, AI Search, Doc Intelligence",
+        "Mattermost bot token"
+      ],
+      "relationships": [
+        {
+          "from": "Louis - The Keymaster",
+          "relation": "Louis manages all secrets and credentials for the Niibo Project.",
+          "to": "Niibo Project"
+        },
+        {
+          "from": "Louis - The Keymaster",
+          "relation": "Louis stores and retrieves data from Azure Key Vault under the niibo-it-secrets vault.",
+          "to": "Azure Key Vault (niibo-it-secrets)"
+        },
+        {
+          "from": "Louis - The Keymaster",
+          "relation": "Louis requires the cortex-venv environment to be activated before usage.",
+          "to": "cortex-venv"
+        },
+        {
+          "from": "Louis - The Keymaster",
+          "relation": "Louis manages the secret key for accessing Google Custom Search and Knowledge Graph APIs.",
+          "to": "Google Custom Search + Knowledge Graph"
+        },
+        {
+          "from": "Louis - The Keymaster",
+          "relation": "Louis manages the secret key for accessing Google Places and Geocoding APIs.",
+          "to": "Google Places + Geocoding"
+        },
+        {
+          "from": "Louis - The Keymaster",
+          "relation": "Louis manages the secret key for accessing the Google Developer Knowledge API.",
+          "to": "Google Developer Knowledge API"
+        },
+        {
+          "from": "Louis - The Keymaster",
+          "relation": "Louis manages the secret key for accessing the Google Programmable Search Engine CX ID.",
+          "to": "Google Programmable Search Engine CX ID"
+        },
+        {
+          "from": "Louis - The Keymaster",
+          "relation": "Louis manages the secret key for accessing Serper.dev's Google search results API.",
+          "to": "Serper.dev (Google search results API)"
+        },
+        {
+          "from": "Louis - The Keymaster",
+          "relation": "Louis manages Azure service keys for OpenAI, Cosmos DB, AI Search, and Doc Intelligence services.",
+          "to": "OpenAI, Cosmos DB, AI Search, Doc Intelligence"
+        },
+        {
+          "from": "Niibo Project",
+          "relation": "The Niibo Project uses the Python script located at /home/niiboAdmin/dev/keymaster/keymaster.py for managing secrets.",
+          "to": "/home/niiboAdmin/dev/keymaster/keymaster.py"
+        },
+        {
+          "from": "Niibo Project",
+          "relation": "The Niibo Project uses Proton Pass as a secondary vault for backup purposes.",
+          "to": "Proton Pass"
+        },
+        {
+          "from": "Niibo Project",
+          "relation": "The Niibo project uses Mattermost bot tokens managed by Louis for agent alerts.",
+          "to": "Mattermost bot token"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "ops-binder-9ee86a7e38fc02ac",
+      "collection": "ops-binder",
+      "division": "software",
+      "file_name": "11 Tools/TOOL-007-JOPLIN-SYNC.md",
+      "heading": "JOPLIN SYNC",
+      "char_count": 1287,
+      "token_est": 321,
+      "time_seconds": 95.15,
+      "nodes_extracted": 9,
+      "edges_extracted": 7,
+      "entities": [
+        "Joplin Sync from Git",
+        "Nina",
+        "C:\\Users\\Niibo-Admin\\Developer\\joplin-sync-from-git.py",
+        "wavHub/niibo-admin-tools",
+        "LittleSpark",
+        "Joplin server (Docker port 22300)",
+        "Python",
+        "Joplin server (Docker, port 41184)",
+        "C:\\Users\\Niibo-Admin\\Developer\\joplin-notebook-mirror\\"
+      ],
+      "relationships": [
+        {
+          "from": "Joplin Sync from Git",
+          "relation": "Nina owns and maintains the Joplin Sync from Git pipeline tool.",
+          "to": "Nina"
+        },
+        {
+          "from": "Joplin Sync from Git",
+          "relation": "The Joplin Sync from Git script is located at C:\\Users\\Niibo-Admin\\Developer\\joplin-sync-from-git.py.",
+          "to": "C:\\Users\\Niibo-Admin\\Developer\\joplin-sync-from-git.py"
+        },
+        {
+          "from": "Joplin Sync from Git",
+          "relation": "The Joplin Sync from Git tool is hosted and managed in the wavHub/niibo-admin-tools repository.",
+          "to": "wavHub/niibo-admin-tools"
+        },
+        {
+          "from": "Joplin Sync from Git",
+          "relation": "The Joplin Sync from Git pipeline processes locally on LittleSpark.",
+          "to": "LittleSpark"
+        },
+        {
+          "from": "Joplin Sync from Git",
+          "relation": "The .md files processed by the Joplin Sync from Git tool are pushed to and displayed on the Joplin server running in Docker.",
+          "to": "Joplin server (Docker port 22300)"
+        },
+        {
+          "from": "Joplin Sync from Git",
+          "relation": "The Joplin Sync from Git pipeline is implemented using Python.",
+          "to": "Python"
+        },
+        {
+          "from": "Joplin Sync from Git",
+          "relation": "The Joplin Sync from Git pipeline retrieves .md files from the source directory C:\\Users\\Niibo-Admin\\Developer\\joplin-notebook-mirror\\ for syncing.",
+          "to": "C:\\Users\\Niibo-Admin\\Developer\\joplin-notebook-mirror\\"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-bd04a9ad682b1ef2",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 - Project Binder Index.md",
+      "heading": "00   Project Binder Index",
+      "char_count": 3621,
+      "token_est": 905,
+      "time_seconds": 120.02,
+      "nodes_extracted": 8,
+      "edges_extracted": 7,
+      "entities": [
+        "Niibo LLC",
+        "Project Binder",
+        "Workbook",
+        "Nina",
+        "Lance",
+        "Atlas",
+        "Scout",
+        "CR-004"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "The Project Binder is a living project record managed by Niibo LLC.",
+          "to": "Project Binder"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "The Project Binder and Workbook have distinct roles; only executed documents from the Workbook are included in the binder.<SEP>Templates from the Workbook are not included in the Project Binder; only executed documents go into the binder.",
+          "to": "Workbook"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "Nina is responsible for controlling and managing documents within the Project Binder.",
+          "to": "Nina"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "The Project Binder was updated with CR-004 to reflect a new section structure (PMBOK 23-section).",
+          "to": "CR-004"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "Atlas's agent profile and session history are recorded in the Project Binder.",
+          "to": "Atlas"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "Scout's agent profile and session history are recorded in the Project Binder.",
+          "to": "Scout"
+        },
+        {
+          "from": "Nina",
+          "relation": "Lance submits change requests to Nina for review as part of the document control process in the Project Binder.",
+          "to": "Lance"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-fa86ce347aa65868",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/00-INDEX.md",
+      "heading": "00 INDEX",
+      "char_count": 746,
+      "token_est": 186,
+      "time_seconds": 93.65,
+      "nodes_extracted": 13,
+      "edges_extracted": 8,
+      "entities": [
+        "Project Binder",
+        "PROJECT-TEAM.md",
+        "STAKEHOLDER-REGISTER.md",
+        "RACI-MATRIX.md",
+        "COMMUNICATION-PLAN.md",
+        "ORG-CHART.md",
+        "LEGAL-ENTITY-PROFILE.md",
+        "ENTITY-PROFILE-NIIBO.md",
+        "Niibo LLC",
+        "EPS DBA",
+        "Nina (cc-niibo)",
+        "FL-001 v1.0",
+        "FL-001 v2.0"
+      ],
+      "relationships": [
+        {
+          "from": "Project Binder",
+          "relation": "The PROJECT-TEAM.md document is part of the Project Binder and provides information about the project team roster and contact details.",
+          "to": "PROJECT-TEAM.md"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "The STAKEHOLDER-REGISTER.md document is included in the Project Binder to list all stakeholders involved in the project.",
+          "to": "STAKEHOLDER-REGISTER.md"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "The RACI-MATRIX.md document is part of the Project Binder and outlines responsibility assignments within the team.",
+          "to": "RACI-MATRIX.md"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "The COMMUNICATION-PLAN.md document is included in the Project Binder to detail communication channels and frequency for stakeholders.",
+          "to": "COMMUNICATION-PLAN.md"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "The ORG-CHART.md document provides the organizational structure as part of the Project Binder.",
+          "to": "ORG-CHART.md"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "The LEGAL-ENTITY-PROFILE.md document is included in the Project Binder to provide a legal entity profile for FL-001 v1.0.",
+          "to": "LEGAL-ENTITY-PROFILE.md"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "Nina is responsible for updating the Project Binder with the latest information as indicated in the update log.",
+          "to": "Nina (cc-niibo)"
+        },
+        {
+          "from": "ENTITY-PROFILE-NIIBO.md",
+          "relation": "The ENTITY-PROFILE-NIIBO.md document provides a comprehensive profile for Niibo LLC, including formation documents and IP details.",
+          "to": "Niibo LLC"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-586cdc8f66fffe35",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/00a Addendums/00-INDEX.md",
+      "heading": "00 INDEX",
+      "char_count": 558,
+      "token_est": 139,
+      "time_seconds": 91.07,
+      "nodes_extracted": 10,
+      "edges_extracted": 9,
+      "entities": [
+        "Project Binder",
+        "Addendum ADD-001",
+        "Microsoft Agent Framework",
+        "Entra Agent ID",
+        "Semantic Kernel",
+        "FRAG",
+        "Research Notebook RN-001",
+        "Change Request CR-007",
+        "Nina (cc-niibo)",
+        "2026-03-09"
+      ],
+      "relationships": [
+        {
+          "from": "Project Binder",
+          "relation": "Addendum ADD-001 is a formal amendment included in the Project Binder.",
+          "to": "Addendum ADD-001"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "Nina (cc-niibo) updated the Project Binder.",
+          "to": "Nina (cc-niibo)"
+        },
+        {
+          "from": "Addendum ADD-001",
+          "relation": "Addendum ADD-001 discusses the adoption of the Microsoft Agent Framework.",
+          "to": "Microsoft Agent Framework"
+        },
+        {
+          "from": "Addendum ADD-001",
+          "relation": "Addendum ADD-001 mentions Entra Agent ID as part of the Microsoft Agent Framework.",
+          "to": "Entra Agent ID"
+        },
+        {
+          "from": "Addendum ADD-001",
+          "relation": "Addendum ADD-001 references Semantic Kernel as a component of the Microsoft Agent Framework.",
+          "to": "Semantic Kernel"
+        },
+        {
+          "from": "Addendum ADD-001",
+          "relation": "Addendum ADD-001 includes FRAG in its content related to the Microsoft Agent Framework.",
+          "to": "FRAG"
+        },
+        {
+          "from": "Addendum ADD-001",
+          "relation": "Addendum ADD-001 references Research Notebook RN-001 as its originating document.",
+          "to": "Research Notebook RN-001"
+        },
+        {
+          "from": "Addendum ADD-001",
+          "relation": "Addendum ADD-001 produces Change Request CR-007 for implementation.",
+          "to": "Change Request CR-007"
+        },
+        {
+          "from": "Addendum ADD-001",
+          "relation": "The addendum ADD-001 was updated on 2026-03-09.",
+          "to": "2026-03-09"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-e1c4313edf948606",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/00a Addendums/ADD-001-microsoft-agent-framework.md",
+      "heading": "microsoft agent framework",
+      "char_count": 6779,
+      "token_est": 1694,
+      "time_seconds": 184.7,
+      "nodes_extracted": 47,
+      "edges_extracted": 23,
+      "entities": [
+        "Microsoft Agent Framework",
+        "Entra Agent ID",
+        "Semantic Kernel",
+        "FRAG Pipeline",
+        "LangGraph",
+        "Nina",
+        "Niibo Digital Transformation Project",
+        "Langfuse",
+        "OpenTelemetry",
+        "Azure Logic Apps",
+        "Qdrant",
+        "Postgres",
+        "Redis",
+        "Joplin Server",
+        "Agent Framework Workflows",
+        "Azure Monitor",
+        "ClickHouse",
+        "H1",
+        "Lance",
+        "Niibo-Agent-Sentinel",
+        "Niibo-Agent-Scout",
+        "Pkg-M365-Read",
+        "Pkg-M365-Write",
+        "Pkg-Security-Audit",
+        "Pkg-Sharepoint-Read",
+        "Pkg-Graph-Users",
+        "Niibo-Agent-Orchestrator",
+        "Niibo-Agent-Analyst",
+        "Niibo-Agent-Archivist",
+        "Internal FRAG (Phase 3)",
+        "External FRAG (Phase 4+)",
+        "FRAG Pipeline Stages",
+        "M365 Tenants",
+        "Project Binder",
+        "Joplin",
+        "Future Internal Systems",
+        "External Domains",
+        "Niibo Data",
+        "Record Stage",
+        "Outline Stage",
+        "Microsoft Agent Framework Adoption Addendum",
+        "Agent Identity",
+        "Workflow Automation",
+        "Observability",
+        "Azure AI Search",
+        "Addendum Approval",
+        "Project Team"
+      ],
+      "relationships": [
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The Niibo Digital Transformation project plans to adopt the Microsoft Agent Framework as its primary agent building platform.",
+          "to": "Niibo Digital Transformation Project"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The Semantic Kernel is a component of the Microsoft Agent Framework used for orchestrating agents.",
+          "to": "Semantic Kernel"
+        },
+        {
+          "from": "Entra Agent ID",
+          "relation": "Entra Agent ID is utilized for managing dedicated agent identities with blueprints and governance.",
+          "to": "Agent Identity"
+        },
+        {
+          "from": "FRAG Pipeline",
+          "relation": "Azure AI Search is part of the FRAG",
+          "to": "Azure AI Search"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina is responsible for preparing the addendum to adopt the Microsoft Agent Framework in Niibo's digital transformation project.",
+          "to": "Microsoft Agent Framework Adoption Addendum"
+        },
+        {
+          "from": "Langfuse",
+          "relation": "Langfuse is used for LLM cost/quality tracking and evaluation alongside OpenTelemetry.",
+          "to": "Observability"
+        },
+        {
+          "from": "Langfuse",
+          "relation": "ClickHouse is being evaluated as a potential backend alternative to Postgres for Langfuse.",
+          "to": "ClickHouse"
+        },
+        {
+          "from": "Azure Logic Apps",
+          "relation": "Azure Logic Apps are employed in workflow automation, providing scheduled/event triggers.",
+          "to": "Workflow Automation"
+        },
+        {
+          "from": "Agent Framework Workflows",
+          "relation": "The Agent Framework Workflows are used for managing workflows and replacing n8n in the automation process.",
+          "to": "Workflow Automation"
+        },
+        {
+          "from": "Azure Monitor",
+          "relation": "Azure Monitor provides monitoring capabilities alongside OpenTelemetry collector for observability purposes.",
+          "to": "Observability"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 has the authority to approve changes in the project plan and addendums.",
+          "to": "Addendum Approval"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance remains a part of the project team with Claude Code CLI project tools.",
+          "to": "Project Team"
+        },
+        {
+          "from": "Niibo-Agent-Sentinel",
+          "relation": "`niibo-agent-sentinel` is assigned `pkg-security-audit`.",
+          "to": "Pkg-Security-Audit"
+        },
+        {
+          "from": "Niibo-Agent-Sentinel",
+          "relation": "`niibo-agent-sentinel` is also assigned `pkg-graph-users`.",
+          "to": "Pkg-Graph-Users"
+        },
+        {
+          "from": "Niibo-Agent-Scout",
+          "relation": "`niibo-agent-scout` is assigned `pkg-m365-read`.",
+          "to": "Pkg-M365-Read"
+        },
+        {
+          "from": "Niibo-Agent-Scout",
+          "relation": "`niibo-agent-scout` is also assigned `pkg-sharepoint-read`.",
+          "to": "Pkg-Sharepoint-Read"
+        },
+        {
+          "from": "Internal FRAG (Phase 3)",
+          "relation": "`Internal FRAG (Phase 3)` involves federated retrieval across M365 tenants.",
+          "to": "M365 Tenants"
+        },
+        {
+          "from": "Internal FRAG (Phase 3)",
+          "relation": "`Internal FRAG (Phase 3)` involves federated retrieval across project binder.",
+          "to": "Project Binder"
+        },
+        {
+          "from": "Internal FRAG (Phase 3)",
+          "relation": "`Internal FRAG (Phase 3)` involves federated retrieval across Joplin.",
+          "to": "Joplin"
+        },
+        {
+          "from": "Internal FRAG (Phase 3)",
+          "relation": "`Internal FRAG (Phase 3)` involves federated retrieval across future internal systems.",
+          "to": "Future Internal Systems"
+        },
+        {
+          "from": "External FRAG (Phase 4+)",
+          "relation": "`External FRAG (Phase 4+)` allows external domains to query Niibo data through encrypted, access-controlled federation.",
+          "to": "External Domains"
+        },
+        {
+          "from": "External FRAG (Phase 4+)",
+          "relation": "`External FRAG (Phase 4+)` allows encrypted, access-controlled federation for querying Niibo data.",
+          "to": "Niibo Data"
+        },
+        {
+          "from": "FRAG Pipeline Stages",
+          "relation": "`FRAG Pipeline Stages` includes the `RECORD` stage.",
+          "to": "Record Stage"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-71e7e8c8c84cdae9",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/00a Addendums/ADD-001-microsoft-agent-framework.md",
+      "heading": "microsoft agent framework",
+      "char_count": 6914,
+      "token_est": 1728,
+      "time_seconds": 117.99,
+      "nodes_extracted": 25,
+      "edges_extracted": 16,
+      "entities": [
+        "Microsoft Agent Framework",
+        "Niibo",
+        "Project Binder",
+        "Joplin Server",
+        "M365 Tenants (goniibo.com + get-eps.com)",
+        "Internal FRAG",
+        "External FRAG",
+        "Entra External ID",
+        "Azure AI Search",
+        "Qdrant",
+        "Postgres",
+        "Azure API Management AI Gateway",
+        "Entra Agent ID Access Packages",
+        "Semantic Kernel Plugins",
+        "Azure OpenAI",
+        "Custom Encryption Layer",
+        "FRAG Pipeline",
+        "WhiteboardProvider",
+        "Mem0Provider",
+        "CheckpointStorage",
+        "AgentSession",
+        "Mem0 API",
+        "Cosmos DB",
+        "External FRAG Onboarding",
+        "Extract Stage"
+      ],
+      "relationships": [
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "Niibo develops and implements the Microsoft Agent Framework for internal and external data retrieval and processing.",
+          "to": "Niibo"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "External FRAG is the final phase of the Microsoft Agent Framework that enables governed bilateral access between Niibo and external organizations through federated queries.",
+          "to": "External FRAG"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The Semantic Kernel plugins are integrated into the Microsoft Agent Framework's Outline stage to structure and tag raw content.",
+          "to": "Semantic Kernel Plugins"
+        },
+        {
+          "from": "Project Binder",
+          "relation": "Project Binder is a key data source within Internal FRAG that contributes to the creation of searchable indexes.",
+          "to": "Internal FRAG"
+        },
+        {
+          "from": "Joplin Server",
+          "relation": "The Joplin Server provides working notes and planning documents as part of the internal federated retrieval process in Internal FRAG.",
+          "to": "Internal FRAG"
+        },
+        {
+          "from": "M365 Tenants (goniibo.com + get-eps.com)",
+          "relation": "The M365 tenants goniibo.com and get-eps.com are key data sources within the internal federated retrieval process in Internal FRAG.",
+          "to": "Internal FRAG"
+        },
+        {
+          "from": "Internal FRAG",
+          "relation": "The internal FRAG must be fully functional before initiating any external integrations to maintain system stability and integrity.",
+          "to": "FRAG Pipeline"
+        },
+        {
+          "from": "External FRAG",
+          "relation": "The custom encryption layer ensures secure query execution against partner indexes during external federated data access in External FRAG.",
+          "to": "Custom Encryption Layer"
+        },
+        {
+          "from": "Azure OpenAI",
+          "relation": "Azure OpenAI is used in the Extract stage of the Microsoft Agent Framework pipeline for generating embeddings and summaries from raw content.",
+          "to": "Extract Stage"
+        },
+        {
+          "from": "FRAG Pipeline",
+          "relation": "The FRAG pipeline incorporates WhiteboardProvider to extract key points from the current conversation and store them temporarily in memory.",
+          "to": "WhiteboardProvider"
+        },
+        {
+          "from": "FRAG Pipeline",
+          "relation": "The FRAG pipeline uses Mem0Provider for retrieving relevant past memories and storing new important memories.",
+          "to": "Mem0Provider"
+        },
+        {
+          "from": "FRAG Pipeline",
+          "relation": "The FRAG pipeline leverages CheckpointStorage to ensure workflow state persistence for crash recovery and human-in-the-loop interactions.",
+          "to": "CheckpointStorage"
+        },
+        {
+          "from": "FRAG Pipeline",
+          "relation": "External FRAG onboarding can only begin once the internal FRAG is fully operational within the pipeline.",
+          "to": "External FRAG Onboarding"
+        },
+        {
+          "from": "WhiteboardProvider",
+          "relation": "WhiteboardProvider stores key points in AgentSession to prevent context truncation during conversations.",
+          "to": "AgentSession"
+        },
+        {
+          "from": "Mem0Provider",
+          "relation": "Mem0Provider persists and retrieves facts, preferences, and patterns from the Mem0 API storage backend.",
+          "to": "Mem0 API"
+        },
+        {
+          "from": "CheckpointStorage",
+          "relation": "CheckpointStorage uses Cosmos DB as a production-grade storage solution for managing workflow states.",
+          "to": "Cosmos DB"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-c6efa088e67399fe",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/00a Addendums/ADD-001-microsoft-agent-framework.md",
+      "heading": "microsoft agent framework",
+      "char_count": 6919,
+      "token_est": 1729,
+      "time_seconds": 156.05,
+      "nodes_extracted": 55,
+      "edges_extracted": 27,
+      "entities": [
+        "Mem0Provider",
+        "WhiteboardProvider",
+        "CheckpointStorage",
+        "Cosmos DB",
+        "Azure Key Vault",
+        "Agent Framework Workflows",
+        "n8n",
+        "Kestra",
+        "ClickHouse",
+        "Azure AI Search",
+        "FRAG Pipeline Configuration",
+        "Project Charter",
+        "Scope Statement",
+        "Secret Vault Inventory",
+        "Docker Stack Registry",
+        "Phase 1 Gate",
+        "Project Budget",
+        "Vendor Register",
+        "n8n Profile",
+        "Kestra Profile",
+        "SharePoint",
+        "OneDrive",
+        "Exchange",
+        "Qdrant",
+        "FRAG Pipeline",
+        "Azure API Management (AI Gateway)",
+        "Entra External ID",
+        "External Partner Onboarding Workflow",
+        "Azure Monitor",
+        "Task 14",
+        "Task 15",
+        "Task 16",
+        "Task 17",
+        "Task 18",
+        "Task 19",
+        "Task 20",
+        "Phase 3",
+        "Task 21",
+        "Entra admin",
+        "Task 22",
+        "Task 23",
+        "Task 24",
+        "Task 25",
+        "Task 26",
+        "Task 27",
+        "APP-PROFILE-AZURE-AI-SEARCH.md",
+        "PWB-A-01",
+        "PWB-A-02",
+        "PWB-B-05",
+        "PWB-B-08",
+        "PWB-D-01",
+        "PWB-G-01",
+        "PWB-G-03",
+        "PWB-H-02",
+        "AI Search"
+      ],
+      "relationships": [
+        {
+          "from": "Mem0Provider",
+          "relation": "Mem0Provider retrieves relevant memories from past conversations while WhiteboardProvider extracts key points to provide comprehensive context for the agent's response.",
+          "to": "WhiteboardProvider"
+        },
+        {
+          "from": "Mem0Provider",
+          "relation": "CheckpointStorage persists workflow states and Mem0Provider stores new memories if they are important, both contributing to crash recovery mechanisms.",
+          "to": "CheckpointStorage"
+        },
+        {
+          "from": "Azure Key Vault",
+          "relation": "Azure Key Vault is the primary vault in the Secret Vault Inventory, replacing pending provisioning statuses.",
+          "to": "Secret Vault Inventory"
+        },
+        {
+          "from": "Agent Framework Workflows",
+          "relation": "The tool n8n is marked as superseded by the Agent Framework Workflows and removed from configurations.",
+          "to": "n8n"
+        },
+        {
+          "from": "Agent Framework Workflows",
+          "relation": "Similar to n8n, Kestra is also marked as superseded and removed in favor of the Agent Framework Workflows.",
+          "to": "Kestra"
+        },
+        {
+          "from": "ClickHouse",
+          "relation": "ClickHouse has been removed from docker-compose configurations within the Docker Stack Registry.",
+          "to": "Docker Stack Registry"
+        },
+        {
+          "from": "Azure AI Search",
+          "relation": "Azure AI Search is configured with specific details in the APP-PROFILE-AZURE-A",
+          "to": "APP-PROFILE-AZURE-AI-SEARCH.md"
+        },
+        {
+          "from": "Azure AI Search",
+          "relation": "Provision Azure AI Search in the Basic tier as part of Task 14.",
+          "to": "Task 14"
+        },
+        {
+          "from": "Project Charter",
+          "relation": "The Project Charter document (PWB-A-01) will be updated to include references and Phase 2 deliverables.",
+          "to": "PWB-A-01"
+        },
+        {
+          "from": "Scope Statement",
+          "relation": "The Scope Statement (PWB-A-02) is being expanded to include new FRAG capabilities and milestone updates.",
+          "to": "PWB-A-02"
+        },
+        {
+          "from": "Secret Vault Inventory",
+          "relation": "The Secret Vault Inventory document (PWB-B-05) will add Azure Key Vault as the primary vault.",
+          "to": "PWB-B-05"
+        },
+        {
+          "from": "Docker Stack Registry",
+          "relation": "The Docker Stack Registry document (PWB-B-08) removes n8n, Kestra, and ClickHouse entries while documenting Agent Framework runtime configurations.",
+          "to": "PWB-B-08"
+        },
+        {
+          "from": "Phase 1 Gate",
+          "relation": "The Phase 1 Gate document (PWB-D-01) is updated to include Entra Agent ID prerequisites.",
+          "to": "PWB-D-01"
+        },
+        {
+          "from": "Project Budget",
+          "relation": "The Project Budget document (PWB-G-01) will add Azure consumption estimates.",
+          "to": "PWB-G-01"
+        },
+        {
+          "from": "Vendor Register",
+          "relation": "The Vendor Register (PWB-G-03) will remove entries for n8n and Kestra while adding Azure AI Search.",
+          "to": "PWB-G-03"
+        },
+        {
+          "from": "n8n Profile",
+          "relation": "The n8n Profile document (PWB-H-02) is marked as superseded by the Agent Framework Workflows.",
+          "to": "PWB-H-02"
+        },
+        {
+          "from": "SharePoint",
+          "relation": "Connect SharePoint data sources to the AI Search for indexing purposes.",
+          "to": "AI Search"
+        },
+        {
+          "from": "SharePoint",
+          "relation": "Connect SharePoint data sources to the AI Search for indexing purposes as part of Task 15.",
+          "to": "Task 15"
+        },
+        {
+          "from": "OneDrive",
+          "relation": "Connect OneDrive data sources to the AI Search for indexing purposes.",
+          "to": "AI Search"
+        },
+        {
+          "from": "OneDrive",
+          "relation": "Connect OneDrive data",
+          "to": "Task 15"
+        },
+        {
+          "from": "Exchange",
+          "relation": "Connect Exchange data sources to the AI Search for indexing purposes.",
+          "to": "AI Search"
+        },
+        {
+          "from": "Qdrant",
+          "relation": "Build Qdrant indexes as part of Task 16.",
+          "to": "Task 16"
+        },
+        {
+          "from": "FRAG Pipeline",
+          "relation": "Develop the end-to-end FRAG pipeline as part of Task 18.",
+          "to": "Task 18"
+        },
+        {
+          "from": "Azure API Management (AI Gateway)",
+          "relation": "Provision Azure API Management with AI Gateway policies as part of Task 21.",
+          "to": "Task 21"
+        },
+        {
+          "from": "Entra External ID",
+          "relation": "Configure Entra External ID for B2B collaboration as part of Task 22.",
+          "to": "Task 22"
+        },
+        {
+          "from": "External Partner Onboarding Workflow",
+          "relation": "Build the automated external partner self-service onboarding workflow as part of Task 26.",
+          "to": "Task 26"
+        },
+        {
+          "from": "Azure Monitor",
+          "relation": "Util",
+          "to": "Task 27"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-7703bfb3d63041fe",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/00a Addendums/ADD-001-microsoft-agent-framework.md",
+      "heading": "microsoft agent framework",
+      "char_count": 3145,
+      "token_est": 786,
+      "time_seconds": 104.41,
+      "nodes_extracted": 24,
+      "edges_extracted": 13,
+      "entities": [
+        "Microsoft Agent Framework",
+        "Entra Agent ID",
+        "Semantic Kernel",
+        "FRAG Pipeline",
+        "Azure Key Vault",
+        "Entra External ID",
+        "WSL2",
+        "Azure Logic Apps",
+        "Azure AI Search",
+        "Azure API Management",
+        "ClickHouse",
+        "Docker compose",
+        "n8n",
+        "Kestra",
+        "H1",
+        "Nina (cc-niibo)",
+        "CR-007",
+        "Azure resources",
+        "workbook pages",
+        "prototype sprint",
+        "GoniiBo.com",
+        "get-eps.com",
+        "ADD-001",
+        "Phase 2A Task 7"
+      ],
+      "relationships": [
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "Semantic Kernel is integrated into the Microsoft Agent Framework for development purposes.",
+          "to": "Semantic Kernel"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The FRAG Pipeline is part of the Microsoft Agent Framework, focusing on internal and external activities.",
+          "to": "FRAG Pipeline"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "Azure Key Vault is used to store secrets securely in the context of Microsoft Agent Framework adoption.",
+          "to": "Azure Key Vault"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "Entra External ID manages external partner access within the Microsoft Agent Framework.",
+          "to": "Entra External ID"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The change request CR-007 is filed to adopt Microsoft Agent Framework including Entra Agent ID and Semantic Kernel.",
+          "to": "CR-007"
+        },
+        {
+          "from": "Semantic Kernel",
+          "relation": "Semantic Kernel is installed in WSL2 for development purposes.",
+          "to": "WSL2"
+        },
+        {
+          "from": "Docker compose",
+          "relation": "CR-007 involves modifications to Docker compose by removing n8n, Kestra, and ClickHouse.",
+          "to": "CR-007"
+        },
+        {
+          "from": "Nina (cc-niibo)",
+          "relation": "Nina prepared ADD-001 under construction awaiting H1 review and approval.",
+          "to": "ADD-001"
+        },
+        {
+          "from": "CR-007",
+          "relation": "CR-007 includes changes to Azure resources as part of infrastructure updates.",
+          "to": "Azure resources"
+        },
+        {
+          "from": "CR-007",
+          "relation": "CR-007 involves updating several workbook pages including charter, scope, budget, and others.",
+          "to": "workbook pages"
+        },
+        {
+          "from": "CR-007",
+          "relation": "Cross-tenant FRAG activities involving GoniiBo.com are included as internal requirements in CR-007.",
+          "to": "GoniiBo.com"
+        },
+        {
+          "from": "CR-007",
+          "relation": "Cross-tenant FRAG activities involving get-eps.com are included as internal requirements in CR-007.",
+          "to": "get-eps.com"
+        },
+        {
+          "from": "prototype sprint",
+          "relation": "The prototype sprint in Phase 2A Task 7 evaluates Semantic Kernel versus LangGraph.",
+          "to": "Phase 2A Task 7"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-4c5b9b835125430d",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/COMMUNICATION-PLAN.md",
+      "heading": "COMMUNICATION PLAN",
+      "char_count": 1235,
+      "token_est": 308,
+      "time_seconds": 113.48,
+      "nodes_extracted": 16,
+      "edges_extracted": 10,
+      "entities": [
+        "Niibo LLC",
+        "Nina",
+        "Lance",
+        "H1",
+        "Joplin (PWB-F-01)",
+        "Git",
+        "Binder",
+        "Session Log",
+        "Message Drops",
+        "CR Form",
+        "RFI Form",
+        "Issue Form",
+        "Evidence Package",
+        "Document Control Flow",
+        "Archive",
+        "Anyone"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "Nina communicates daily operations logs, weekly status reports, and other tasks within Niibo LLC.",
+          "to": "Nina"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Lance participates in task assignments and routine change requests within Niibo LLC.",
+          "to": "Lance"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "H1 receives major change requests and gate sign-offs within Niibo LLC.",
+          "to": "H1"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina uses Joplin (PWB-F-01) daily to communicate the ops log to H1.",
+          "to": "Joplin (PWB-F-01)"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina uses Git for daily ops logs, weekly status reports, and session records.",
+          "to": "Git"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina communicates with H1 on various matters including change requests, weekly status reports, and gate sign-offs.",
+          "to": "H1"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina ensures session records are logged and archived in Git (lsd-historian) + Binder.",
+          "to": "Archive"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance responds to task assignments using message drops to Nina.",
+          "to": "Message Drops"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance uses Binder for routine change requests and task assignments.",
+          "to": "Binder"
+        },
+        {
+          "from": "H1",
+          "relation": "Any team member can alert H1 about blockers through the issue form on Joplin (PWB-F-04).",
+          "to": "Anyone"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-b79344fc12088e50",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/ENTITY-PROFILE-NIIBO.md",
+      "heading": "ENTITY PROFILE NIIBO",
+      "char_count": 6645,
+      "token_est": 1661,
+      "time_seconds": 137.58,
+      "nodes_extracted": 36,
+      "edges_extracted": 18,
+      "entities": [
+        "Niibo LLC",
+        "William A. Visconti",
+        "LEGALINC CORPORATE SERVICES INC.",
+        "Bizee.com",
+        "Middletown, DE 19709",
+        "EPS (Engineered Play Services)",
+        "Lovette Dobson",
+        "Entra Tenant ID",
+        "D-U-N-S Number",
+        "Microsoft Partner ID (MPN)",
+        "Publisher Name: Little Spark Digital",
+        "wv@goniibo.com",
+        "William@get-eps.com",
+        "Entra Group Membership (H1)",
+        "Letown",
+        "Challenger Dr",
+        "Muskego",
+        "DBA Form (562341449_DBAFORM2)",
+        "Engineered Play Solutions",
+        "Middletown",
+        "Hales Corner",
+        "DBA Form (563596664_DBAFORM2 EPS / DBA LegalZoom)",
+        "Visconti, William",
+        "Entra Security Group",
+        "Sales Division (EPS)",
+        "Marketing Division (EPS)",
+        "Operations Division (EPS)",
+        "Engineering Division (EPS)",
+        "Customer Service Division (EPS)",
+        "goniibo.com",
+        "get-eps.com",
+        "dynamixeps.com",
+        "ni-eps.com",
+        "littlespark.digital",
+        "GoDaddy",
+        "Mattermost"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "William A. Visconti owns 100% of Niibo LLC and holds all decision-making authority as the sole member and CEO.",
+          "to": "William A. Visconti"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "LEGALINC CORPORATE SERVICES INC. served as the registered agent for Niibo LLC during its formation.",
+          "to": "LEGALINC CORPORATE SERVICES INC."
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Bizee.com is currently serving as the registered agent for Niibo LLC.",
+          "to": "Bizee.com"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "EPS operates under Niibo LLC and is responsible for sales, marketing, operations, engineering, and customer service within the manufacturing sector of sporting and athletic goods and professional engineering services.",
+          "to": "EPS (Engineered Play Services)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Lovette Dobson served as the organizer for Niibo LLC during its formation and later resigned from this role.",
+          "to": "Lovette Dobson"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "The Entra Tenant ID is linked to Niibo LLC and its digital identity.",
+          "to": "Entra Tenant ID"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC has a D-U-N-S Number used for business listings and identification.",
+          "to": "D-U-N-S Number"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC is associated with Microsoft Partner IDs for organizational and profile purposes.",
+          "to": "Microsoft Partner ID (MPN)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Little Spark Digital is the publisher name linked to Niibo LLC for business identity purposes.",
+          "to": "Publisher Name: Little Spark Digital"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "The email address wv@goniibo.com is used for IT/Admin and corporate operations tasks within Niibo LLC.",
+          "to": "wv@goniibo.com"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Goniibo.com is the primary corporate domain managed by Niibo LLC.",
+          "to": "goniibo.com"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Dynamixeps.com is an artifact domain associated with Niibo LLC's legacy branding.",
+          "to": "dynamixeps.com"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Ni-eps.com is another artifact domain associated with Niibo LLC's legacy branding.",
+          "to": "ni-eps.com"
+        },
+        {
+          "from": "William A. Visconti",
+          "relation": "William A. Visconti oversees EPS operations as the sole owner-member of Niibo LLC.",
+          "to": "EPS (Engineered Play Services)"
+        },
+        {
+          "from": "William A. Visconti",
+          "relation": "William A. Visconti is a member of all 12 Entra security groups linked to Niibo LLC.",
+          "to": "Entra Group Membership (H1)"
+        },
+        {
+          "from": "EPS (Engineered Play Services)",
+          "relation": "The email address William@get-eps.com is used for sales and operations tasks within the EPS business.",
+          "to": "William@get-eps.com"
+        },
+        {
+          "from": "Engineered Play Solutions",
+          "relation": "Get-eps.com serves as the operational domain for Engineered Play Solutions (EPS).",
+          "to": "get-eps.com"
+        },
+        {
+          "from": "littlespark.digital",
+          "relation": "Littlespark.digital is hosted on the Mattermost platform and serves as an agent operations platform.",
+          "to": "Mattermost"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-8b8e3a423f946726",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/ENTITY-PROFILE-NIIBO.md",
+      "heading": "ENTITY PROFILE NIIBO",
+      "char_count": 6290,
+      "token_est": 1572,
+      "time_seconds": 130.03,
+      "nodes_extracted": 30,
+      "edges_extracted": 20,
+      "entities": [
+        "Nina",
+        "Niibo LLC",
+        "Next Gen Play",
+        "Design Patent D973821",
+        "Utility Patent (02/03/2025 submission)",
+        "LEGALINC",
+        "Lovette Dobson",
+        "OneDrive",
+        "USPTO TSDR",
+        "William A. Visconti",
+        "Francyn Brown",
+        "LZ Legal Services, LLC",
+        "Microsoft / Azure",
+        "Google Cloud",
+        "Anthropic",
+        "GitHub (Microsoft)",
+        "Proton AG",
+        "Bizee.com (formerly Incfile)",
+        "GoDaddy",
+        "OneDrive - Niibo",
+        "Certificate of Formation (Articles of Organization)",
+        "Utility Patent Submission Filed 02/03/2025",
+        "EIN Assignment (IRS CP 575 G)",
+        "Statement and Resignation of the Organizer",
+        "Operating Agreement (unsigned)",
+        "Operating Agreement (signed)",
+        "DBA -- Engineered Play Services",
+        "DBA -- Engineered Play Solutions",
+        "Insurance Binder",
+        "EPS Insurance Binder"
+      ],
+      "relationships": [
+        {
+          "from": "Nina",
+          "relation": "Nina created and updated the legal entity profile for Niibo LLC, managing source documents and updates.",
+          "to": "Niibo LLC"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC filed the trademark \"Next Gen Play\" as an Intent to Use on 10/25/2023 with serial number 98239300.",
+          "to": "Next Gen Play"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC owns the Design Patent D973821.<SEP>Niibo LLC has a design patent (D973821) on file but its current status is unknown.",
+          "to": "Design Patent D973821"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC recently filed a utility patent with the submission date of 02/03/2025.",
+          "to": "Utility Patent (02/03/2025 submission)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "LEGALINC serves as the registered agent for Niibo LLC at formation.",
+          "to": "LEGALINC"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Lovette Dobson is the organizer of Niibo LLC, responsible for its initial formation and setup.",
+          "to": "Lovette Dobson"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "PDFs related to Niibo LLC exist in OneDrive but their content has not been extracted and requires manual review.",
+          "to": "OneDrive"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC's \"Next Gen Play\" trademark was filed by William A. Visconti on behalf of the company.",
+          "to": "William A. Visconti"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Microsoft / Azure provides various cloud platform services including M365 and Entra ID to Niibo LLC.",
+          "to": "Microsoft / Azure"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Google Cloud offers Vertex AI and GCP services to Niibo LLC for their AI/ML needs.",
+          "to": "Google Cloud"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC utilizes Anthropic's",
+          "to": "Anthropic"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC filed a Utility Patent on February 3, 2025.",
+          "to": "Utility Patent Submission Filed 02/03/2025"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC has an EIN assigned by the IRS as per the notice CP 575 G.",
+          "to": "EIN Assignment (IRS CP 575 G)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "The Statement and Resignation of the Organizer is a legal document related to Niibo LLC's formation process.",
+          "to": "Statement and Resignation of the Organizer"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC has an unsigned Operating Agreement as part of their corporate documentation.",
+          "to": "Operating Agreement (unsigned)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "The signed Operating Agreement is a binding legal document for Niibo LLC.",
+          "to": "Operating Agreement (signed)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC operates under the DBA \"Engineered Play Services.\"",
+          "to": "DBA -- Engineered Play Services"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Ni",
+          "to": "DBA -- Engineered Play Solutions"
+        },
+        {
+          "from": "Next Gen Play",
+          "relation": "The trademark \"Next Gen Play\" needs its current status checked using the USPTO TSDR system.",
+          "to": "USPTO TSDR"
+        },
+        {
+          "from": "Francyn Brown",
+          "relation": "Francyn Brown is a lawyer with LZ Legal Services, LLC providing IP legal services to Niibo LLC.",
+          "to": "LZ Legal Services, LLC"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-c8afb39ef6f33dab",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/LEGAL-ENTITY-PROFILE.md",
+      "heading": "LEGAL ENTITY PROFILE",
+      "char_count": 5089,
+      "token_est": 1272,
+      "time_seconds": 127.09,
+      "nodes_extracted": 31,
+      "edges_extracted": 26,
+      "entities": [
+        "Niibo LLC",
+        "Nina (cc-niibo)",
+        "William Visconti",
+        "Little Spark Amusement Equipment Co",
+        "EPS (Entertainment Products & Services)",
+        "Microsoft 365",
+        "GoDaddy",
+        "Entra ID",
+        "Microsoft / Azure",
+        "Google Cloud",
+        "Anthropic",
+        "GitHub (Microsoft)",
+        "Proton AG",
+        "Bizee.com",
+        "dynamixeps.com",
+        "ni-eps.com",
+        "GCP Services",
+        "Claude Code",
+        "FL-001",
+        "goniibo.com",
+        "get-eps.com",
+        "wv@goniibo.com",
+        "William@get-eps.com",
+        "AI/ML platform provider",
+        "Claude API",
+        "Private code repositories",
+        "Proton Pass",
+        "Delaware registered agent",
+        "Domain registration",
+        "FL-001 Legal Entity Profile",
+        "Proton Mail Bridge"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "Nina (cc-niibo) authored the FL-001 document detailing legal entity information for Niibo LLC.<SEP>Nina (cc-niibo) created the legal entity profile for Niibo LLC.",
+          "to": "Nina (cc-niibo)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "William Visconti is the CEO, Founder, PM, Sole Operator, and Owner-Member of Niibo LLC with authority over all decisions.",
+          "to": "William Visconti"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "EPS operates under Niibo LLC and handles various aspects including attraction project sales, marketing, operations, engineering, and customer service.",
+          "to": "EPS (Entertainment Products & Services)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Microsoft / Azure provides M365 and Entra ID as part of their cloud service offerings to Niibo LLC.",
+          "to": "Microsoft / Azure"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Anthropic provides Claude API and Claude Code as an AI model provider to Niibo LLC.",
+          "to": "Anthropic"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "GitHub hosts private code repositories under the wavHub project for Niibo LLC.",
+          "to": "GitHub (Microsoft)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Proton AG provides Proton Pass and Proton Mail Bridge email/password services to Niibo LLC.",
+          "to": "Proton AG"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Bizee.com acts as the registered agent and virtual mailbox provider for Niibo LLC in Delaware.",
+          "to": "Bizee.com"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC has an associated Legal Entity Profile document version 1.0 created on 2026-03-11 by Nina (cc-niibo).",
+          "to": "FL-001 Legal Entity Profile"
+        },
+        {
+          "from": "Nina (cc-niibo)",
+          "relation": "Nina (cc-niibo) authored the FL-001 document for Niibo LLC.",
+          "to": "FL-001"
+        },
+        {
+          "from": "Nina (cc-niibo)",
+          "relation": "Nina (cc-niibo) created the initial FL-001 legal entity profile document on 2026-03-11.",
+          "to": "FL-001 Legal Entity Profile"
+        },
+        {
+          "from": "William Visconti",
+          "relation": "William Visconti owns the wv@goniibo.com account for IT/Admin and corporate operations purposes.",
+          "to": "wv@goniibo.com"
+        },
+        {
+          "from": "William Visconti",
+          "relation": "William Visconti owns the William@get-eps.com account for Sales/Operations within EPS business.",
+          "to": "William@get-eps.com"
+        },
+        {
+          "from": "Little Spark Amusement Equipment Co",
+          "relation": "Little Spark Amusement Equipment Co is contracted to manufacture attraction products based on EPS Engineering specifications.",
+          "to": "EPS (Entertainment Products & Services)"
+        },
+        {
+          "from": "EPS (Entertainment Products & Services)",
+          "relation": "Google Cloud offers Vertex AI and GCP services for EPS' AI/ML needs.",
+          "to": "Google Cloud"
+        },
+        {
+          "from": "Microsoft 365",
+          "relation": "Microsoft 365 manages DNS for goniibo.com.",
+          "to": "goniibo.com"
+        },
+        {
+          "from": "Microsoft 365",
+          "relation": "Microsoft 365 manages DNS for get-eps.com.",
+          "to": "get-eps.com"
+        },
+        {
+          "from": "GoDaddy",
+          "relation": "GoDaddy is responsible for domain registration of get-eps.com.",
+          "to": "get-eps.com"
+        },
+        {
+          "from": "GoDaddy",
+          "relation": "GoDaddy offers domain registration services including for the get-eps.com domain.",
+          "to": "Domain registration"
+        },
+        {
+          "from": "Anthropic",
+          "relation": "Anthropic offers the Claude API as part of its AI models portfolio.",
+          "to": "Claude API"
+        },
+        {
+          "from": "Anthropic",
+          "relation": "GCP Services and Anthropic may have an indirect relationship through their respective AI service offerings.",
+          "to": "GCP Services"
+        },
+        {
+          "from": "GitHub (Microsoft)",
+          "relation": "GitHub (Microsoft) provides private code repositories like wavHub for code hosting services.",
+          "to": "Private code repositories"
+        },
+        {
+          "from": "Proton AG",
+          "relation": "Proton AG offers Proton Pass as part of its password and email services.",
+          "to": "Proton Pass"
+        },
+        {
+          "from": "Proton AG",
+          "relation": "Proton AG offers Proton Mail Bridge as part of its password and email services.",
+          "to": "Proton Mail Bridge"
+        },
+        {
+          "from": "Bizee.com",
+          "relation": "Bizee.com provides Delaware registered agent services for legal compliance purposes.",
+          "to": "Delaware registered agent"
+        },
+        {
+          "from": "GCP Services",
+          "relation": "GCP Services provides AI/ML platforms for various applications.",
+          "to": "AI/ML platform provider"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-a4ad861bf1f6b195",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/ORG-CHART.md",
+      "heading": "ORG CHART",
+      "char_count": 1661,
+      "token_est": 415,
+      "time_seconds": 119.11,
+      "nodes_extracted": 17,
+      "edges_extracted": 13,
+      "entities": [
+        "Niibo LLC",
+        "Billy Wilton",
+        "Nina",
+        "Lance",
+        "THE ARCHITECT",
+        "CEO Agent",
+        "COO Agent",
+        "CFO Agent",
+        "CTO Agent",
+        "CDO Agent",
+        "Sales Director Agent",
+        "HR Director Agent",
+        "GOD VERTEX",
+        "WSL2 Ubuntu",
+        "Claude Code",
+        "Operations Division",
+        "AI Division"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "Billy Wilton is the CEO and Founder of Niibo LLC.",
+          "to": "Billy Wilton"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Nina works for Niibo LLC as a Document Controller and PM (delegated).",
+          "to": "Nina"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Lance is employed by Niibo LLC in the role of Dev/Infra Executor.",
+          "to": "Lance"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "The THE ARCHITECT oversees Billy Wilton's roles as CEO and Founder.",
+          "to": "THE ARCHITECT"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Nina reports to Billy Wilton in her role as Document Controller and PM (delegated).",
+          "to": "Nina"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Lance reports to Billy Wilton in his role as Dev/Infra Executor.",
+          "to": "Lance"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina serves as a PM Agent in the Operations Division during Phase 3.",
+          "to": "Operations Division"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance is a DevOps Agent in the AI Division during Phase 3.",
+          "to": "AI Division"
+        },
+        {
+          "from": "THE ARCHITECT",
+          "relation": "THE ARCHITECT oversees the CEO Agent",
+          "to": "CEO Agent"
+        },
+        {
+          "from": "THE ARCHITECT",
+          "relation": "THE ARCHITECT oversees the COO Agent.",
+          "to": "COO Agent"
+        },
+        {
+          "from": "THE ARCHITECT",
+          "relation": "THE ARCHITECT oversees the CFO Agent.",
+          "to": "CFO Agent"
+        },
+        {
+          "from": "THE ARCHITECT",
+          "relation": "THE ARCHITECT oversees the Sales Director Agent.",
+          "to": "Sales Director Agent"
+        },
+        {
+          "from": "THE ARCHITECT",
+          "relation": "THE ARCHITECT oversees the HR Director Agent.",
+          "to": "HR Director Agent"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-4411dce060092d50",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/PROJECT-TEAM.md",
+      "heading": "PROJECT TEAM",
+      "char_count": 1657,
+      "token_est": 414,
+      "time_seconds": 113.93,
+      "nodes_extracted": 17,
+      "edges_extracted": 12,
+      "entities": [
+        "Billy Wilton",
+        "goniibo.com",
+        "get-eps.com",
+        "Nina (cc-niibo)",
+        "Lance",
+        "THE ARCHITECT",
+        "CEO Agent",
+        "COO Agent",
+        "CFO Agent",
+        "CTO Agent",
+        "PM Agent",
+        "GOD VERTEX Agent",
+        "Claude Code (Windows)",
+        "Claude Code (WSL2 Ubuntu)",
+        "Joplin Desktop",
+        "GitHub (wavHub)",
+        "Message drops (~/.claude/messages/)"
+      ],
+      "relationships": [
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton is responsible for managing goniibo.com.",
+          "to": "goniibo.com"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton manages get-eps.com.",
+          "to": "get-eps.com"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton has read access to the Joplin Desktop operational dashboard.",
+          "to": "Joplin Desktop"
+        },
+        {
+          "from": "Nina (cc-niibo)",
+          "relation": "Nina communicates and coordinates with Lance through various channels.",
+          "to": "Lance"
+        },
+        {
+          "from": "Nina (cc-niibo)",
+          "relation": "Nina conducts sessions and PM work on the Claude Code (Windows) platform.",
+          "to": "Claude Code (Windows)"
+        },
+        {
+          "from": "Nina (cc-niibo)",
+          "relation": "Nina has write access to Joplin Desktop as part of the operational dashboard usage.",
+          "to": "Joplin Desktop"
+        },
+        {
+          "from": "Nina (cc-niibo)",
+          "relation": "Nina uses Message drops (~/.claude/messages/) for asynchronous communication with other agents.",
+          "to": "Message drops (~/.claude/messages/)"
+        },
+        {
+          "from": "Nina (cc-niibo)",
+          "relation": "Nina utilizes GitHub (wavHub) for audit trails and code storage.",
+          "to": "GitHub (wavHub)"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance executes dev/infra tasks on the Claude Code (WSL2",
+          "to": "Claude Code (WSL2 Ubuntu)"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance also has write access to Joplin Desktop for operational tasks.",
+          "to": "Joplin Desktop"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance also uses Message drops (~/.claude/messages/) for asynchronous communication with Nina.",
+          "to": "Message drops (~/.claude/messages/)"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance also utilizes GitHub (wavHub) for audit trails and code storage.",
+          "to": "GitHub (wavHub)"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-binder-9171f391477c0064",
+      "collection": "project-binder",
+      "division": "software",
+      "file_name": "00 Project Info/RACI-MATRIX.md",
+      "heading": "RACI MATRIX",
+      "char_count": 1090,
+      "token_est": 272,
+      "time_seconds": 110.81,
+      "nodes_extracted": 22,
+      "edges_extracted": 20,
+      "entities": [
+        "RACI Matrix",
+        "Project Binder",
+        "H1",
+        "Nina",
+        "Lance",
+        "The Architect",
+        "CEO Agent",
+        "Infrastructure Build (WSL2/Docker)",
+        "Joplin Management",
+        "GitHub Repo Management",
+        "Security Policy Decisions",
+        "Azure/GCP Provisioning",
+        "Daily Operations Logging",
+        "Session Logging",
+        "App Profile Creation",
+        "Architecture Decisions",
+        "Agent Deployment",
+        "Financial Oversight",
+        "Cross-Division Coordination",
+        "Strategic Decisions",
+        "PM Document Control",
+        "Change Request Review"
+      ],
+      "relationships": [
+        {
+          "from": "RACI Matrix",
+          "relation": "The RACI Matrix is part of Project Binder, serving as a key document for defining roles and responsibilities in project activities.",
+          "to": "Project Binder"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 is accountable for making strategic decisions within the current phase of the project.",
+          "to": "Strategic Decisions"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 owns the outcome for PM document control activities.",
+          "to": "PM Document Control"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 owns the outcome for change request review activities.",
+          "to": "Change Request Review"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 owns the outcome for infrastructure build using WSL2 and Docker.",
+          "to": "Infrastructure Build (WSL2/Docker)"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 owns the outcome for GitHub repository management tasks.",
+          "to": "GitHub Repo Management"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 owns the outcome for security policy decisions.",
+          "to": "Security Policy Decisions"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 owns the outcome for Azure and GCP",
+          "to": "Azure/GCP Provisioning"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina provides input and consultation on strategic decisions.",
+          "to": "Strategic Decisions"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina is responsible for executing tasks related to PM document control.",
+          "to": "PM Document Control"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina is responsible for executing tasks related to change request reviews.",
+          "to": "Change Request Review"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina is responsible for managing activities within Joplin.",
+          "to": "Joplin Management"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina is responsible for executing GitHub repository management activities.",
+          "to": "GitHub Repo Management"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina provides consultation and input on security policy decisions.",
+          "to": "Security Policy Decisions"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance is kept informed about the strategic decisions made within the project.",
+          "to": "Strategic Decisions"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance is kept informed about the progress and status of PM document control activities.",
+          "to": "PM Document Control"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance is kept informed about the progress and status of change request review activities.",
+          "to": "Change Request Review"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance is responsible for executing tasks related to infrastructure build using WSL2 and Docker.",
+          "to": "Infrastructure Build (WSL2/Docker)"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance shares responsibility and executes tasks related to GitHub repository management with Nina.",
+          "to": "GitHub Repo Management"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance is kept informed about the progress of security policy decisions.",
+          "to": "Security Policy Decisions"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-f0bb0036d7db0aa6",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PROJECT-WORKBOOK-INDEX.md",
+      "heading": "PROJECT WORKBOOK INDEX",
+      "char_count": 6839,
+      "token_est": 1709,
+      "time_seconds": 137.52,
+      "nodes_extracted": 55,
+      "edges_extracted": 16,
+      "entities": [
+        "Gate Form",
+        "`PWB-D-03-phase3-gate-checklist.md`",
+        "`PWB-D-04-mvp-gate-checklist.md`",
+        "`PWB-D-05-security-baseline-checklist.md`",
+        "GROUP E -- AI & Agentic Operations",
+        "`PWB-E-01`",
+        "`PWB-E-02`",
+        "`PWB-E-03`",
+        "`PWB-E-04`",
+        "`PWB-E-05`",
+        "`PWB-E-06`",
+        "`PWB-E-07`",
+        "GROUP F -- Operations & Workflow Monitoring",
+        "`PWB-F-01`",
+        "`PWB-F-02`",
+        "`PWB-F-03`",
+        "`PWB-F-04`",
+        "`PWB-F-05`",
+        "`PWB-F-06`",
+        "`PWB-F-07`",
+        "`PWB-F-08`",
+        "`PWB-F-09`",
+        "`PWB-F-10`",
+        "`CR-007`",
+        "`ADD-001`",
+        "Niibo Project Workbook",
+        "Digital Transformation Project",
+        "Project Charter",
+        "Project Scope Statement",
+        "Stakeholder Register",
+        "RACI Matrix",
+        "Project Assumptions & Constraints",
+        "Change Request Form",
+        "Architecture Decision Record (ADR) Template",
+        "Azure Resource Registry",
+        "GCP Resource Registry",
+        "Microsoft 365 Tenant Registry",
+        "App Registration Log",
+        "Secret Vault Inventory",
+        "Domain & DNS Registry",
+        "SSL Certificate Tracker",
+        "Docker Stack Registry",
+        "Entra ID Group Register",
+        "User Account Inventory",
+        "Mailbox Architecture Register",
+        "MFA & Conditional Access Checklist",
+        "RBAC Assignment Log",
+        "Service Principal & Managed Identity Log",
+        "Phase 1 Gate Checklist -- Foundation Complete",
+        "Phase 2 Gate Checklist -- Platform & Data Layer",
+        "Phase 3 Gate Checklist -- Intelligence & Agents Active",
+        "MVP Gate Checklist -- 30-Day Sprint Complete",
+        "Security Baseline Verification Checklist",
+        "CR-007",
+        "ADD-001"
+      ],
+      "relationships": [
+        {
+          "from": "GROUP E -- AI & Agentic Operations",
+          "relation": "CR-007 is referenced for defining the scope of GROUP E forms.",
+          "to": "CR-007"
+        },
+        {
+          "from": "GROUP E -- AI & Agentic Operations",
+          "relation": "ADD-001 is referenced for defining the scope of GROUP E forms.",
+          "to": "ADD-001"
+        },
+        {
+          "from": "GROUP E -- AI & Agentic Operations",
+          "relation": "`PWB-E-01` \"AI Model Registry\" is a form planned within GROUP E for Phase 2A.",
+          "to": "`PWB-E-01`"
+        },
+        {
+          "from": "GROUP E -- AI & Agentic Operations",
+          "relation": "`PWB-E-02` \"Agent Profile -- THE ARCHITECT\" is a form planned within GROUP E for Phase 2A.",
+          "to": "`PWB-E-02`"
+        },
+        {
+          "from": "GROUP E -- AI & Agentic Operations",
+          "relation": "`PWB-E-03` \"Agent Profile Template\" is a form planned within GROUP E for Phase 2A.",
+          "to": "`PWB-E-03`"
+        },
+        {
+          "from": "GROUP E -- AI & Agentic Operations",
+          "relation": "`PWB-E-04` \"Vector Database Collection Registry\" is a form planned within GROUP E for Phase 2A.",
+          "to": "`PWB-E-04`"
+        },
+        {
+          "from": "GROUP E -- AI & Agentic Operations",
+          "relation": "`PWB-E-05` \"Pipeline Run Log Template\" is a form planned within GROUP E for Phase 2A.",
+          "to": "`PWB-E-05`"
+        },
+        {
+          "from": "GROUP E -- AI & Agentic Operations",
+          "relation": "`PWB-E-06` \"MCP Server Configuration Register\" is a form planned within GROUP E for Phase 2A.",
+          "to": "`PWB-E-06`"
+        },
+        {
+          "from": "GROUP E -- AI & Agentic Operations",
+          "relation": "`PWB-E-07` \"Prompt Evaluation Log\" is a form planned within GROUP E for Phase 2A.",
+          "to": "`PWB-E-07`"
+        },
+        {
+          "from": "Niibo Project Workbook",
+          "relation": "The Niibo Project Workbook includes the Project Charter as one of its pre-filled forms.",
+          "to": "Project Charter"
+        },
+        {
+          "from": "Niibo Project Workbook",
+          "relation": "The Niibo Project Workbook includes the Project Scope Statement as a form that outlines the objectives and scope for the digital transformation project.",
+          "to": "Project Scope Statement"
+        },
+        {
+          "from": "Niibo Project Workbook",
+          "relation": "The Niibo Project Workbook includes the Stakeholder Register template for the PM to complete as work progresses.",
+          "to": "Stakeholder Register"
+        },
+        {
+          "from": "Niibo Project Workbook",
+          "relation": "The Niibo Project Workbook includes a pre-filled RACI Matrix form that defines roles and responsibilities within the digital transformation project.",
+          "to": "RACI Matrix"
+        },
+        {
+          "from": "Niibo Project Workbook",
+          "relation": "The Niibo Project Workbook contains a pre-filled form for tracking assumptions and constraints related to the digital transformation project.",
+          "to": "Project Assumptions & Constraints"
+        },
+        {
+          "from": "Niibo Project Workbook",
+          "relation": "The Niibo Project Workbook includes a template for handling change requests that can be completed as needed during the digital transformation project.",
+          "to": "Change Request Form"
+        },
+        {
+          "from": "Niibo Project Workbook",
+          "relation": "The Niibo Project Workbook contains",
+          "to": "Architecture Decision Record (ADR) Template"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-e96befebd2d80fbf",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PROJECT-WORKBOOK-INDEX.md",
+      "heading": "PROJECT WORKBOOK INDEX",
+      "char_count": 5783,
+      "token_est": 1445,
+      "time_seconds": 157.39,
+      "nodes_extracted": 53,
+      "edges_extracted": 16,
+      "entities": [
+        "Project Workbook Index",
+        "PWB-F-04-issue-blocker-log.md",
+        "Decision Log",
+        "Agent Test Run Log",
+        "RFI Register",
+        "Change Order Register",
+        "Submittal Log",
+        "Meeting Minutes Template",
+        "Project Budget Tracker",
+        "API Cost Log",
+        "Vendor & SaaS Contract Register",
+        "App Profile -- Termius",
+        "App Profile -- n8n",
+        "App Profile -- Kestra",
+        "App Profile -- Qdrant",
+        "App Profile -- Langfuse",
+        "App Profile -- mem0",
+        "App Profile -- GitHub",
+        "App Profile Template (Blank)",
+        "App Profile -- Proton Pass",
+        "App Profile -- Proton Pass CLI",
+        "App Profile -- Proton Mail Bridge",
+        "App Profile -- Joplin Server",
+        "App Profile -- Joplin CLI",
+        "App Profile -- Anthropic API",
+        "App Profile -- GCP",
+        "App Profile -- OpenAI",
+        "App Profile -- PostgreSQL",
+        "App Profile -- Redis",
+        "App Profile -- ClickHouse",
+        "Infrastructure & Platform",
+        "Identity & Access",
+        "Phase Gate Checklists",
+        "AI & Agentic",
+        "Operations & Monitoring",
+        "Financial & Cost",
+        "App Profiles",
+        "Project Charter",
+        "Stakeholder Register",
+        "RACI Matrix",
+        "Entra ID Group Register",
+        "Azure Resource Registry",
+        "M365 Tenant Registry",
+        "Mailbox Architecture Register",
+        "MFA & Conditional Access Checklist",
+        "Security Baseline Checklist",
+        "GCP Resource Registry",
+        "Docker Stack Registry",
+        "Vector DB Registry",
+        "MCP Server Register",
+        "Daily Operations Log",
+        "Workflow Activation Checklist",
+        "MVP Gate Checklist"
+      ],
+      "relationships": [
+        {
+          "from": "Project Workbook Index",
+          "relation": "`PWB-F-04-issue-blocker-log.md` is included in the Project Workbook index as part of project management documents.",
+          "to": "PWB-F-04-issue-blocker-log.md"
+        },
+        {
+          "from": "Project Workbook Index",
+          "relation": "The Decision Log is included in the Project Workbook index and is a living document to be refreshed regularly.",
+          "to": "Decision Log"
+        },
+        {
+          "from": "Project Workbook Index",
+          "relation": "`Agent Test Run Log` is part of the Project Workbook index and requires completion by the PM per run.",
+          "to": "Agent Test Run Log"
+        },
+        {
+          "from": "Project Workbook Index",
+          "relation": "`RFI Register` is included in the Project Workbook index as a list that needs to be completed by the PM.",
+          "to": "RFI Register"
+        },
+        {
+          "from": "Project Workbook Index",
+          "relation": "`Change Order Register` is part of the Project Workbook index and requires refreshing as a living document.",
+          "to": "Change Order Register"
+        },
+        {
+          "from": "Project Workbook Index",
+          "relation": "`Submittal Log` is included in the Project Workbook index and must be completed by the PM as a list item.",
+          "to": "Submittal Log"
+        },
+        {
+          "from": "Project Workbook Index",
+          "relation": "`Meeting Minutes Template` is part of the Project Workbook index and needs to be completed per meeting by the PM.",
+          "to": "Meeting Minutes Template"
+        },
+        {
+          "from": "Infrastructure & Platform",
+          "relation": "`PWB-A-01` Project Charter confirms scope and authority before any build starts.",
+          "to": "Project Charter"
+        },
+        {
+          "from": "Infrastructure & Platform",
+          "relation": "`PWB-B-01` Azure Resource Registry logs resources as they are created during Week 1 (Foundation Phase).",
+          "to": "Azure Resource Registry"
+        },
+        {
+          "from": "Identity & Access",
+          "relation": "`PWB-A-03` Stakeholder Register identifies all decision makers immediately before the build starts.",
+          "to": "Stakeholder Register"
+        },
+        {
+          "from": "Identity & Access",
+          "relation": "`PWB-C-01` Entra ID Group Register confirms all groups are correct immediately before the build starts.",
+          "to": "Entra ID Group Register"
+        },
+        {
+          "from": "Identity & Access",
+          "relation": "`PWB-B-03` M365 Tenant Registry confirms the tenant structure during Week 1 (Foundation Phase).",
+          "to": "M365 Tenant Registry"
+        },
+        {
+          "from": "Identity & Access",
+          "relation": "`PWB-C-03` Mailbox Architecture Register confirms mailboxes built during Week 1 (Foundation Phase).",
+          "to": "Mailbox Architecture Register"
+        },
+        {
+          "from": "Phase Gate Checklists",
+          "relation": "`PWB-A-04` RACI Matrix confirms roles and responsibilities before the build starts.",
+          "to": "RACI Matrix"
+        },
+        {
+          "from": "Phase Gate Checklists",
+          "relation": "`PWB-C-04` MFA & Conditional Access Checklist acts as a gate before Phase 2 during Week 1 (Foundation Phase).",
+          "to": "MFA & Conditional Access Checklist"
+        },
+        {
+          "from": "Phase Gate Checklists",
+          "relation": "`PWB-D-05` Security Baseline Checklist acts as a gate before Phase 2 during Week 1 (Foundation Phase).",
+          "to": "Security Baseline Checklist"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-881bcadbe251e56b",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-01-project-charter.md",
+      "heading": "PWB A 01 project charter",
+      "char_count": 6738,
+      "token_est": 1684,
+      "time_seconds": 146.59,
+      "nodes_extracted": 30,
+      "edges_extracted": 19,
+      "entities": [
+        "Niibo LLC",
+        "William Visconti",
+        "Nina (cc-niibo)",
+        "Niibo Infrastructure & AI Platform Build",
+        "goniibo.com",
+        "get-eps.com",
+        "Azure Infrastructure",
+        "M365 Restructure",
+        "Docker Stack",
+        "AI Agent Framework",
+        "Security Baseline",
+        "Governance & PM",
+        "Network",
+        "Project Workbook Forms",
+        "Change Management",
+        "Billy Wilton",
+        "cc-niibo",
+        "cc-niibo-wsl",
+        "NF-10 through NF-14",
+        "Operational Launch",
+        "MVP Sprint",
+        "PWB-C-03",
+        "PWB-B-05",
+        "PWB-C-04",
+        "PWB-C-05",
+        "PWB-B-08",
+        "PWB-D-05",
+        "PWB-E-01 through E-06",
+        "PWB-E-04",
+        "PWB-F-03"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "William Visconti is the CEO and sole member of Niibo LLC, acting as the Sponsor / Owner for the project.",
+          "to": "William Visconti"
+        },
+        {
+          "from": "William Visconti",
+          "relation": "William Visconti, as CEO and Sponsor / Owner of Niibo LLC, oversees the Niibo Infrastructure & AI Platform Build project.",
+          "to": "Niibo Infrastructure & AI Platform Build"
+        },
+        {
+          "from": "Nina (cc-niibo)",
+          "relation": "Nina (cc-niibo) serves as the delegated Project Manager for the Niibo Infrastructure & AI Platform Build project.",
+          "to": "Niibo Infrastructure & AI Platform Build"
+        },
+        {
+          "from": "Niibo Infrastructure & AI Platform Build",
+          "relation": "The Azure infrastructure components are part of the scope for establishing Niibo's IT and operational platform.",
+          "to": "Azure Infrastructure"
+        },
+        {
+          "from": "Niibo Infrastructure & AI Platform Build",
+          "relation": "The Docker stack is a critical component in building the AI-powered operational platform as part of the Niibo Infrastructure",
+          "to": "Docker Stack"
+        },
+        {
+          "from": "Governance & PM",
+          "relation": "The project workbook forms are part of the Governance & PM concept to ensure proper project management and documentation.",
+          "to": "Project Workbook Forms"
+        },
+        {
+          "from": "Governance & PM",
+          "relation": "Change Management is a component within the Governance & PM framework used for controlling changes throughout the project lifecycle.",
+          "to": "Change Management"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton collaborates with cc-niibo, an AI agent responsible for PM tasks and document control.",
+          "to": "cc-niibo"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton interacts with cc-niibo-wsl, an AI agent executing dev/infra tasks and code deployment.",
+          "to": "cc-niibo-wsl"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton is responsible for ensuring that all mailboxes are created and tested as part of PWB-C-03 deliverable.",
+          "to": "PWB-C-03"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton oversees the provisioning of Azure Key Vaults and migration of secrets as described in PWB-B-05 deliverable.",
+          "to": "PWB-B-05"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton ensures that identity and access management configurations (MFA, CA, PIM, RBAC) are completed as per PWB-C-04 deliverable.",
+          "to": "PWB-C-04"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton is responsible for hardening the Docker stack (ports, secrets, health checks) as outlined in PWB-B-08 deliverable.",
+          "to": "PWB-B-08"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton ensures that the security baseline gate is passed as specified in PWB-D-05 deliverable.",
+          "to": "PWB-D-05"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton oversees operationalizing the AI agent framework (LangGraph + n8n) as detailed in PWB-E-01 to PWB-E-06 deliverables.",
+          "to": "PWB-E-01 through E-06"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton is responsible for launching the Vector DB and RAG pipeline",
+          "to": "PWB-E-04"
+        },
+        {
+          "from": "cc-niibo",
+          "relation": "cc-niibo collaborates with cc-niibo-wsl on various project tasks such as PM, documentation control, development, infrastructure setup, and code deployment.",
+          "to": "cc-niibo-wsl"
+        },
+        {
+          "from": "NF-10 through NF-14",
+          "relation": "The Operational Launch (Phase 3) follows the NF-10 to NF-14 phase (Phase 2), indicating a progression of project stages.",
+          "to": "Operational Launch"
+        },
+        {
+          "from": "NF-10 through NF-14",
+          "relation": "The MVP Sprint precedes the NF-10 to NF-14 phase, reflecting the sequence of events in the project schedule.",
+          "to": "MVP Sprint"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-b025076a3d510723",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-01-project-charter.md",
+      "heading": "PWB A 01 project charter",
+      "char_count": 4368,
+      "token_est": 1092,
+      "time_seconds": 134.08,
+      "nodes_extracted": 32,
+      "edges_extracted": 22,
+      "entities": [
+        "Niibo",
+        "Nina",
+        "ADD-001",
+        "DEC-008",
+        "CR-007",
+        "LangGraph",
+        "mem0",
+        "n8n",
+        "Kestra",
+        "Project Workbook Charter",
+        "Nina (cc-niibo)",
+        "H1",
+        "Joe",
+        "Cen",
+        "AI Agents",
+        "PWB-A-06 (CR form)",
+        "PWB-A-07 (ADR form)",
+        "Azure Key Vaults",
+        "Docker Stack",
+        "Security Baseline Gate",
+        "LangGraph + n8n",
+        "Vector DB + RAG Pipeline",
+        "Tailscale",
+        "Nina (PM)",
+        "PWB-B-05",
+        "PWB-D-05",
+        "PWB-E-01 through E-06",
+        "PWB-F-03",
+        "Risk Log",
+        "DEC-002",
+        "Project Charter",
+        "Niibo LLC"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo",
+          "relation": "Niibo approved ADD-001 to amend Phase 2 deliverables of the project charter.",
+          "to": "ADD-001"
+        },
+        {
+          "from": "Niibo",
+          "relation": "Niibo is involved in the creation and management of the project charter, including its initial template and subsequent amendments.",
+          "to": "Project Charter"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina filled all sections with project data and documented various aspects including identity, scope, phases, budget, risks, and resources.",
+          "to": "Project Charter"
+        },
+        {
+          "from": "ADD-001",
+          "relation": "ADD-001 was approved per DEC-008, linking both documents for project amendments.",
+          "to": "DEC-008"
+        },
+        {
+          "from": "ADD-001",
+          "relation": "The implementation scope of ADD-001 is detailed in CR-007, providing further information on the changes made to Phase 2 deliverables.",
+          "to": "CR-007"
+        },
+        {
+          "from": "ADD-001",
+          "relation": "The adoption of Microsoft Agent Framework through ADD-001 preserves LangGraph in the original Phase 2 plan as a baseline.",
+          "to": "LangGraph"
+        },
+        {
+          "from": "ADD-001",
+          "relation": "The adoption of Microsoft Agent Framework through ADD-001 preserves mem0 in the original Phase 2 plan as a baseline.",
+          "to": "mem0"
+        },
+        {
+          "from": "ADD-001",
+          "relation": "The adoption of Microsoft Agent Framework through ADD-001 preserves n8n in the original Phase 2 plan as a baseline.",
+          "to": "n8n"
+        },
+        {
+          "from": "ADD-001",
+          "relation": "The adoption of Microsoft Agent Framework through ADD-001 preserves Kestra in the original Phase 2 plan as a baseline.",
+          "to": "Kestra"
+        },
+        {
+          "from": "Project Workbook Charter",
+          "relation": "Nina has reviewed and approved the Project Workbook Charter with specific notes regarding project progress and critical security items.",
+          "to": "Nina (cc-niibo)"
+        },
+        {
+          "from": "Project Workbook Charter",
+          "relation": "Changes to the project scope are managed through the PWB-A-06 CR form as per governance rules.",
+          "to": "PWB-A-06 (CR form)"
+        },
+        {
+          "from": "Project Workbook Charter",
+          "relation": "Azure Key Vaults provisioned and secrets migrated as part of Phase 1 security measures.",
+          "to": "Azure Key Vaults"
+        },
+        {
+          "from": "Project Workbook Charter",
+          "relation": "The Docker stack has",
+          "to": "Docker Stack"
+        },
+        {
+          "from": "Project Workbook Charter",
+          "relation": "Azure Key Vaults are provisioned and secrets migrated as part of Phase 1 security measures under PWB-B-05.",
+          "to": "PWB-B-05"
+        },
+        {
+          "from": "Project Workbook Charter",
+          "relation": "The Security Baseline Gate (PWB-D-05) must be passed before advancing to Phase 2.",
+          "to": "PWB-D-05"
+        },
+        {
+          "from": "Project Workbook Charter",
+          "relation": "Components of the AI agent framework (PWB-E-01 through E-06) are operational in Phase 2 to reduce H1's operational burden.",
+          "to": "PWB-E-01 through E-06"
+        },
+        {
+          "from": "Project Workbook Charter",
+          "relation": "The Risk Log maintained in PWB-F-04 documents all project risks and mitigation strategies.",
+          "to": "Risk Log"
+        },
+        {
+          "from": "Project Workbook Charter",
+          "relation": "The first autonomous workflow is deployed in production as part of Phase 3 under PWB-F-03.",
+          "to": "PWB-F-03"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 operates from an iPad using Tailscale for remote access via SSH and VS Code tunneling.",
+          "to": "Tailscale"
+        },
+        {
+          "from": "AI Agents",
+          "relation": "The AI agent framework operational in Phase 2 includes components such as LangGraph and n8n.",
+          "to": "LangGraph + n8n"
+        },
+        {
+          "from": "Nina (PM)",
+          "relation": "Nina manages the secrets protocol rule DEC-002 which mandates vault references only and prohibits plaintext usage.",
+          "to": "DEC-002"
+        },
+        {
+          "from": "Project Charter",
+          "relation": "The Project Charter is associated with Niibo LLC for project management and oversight.",
+          "to": "Niibo LLC"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-8fc55808e82638fd",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-02-scope-statement.md",
+      "heading": "PWB A 02 scope statement",
+      "char_count": 6870,
+      "token_est": 1717,
+      "time_seconds": 126.72,
+      "nodes_extracted": 47,
+      "edges_extracted": 16,
+      "entities": [
+        "Niibo LLC",
+        "PWB-A-02",
+        "NF-01",
+        "NF-02",
+        "NF-03",
+        "NF-04",
+        "NF-10",
+        "NF-11",
+        "NF-14",
+        "NF-20 to NF-25",
+        "gniibo.com",
+        "Project Workbook",
+        "Deliverable",
+        "Kestra instance",
+        "Vertex AI Vector Search indexes",
+        "Document embedding pipeline",
+        "Vector DB access controls per division",
+        "mem0 memory pipeline",
+        "Langfuse observability",
+        "LangGraph agent framework",
+        "operational workflow agents",
+        "agent system prompts",
+        "Guardrails AI schema validators",
+        "Email Sort workflow",
+        "Expense Management workflow",
+        "Document Intake workflow",
+        "Document Archive workflow",
+        "Scheduling + Task workflow",
+        "GOD VERTEX convergence protocol",
+        "Cross-collection synthesis architecture",
+        "Weekly BRAIN report",
+        "Monthly org health report",
+        "Strategic forecast pipeline",
+        "LLC to S-Corp conversion",
+        "Custom LLM fine-tuning",
+        "GDPR/CCPA formal program",
+        "Customer-facing portals",
+        "External API productization",
+        "Hardware / physical IT",
+        "Employee hiring",
+        "GCP organization buildout",
+        "Autonomous agent operations",
+        "Odoo ERP migration",
+        "SOP library creation",
+        "Legal Entity & Contracts",
+        "Governance & Standards",
+        "workflow definitions"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "The PWB-A-02 document outlines the scope of the Niibo Digital Transformation project for Niibo LLC.",
+          "to": "PWB-A-02"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "NF-01 involves tasks related to the legal setup and documentation of Niibo LLC.",
+          "to": "NF-01"
+        },
+        {
+          "from": "PWB-A-02",
+          "relation": "The Project Workbook includes PWB-A-02 as part of its content for defining project scope.",
+          "to": "Project Workbook"
+        },
+        {
+          "from": "NF-01",
+          "relation": "NF-01 includes tasks related to setting up and documenting legal aspects of Niibo LLC.",
+          "to": "Legal Entity & Contracts"
+        },
+        {
+          "from": "NF-01",
+          "relation": "Tasks under NF-01 are considered deliverables in the context of setting up and documenting Niibo LLC's legal entity.",
+          "to": "Deliverable"
+        },
+        {
+          "from": "NF-02",
+          "relation": "NF-02 involves establishing governance frameworks and standards for the organization's processes and documentation.",
+          "to": "Governance & Standards"
+        },
+        {
+          "from": "NF-02",
+          "relation": "Tasks under NF-02 are considered deliverables for establishing governance frameworks and standards within Niibo LLC.",
+          "to": "Deliverable"
+        },
+        {
+          "from": "NF-03",
+          "relation": "Tasks under NF-03 are considered deliverables for setting up domain and identity infrastructure in Niibo LLC.",
+          "to": "Deliverable"
+        },
+        {
+          "from": "NF-04",
+          "relation": "Tasks under NF-04 are considered deliverables for auditing existing email accounts, resources, applications, and documents within Niibo LLC.",
+          "to": "Deliverable"
+        },
+        {
+          "from": "NF-10",
+          "relation": "Tasks under NF-10 are considered deliverables for setting up Azure Infrastructure in Niibo LLC.",
+          "to": "Deliverable"
+        },
+        {
+          "from": "NF-11",
+          "relation": "Tasks under NF-11 are considered deliverables for configuring GCP Infrastructure within Niibo LLC.",
+          "to": "Deliverable"
+        },
+        {
+          "from": "NF-14",
+          "relation": "Tasks under NF-14 are considered deliverables for setting up the Build Toolchain in Niibo LLC.",
+          "to": "Deliverable"
+        },
+        {
+          "from": "NF-20 to NF-25",
+          "relation": "Tasks under NF-20 to NF-25 are considered deliverables for configuring and building components of the Data Layer in Niibo LLC.",
+          "to": "Deliverable"
+        },
+        {
+          "from": "Kestra instance",
+          "relation": "The Kestra instance manages the workflow definitions and is currently running.",
+          "to": "workflow definitions"
+        },
+        {
+          "from": "Vertex AI Vector Search indexes",
+          "relation": "All 14 Vertex AI Vector Search indexes are created to support document embedding pipeline operations.<SEP>The document embedding pipeline operations are supported by the created Vertex AI Vector Search indexes.",
+          "to": "Document embedding pipeline"
+        },
+        {
+          "from": "Vector DB access controls per division",
+          "relation": "The mem0 memory pipeline is operational with configured access controls for each division.",
+          "to": "mem0 memory pipeline"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-57e90b94df3c2e65",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-02-scope-statement.md",
+      "heading": "PWB A 02 scope statement",
+      "char_count": 3936,
+      "token_est": 984,
+      "time_seconds": 104.64,
+      "nodes_extracted": 14,
+      "edges_extracted": 13,
+      "entities": [
+        "Niibo LLC",
+        "PWB-A-06",
+        "Nina (AI PM Agent)",
+        "Niibo",
+        "Anthropic",
+        "Google",
+        "OpenAI",
+        "Microsoft Agent Framework Adoption (ADD-001)",
+        "Phase 1 foundation work",
+        "Phase 2 deliverables",
+        "H1 (Niibo)",
+        "SOP library creation",
+        "Change Log",
+        "Operational phase"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC uses PWB-A-06 for logging and approving changes to the project's scope.",
+          "to": "PWB-A-06"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Nina (AI PM Agent) reviews the scope statement on behalf of Niibo LLC.",
+          "to": "Nina (AI PM Agent)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "The Microsoft Agent Framework adoption adds specific deliverables to the project scope managed by Niibo LLC.",
+          "to": "Microsoft Agent Framework Adoption (ADD-001)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC is responsible for the initial foundational tasks in Phase 1.",
+          "to": "Phase 1 foundation work"
+        },
+        {
+          "from": "PWB-A-06",
+          "relation": "Nina is involved in documenting and reviewing changes in PWB-A-06.",
+          "to": "Nina (AI PM Agent)"
+        },
+        {
+          "from": "PWB-A-06",
+          "relation": "Changes to the project are documented and tracked in PWB-A-06 for review.",
+          "to": "Change Log"
+        },
+        {
+          "from": "PWB-A-06",
+          "relation": "API keys from Anthropic are required before Phase 2 and documented in PWB-A-06.",
+          "to": "Anthropic"
+        },
+        {
+          "from": "PWB-A-06",
+          "relation": "API keys from Google are required before Phase 2 and documented in PWB-A-06.",
+          "to": "Google"
+        },
+        {
+          "from": "PWB-A-06",
+          "relation": "API keys from OpenAI are required before Phase 2 and documented in PWB-A-06.",
+          "to": "OpenAI"
+        },
+        {
+          "from": "PWB-A-06",
+          "relation": "H1 (Niibo) has sole authority to approve changes and document them in PWB-A-06.",
+          "to": "H1 (Niibo)"
+        },
+        {
+          "from": "Nina (AI PM Agent)",
+          "relation": "H1 (Niibo) delegates sole authority for all scope changes to Nina (AI PM Agent).",
+          "to": "Niibo"
+        },
+        {
+          "from": "Microsoft Agent Framework Adoption (ADD-001)",
+          "relation": "The Microsoft Agent Framework Adoption adds specific deliverables to Phase 2.",
+          "to": "Phase 2 deliverables"
+        },
+        {
+          "from": "SOP library creation",
+          "relation": "SOP library creation is part of the operational phase that follows after the build phase completes.",
+          "to": "Operational phase"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-c25ac25901c1d1eb",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-03-stakeholder-register.md",
+      "heading": "PWB A 03 stakeholder register",
+      "char_count": 2314,
+      "token_est": 578,
+      "time_seconds": 94.86,
+      "nodes_extracted": 6,
+      "edges_extracted": 5,
+      "entities": [
+        "Niibo LLC",
+        "Stakeholder Register",
+        "PWB-A-03",
+        "NF-02.30",
+        "NF-01.10",
+        "Project Binder (00-project-info/)"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC is responsible for creating and maintaining the Stakeholder Register to manage stakeholders involved in the project.",
+          "to": "Stakeholder Register"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC uses PWB-A-03 to document and manage stakeholders for their project.",
+          "to": "PWB-A-03"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC files completed versions of the Stakeholder Register in the Project Binder (00-project-info/).",
+          "to": "Project Binder (00-project-info/)"
+        },
+        {
+          "from": "Stakeholder Register",
+          "relation": "The Stakeholder Register is linked to NF-02.30 as a reference code in the documentation.",
+          "to": "NF-02.30"
+        },
+        {
+          "from": "Stakeholder Register",
+          "relation": "The Stakeholder Register is also linked to NF-01.10 as another reference code in the documentation.",
+          "to": "NF-01.10"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-3387ab5cfa496a0b",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-04-raci-matrix.md",
+      "heading": "PWB A 04 raci matrix",
+      "char_count": 6730,
+      "token_est": 1682,
+      "time_seconds": 139.75,
+      "nodes_extracted": 52,
+      "edges_extracted": 16,
+      "entities": [
+        "Project Workbook Group A",
+        "Niibo LLC",
+        "Billy Wilton",
+        "Nina",
+        "Lance",
+        "The Architect",
+        "Claude (Sonnet / Haiku)",
+        "Gemini (GCP-native assistant)",
+        "GPT / Codex (Azure-native assistant)",
+        "RACI Matrix",
+        "Foundation & Governance",
+        "Platform & Infrastructure",
+        "NF-14",
+        "NF-20",
+        "NF-21",
+        "NF-23",
+        "NF-24",
+        "NF-30",
+        "NF-32",
+        "NF-33",
+        "NF-34",
+        "NF-40",
+        "PWB-F-01",
+        "PWB-F-02",
+        "PWB-F-04",
+        "PWB-A-06",
+        "ARCH",
+        "AI1",
+        "AI2",
+        "AI3",
+        "MCP servers",
+        "vector DB collections",
+        "Document embedding pipeline",
+        "mem0 memory pipeline",
+        "Langfuse observability",
+        "Guardrails AI validators",
+        "LangGraph agent framework",
+        "Email Sort workflow",
+        "Expense Management workflow",
+        "Document Intake workflow",
+        "Document Archive workflow",
+        "Scheduling + Task workflow",
+        "GOD VERTEX convergence protocol",
+        "Weekly BRAIN report",
+        "Monthly org health report",
+        "PWB-F-05",
+        "Phase Gate Checklists sign-off",
+        "Architecture Decision Records",
+        "API Cost Tracking (PWB-G-02)",
+        "Workbook maintenance (all PWB forms)",
+        "Joplin mirror updates",
+        "Git commits / repo management"
+      ],
+      "relationships": [
+        {
+          "from": "Project Workbook Group A",
+          "relation": "Project Workbook Group A manages and governs the projects of Niibo LLC.",
+          "to": "Niibo LLC"
+        },
+        {
+          "from": "Project Workbook Group A",
+          "relation": "Nina provides input on project management tasks and governance activities within Project Workbook Group A.",
+          "to": "Nina"
+        },
+        {
+          "from": "Project Workbook Group A",
+          "relation": "Lance handles development and infrastructure-related tasks for the projects managed by Project Workbook Group A.",
+          "to": "Lance"
+        },
+        {
+          "from": "Project Workbook Group A",
+          "relation": "Claude (Sonnet/Haiku) assists with build and operations tasks within the projects managed by Project Workbook Group A.",
+          "to": "Claude (Sonnet / Haiku)"
+        },
+        {
+          "from": "Project Workbook Group A",
+          "relation": "GPT/Codex assists with various task executions within the projects managed by Project Workbook Group A.",
+          "to": "GPT / Codex (Azure-native assistant)"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Billy Wilton oversees all outcomes and is accountable for the work done within Niibo LLC.",
+          "to": "Billy Wilton"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "THE ARCHITECT is informed of progress on various tasks within Niibo LLC's project management efforts.",
+          "to": "The Architect"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Gemini contributes to GCP-related platform and infrastructure tasks within Niibo LLC's project management efforts.",
+          "to": "Gemini (GCP-native assistant)"
+        },
+        {
+          "from": "Billy Wilton",
+          "relation": "Billy Wilton (H1) has overall responsibility and accountability as defined by the RACI Matrix.",
+          "to": "RACI Matrix"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina provides input for tasks related to Foundation & Governance phase.",
+          "to": "Foundation & Governance"
+        },
+        {
+          "from": "Lance",
+          "relation": "Lance is involved in the execution and consultation of Platform & Infrastructure tasks.",
+          "to": "Platform & Infrastructure"
+        },
+        {
+          "from": "Claude (Sonnet / Haiku)",
+          "relation": "Claude (Sonnet/Haiku) provides input and executes tasks related to Foundation & Governance phase.",
+          "to": "Foundation & Governance"
+        },
+        {
+          "from": "Gemini (GCP-native assistant)",
+          "relation": "Gemini contributes to the execution of Platform & Infrastructure-related tasks.",
+          "to": "Platform & Infrastructure"
+        },
+        {
+          "from": "GPT / Codex (Azure-native assistant)",
+          "relation": "GPT/Codex provides input and executes tasks related to Foundation & Governance phase.",
+          "to": "Foundation & Governance"
+        },
+        {
+          "from": "NF-14",
+          "relation": "The task NF-14 involves connecting all 6 MCP servers.",
+          "to": "MCP servers"
+        },
+        {
+          "from": "NF-20",
+          "relation": "NF-",
+          "to": "vector DB collections"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-fb2c4976f285e479",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-05-assumptions-constraints.md",
+      "heading": "PWB A 05 assumptions constraints",
+      "char_count": 6408,
+      "token_est": 1602,
+      "time_seconds": 134.01,
+      "nodes_extracted": 49,
+      "edges_extracted": 20,
+      "entities": [
+        "Project Workbook A 05",
+        "Niibo LLC",
+        "goniibo.com",
+        "get-eps.com",
+        "M365 tenant (goniibo.com)",
+        "H1",
+        "Azure subscription",
+        "GCP billing account",
+        "GitHub account (wavHub)",
+        "Windows 11 Pro",
+        "WSL2 (Ubuntu 24.04)",
+        "Docker CE",
+        "VS Code",
+        "Claude Code CLI v2.1.68",
+        "Azure OpenAI API",
+        "Build machine",
+        "Claude Opus 4.6",
+        "Sonnet 4.6",
+        "Haiku 4.5",
+        "Gemini 2.5 Flash",
+        "Gemini 2.5 Pro",
+        "GPT-4.1 Mini",
+        "text-embedding-004",
+        "Ollama",
+        "LangGraph framework",
+        "APIs",
+        "Claude Code",
+        "Vertex AI API",
+        "Azure OpenAI",
+        "GCP CLI",
+        "Nina (PM)",
+        "Lance (dev/infra)",
+        "CON-01",
+        "CON-02",
+        "CON-03",
+        "CON-04",
+        "CON-05",
+        "Docker isolation + WSL2 containerization",
+        "CON-06",
+        "Local Ollama fallback",
+        "CON-07",
+        "Verify region before provisioning (us-central1)",
+        "CON-08",
+        "CON-09",
+        "API keys for Anthropic, Google, and OpenAI",
+        "ASM-30",
+        "ASM-32",
+        "authentication pending",
+        "agent architecture support"
+      ],
+      "relationships": [
+        {
+          "from": "Project Workbook A 05",
+          "relation": "Project Workbook A 05 records assumptions and constraints for Niibo LLC\u2019s project planning.",
+          "to": "Niibo LLC"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC is the owner of goniibo.com domain registration.",
+          "to": "goniibo.com"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC owns the get-eps.com domain registration.",
+          "to": "get-eps.com"
+        },
+        {
+          "from": "M365 tenant (goniibo.com)",
+          "relation": "H1 has Global Admin access to the M365 tenant associated with goniibo.com.",
+          "to": "H1"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 holds Owner-level access to Azure subscription for project management.",
+          "to": "Azure subscription"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 has Owner-level access to the GCP billing account, enabling project cost management.",
+          "to": "GCP billing account"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 owns and has admin access to all GitHub repos under the wavHub account.",
+          "to": "GitHub account (wavHub)"
+        },
+        {
+          "from": "H1",
+          "relation": "H1 has access to API keys for Anthropic, Google, and OpenAI which are available or obtainable.",
+          "to": "API keys for Anthropic, Google, and OpenAI"
+        },
+        {
+          "from": "H1",
+          "relation": "The constraint of CON-01 requires H1 to manage all human-related tasks as the sole operator.",
+          "to": "CON-01"
+        },
+        {
+          "from": "H1",
+          "relation": "Due to CON-03, all infrastructure changes must be handled by H1 due to the absence of dedicated DevOps or",
+          "to": "CON-03"
+        },
+        {
+          "from": "Windows 11 Pro",
+          "relation": "The build machine runs Windows 11 Pro as its operating system.",
+          "to": "Build machine"
+        },
+        {
+          "from": "WSL2 (Ubuntu 24.04)",
+          "relation": "The build machine has WSL2 with Ubuntu 24.04 installed and functional.",
+          "to": "Build machine"
+        },
+        {
+          "from": "Claude Code CLI v2.1.68",
+          "relation": "Claude Code CLI version 2.1.68 is installed and working on the build machine.",
+          "to": "Build machine"
+        },
+        {
+          "from": "GPT-4.1 Mini",
+          "relation": "Azure OpenAI provides GPT-4.1 Mini in a specific target region.",
+          "to": "Azure OpenAI"
+        },
+        {
+          "from": "LangGraph framework",
+          "relation": "The LangGraph framework supports the designed agent architecture for the project.",
+          "to": "agent architecture support"
+        },
+        {
+          "from": "APIs",
+          "relation": "The APIs mentioned are stable and available for Claude Code operational use.",
+          "to": "Claude Code"
+        },
+        {
+          "from": "Vertex AI API",
+          "relation": "The Vertex AI API provides access to the functionalities detailed in ASM-30.",
+          "to": "ASM-30"
+        },
+        {
+          "from": "Vertex AI API",
+          "relation": "The Vertex AI API supports the text-embedding-004 functionality detailed in ASM-32.",
+          "to": "ASM-32"
+        },
+        {
+          "from": "GCP CLI",
+          "relation": "The GCP CLI is installed but requires authentication to be fully operational.",
+          "to": "authentication pending"
+        },
+        {
+          "from": "Nina (PM)",
+          "relation": "Nina and Lance collaborate on project tasks related to execution, code generation, and infrastructure handling.",
+          "to": "Lance (dev/infra)"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-534a4bb5908f7e8f",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-05-assumptions-constraints.md",
+      "heading": "PWB A 05 assumptions constraints",
+      "char_count": 4819,
+      "token_est": 1204,
+      "time_seconds": 99.87,
+      "nodes_extracted": 32,
+      "edges_extracted": 6,
+      "entities": [
+        "Docker Isolation",
+        "WSL2 Containerization",
+        "Cloud API Rate Limits",
+        "Local Ollama Fallback",
+        "Vertex AI Vector Search Regional Availability",
+        "M365 Tenant State Audit",
+        "Azure OpenAI Model Availability",
+        "Azure Key Vault",
+        "GCP Secret Manager",
+        "MFA Required on All Accounts",
+        "Legal Vault niibo-legal-secrets",
+        "Audit Trail Requirement",
+        "GitHub Repositories Private",
+        "Delaware LLC Compliance Requirements",
+        "Data Residency US Only",
+        "Quarantine Policy for Old Accounts",
+        "MVP Sprint",
+        "Phase Gates Hard Stops",
+        "Secret Expiry Dates Fixed",
+        "Project Start Date 2026-03-04",
+        "Build Budget $95",
+        "Ops Budget Monthly",
+        "Annual New Spend Limit $500",
+        "PWB-F-04-issue-blocker-log.md",
+        "PWB-A-06-change-request.md",
+        "Niibo LLC",
+        "Nina (AI PM Agent)",
+        "Assumptions & Constraints",
+        "goniibo.com",
+        "Leverage Existing M365/Azure Entitlements",
+        "Monitor via PWB-G-02 API Cost Tracker",
+        "Cloud-native Pay-as-you-go Only"
+      ],
+      "relationships": [
+        {
+          "from": "Phase Gates Hard Stops",
+          "relation": "The start date of the project is aligned with the hard stop gates for each phase.",
+          "to": "Project Start Date 2026-03-04"
+        },
+        {
+          "from": "Build Budget $95",
+          "relation": "The build budget limit necessitates leveraging existing entitlements from M365 and Azure to stay within financial constraints.",
+          "to": "Leverage Existing M365/Azure Entitlements"
+        },
+        {
+          "from": "Ops Budget Monthly",
+          "relation": "Monthly operational expenses are tracked using the PWB-G-02 API cost tracker to ensure compliance with budget limits.",
+          "to": "Monitor via PWB-G-02 API Cost Tracker"
+        },
+        {
+          "from": "Annual New Spend Limit $500",
+          "relation": "The annual new spend limit restricts purchases to cloud-native pay-as-you-go services only.",
+          "to": "Cloud-native Pay-as-you-go Only"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC authored and published the document \"Assumptions & Constraints\".",
+          "to": "Assumptions & Constraints"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC owns the website goniibo.com.",
+          "to": "goniibo.com"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-1e09c577fe531bfb",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-06-change-request.md",
+      "heading": "PWB A 06 change request",
+      "char_count": 4637,
+      "token_est": 1159,
+      "time_seconds": 85.77,
+      "nodes_extracted": 9,
+      "edges_extracted": 8,
+      "entities": [
+        "Niibo LLC",
+        "PWB-A-06",
+        "CR-###",
+        "H1",
+        "PWB-A-02",
+        "Gantt",
+        "Change Request Form",
+        "PWB-F-05-decision-log.md",
+        "Decision & Sign-Off"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC owns the document PWB-A-06 and manages the change request process outlined within it.<SEP>The document PWB-A-06 outlines the Change Request Form template and process owned by Niibo LLC.",
+          "to": "PWB-A-06"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC assigns the role of H1 for overseeing change requests and ensuring compliance with the documented rules.",
+          "to": "H1"
+        },
+        {
+          "from": "PWB-A-06",
+          "relation": "The PWB-A-06 section defines the template and process for submitting and managing change requests within Niibo LLC projects.",
+          "to": "Change Request Form"
+        },
+        {
+          "from": "PWB-A-06",
+          "relation": "Specific change requests identified by CR numbers are tracked using the form defined in PWB-A-06.",
+          "to": "CR-###"
+        },
+        {
+          "from": "CR-###",
+          "relation": "Change request numbers such as CR-### are used to track specific changes submitted by H1 in accordance with the documented rules.<SEP>H1 is responsible for approving and documenting specific change requests identified by CR numbers in the form.",
+          "to": "H1"
+        },
+        {
+          "from": "CR-###",
+          "relation": "Specific change requests identified by CR numbers are processed through the Decision & Sign-Off section to determine if they are Approved, Rejected, or Deferred.",
+          "to": "Decision & Sign-Off"
+        },
+        {
+          "from": "H1",
+          "relation": "The role of H1 is responsible for updating the Gantt chart if there is a schedule impact due to an approved change request.",
+          "to": "Gantt"
+        },
+        {
+          "from": "H1",
+          "relation": "The decision log in `PWB-F-05-decision-log.md` is updated by H1 after a change request is decided upon and approved.",
+          "to": "PWB-F-05-decision-log.md"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-2696f2539f9a8910",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-07-adr-template.md",
+      "heading": "PWB A 07 adr template",
+      "char_count": 6731,
+      "token_est": 1682,
+      "time_seconds": 118.58,
+      "nodes_extracted": 27,
+      "edges_extracted": 22,
+      "entities": [
+        "Architecture Decision Record (ADR)",
+        "Niibo LLC",
+        "Claude Opus 4.6",
+        "Claude Sonnet 4.6",
+        "text-embedding-004",
+        "LangGraph",
+        "Vertex AI Vector Search",
+        "n8n + Kestra",
+        "Microsoft Agent Framework",
+        "H1",
+        "AutoGen",
+        "CrewAI",
+        "Pinecone",
+        "Qdrant cloud",
+        "Haiku 4.5",
+        "GPT-4.1",
+        "Claude Code CLI",
+        "Opus 4.6",
+        "Azure `text-embedding-3-large`",
+        "Niibo",
+        "ADR-003",
+        "ADR-004",
+        "NF-21",
+        "NF-22",
+        "NF-30",
+        "NF-31",
+        "Azure-specific tasks"
+      ],
+      "relationships": [
+        {
+          "from": "Architecture Decision Record (ADR)",
+          "relation": "Architecture Decision Records are managed by Niibo LLC to document technical decisions for project governance.",
+          "to": "Niibo LLC"
+        },
+        {
+          "from": "Architecture Decision Record (ADR)",
+          "relation": "Claude Opus 4.6 is responsible for writing Architecture Decision Records and coordinating multi-agent workflows.",
+          "to": "Claude Opus 4.6"
+        },
+        {
+          "from": "Architecture Decision Record (ADR)",
+          "relation": "The choice of text-embedding-004 as the primary embedding model is documented in an Architecture Decision Record.",
+          "to": "text-embedding-004"
+        },
+        {
+          "from": "Architecture Decision Record (ADR)",
+          "relation": "The acceptance of Vertex AI Vector Search as the",
+          "to": "Vertex AI Vector Search"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Claude Sonnet 4.6 is the primary model used by Niibo LLC for build-stage code generation and daily operations.",
+          "to": "Claude Sonnet 4.6"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "LangGraph is under review by Niibo LLC for potential use over AutoGen and CrewAI.",
+          "to": "LangGraph"
+        },
+        {
+          "from": "text-embedding-004",
+          "relation": "Google's text-embedding-004 is the primary embedding model chosen by Niibo for all collections due to its high accuracy and low cost.",
+          "to": "Niibo"
+        },
+        {
+          "from": "text-embedding-004",
+          "relation": "Azure's text-embedding-3-large serves as a fallback model when text-embedding-004 is not suitable due to its higher dimensionality and cross-lingual capabilities.",
+          "to": "Azure `text-embedding-3-large`"
+        },
+        {
+          "from": "LangGraph",
+          "relation": "LangGraph is compared to AutoGen in the context of agentic frameworks under review.",
+          "to": "AutoGen"
+        },
+        {
+          "from": "LangGraph",
+          "relation": "LangGraph is compared to CrewAI in the context of agentic frameworks under review.",
+          "to": "CrewAI"
+        },
+        {
+          "from": "LangGraph",
+          "relation": "LangGraph is the proposed primary agentic framework for Niibo's agentic workforce requirements such as persistent state and complex routing logic between agents.",
+          "to": "Niibo"
+        },
+        {
+          "from": "Vertex AI Vector Search",
+          "relation": "Vertex AI Vector Search was chosen over Pinecone as the primary vector database.",
+          "to": "Pinecone"
+        },
+        {
+          "from": "Vertex AI Vector Search",
+          "relation": "Vertex AI Vector Search was chosen over Qdrant cloud as the primary vector database.",
+          "to": "Qdrant cloud"
+        },
+        {
+          "from": "Haiku 4.5",
+          "relation": "Haiku 4.5 was rejected for use with Claude Code CLI due to insufficient capabilities.",
+          "to": "Claude Code CLI"
+        },
+        {
+          "from": "GPT-4.1",
+          "relation": "GPT-4.1 is only used for Azure-specific tasks due to lower general coding accuracy.",
+          "to": "Azure-specific tasks"
+        },
+        {
+          "from": "Claude Code CLI",
+          "relation": "For architecture decisions, Claude Code CLI can be manually switched to Opus 4.6.",
+          "to": "Opus 4.6"
+        },
+        {
+          "from": "Niibo",
+          "relation": "ADR-003 was decided by Niibo for selecting Google `text-embedding-004` as the primary embedding model.",
+          "to": "ADR-003"
+        },
+        {
+          "from": "Niibo",
+          "relation": "ADR-004 is under review by Niibo to evaluate LangGraph as the agentic framework for building and running agents.",
+          "to": "ADR-004"
+        },
+        {
+          "from": "ADR-003",
+          "relation": "NF-21 is a reference document related to ADR-003's decision on embedding models.",
+          "to": "NF-21"
+        },
+        {
+          "from": "ADR-003",
+          "relation": "NF-22 is another reference document related to ADR-003\u2019s embedding model selection process.",
+          "to": "NF-22"
+        },
+        {
+          "from": "ADR-004",
+          "relation": "NF-30 is a reference document for ADR-004's pending evaluation of LangGraph as the agentic framework.",
+          "to": "NF-30"
+        },
+        {
+          "from": "ADR-004",
+          "relation": "NF-31 is another reference document for ADR-004\u2019s evaluation process of LangGraph.",
+          "to": "NF-31"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-40a53b6e9ce63618",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-07-adr-template.md",
+      "heading": "PWB A 07 adr template",
+      "char_count": 6809,
+      "token_est": 1702,
+      "time_seconds": 134.21,
+      "nodes_extracted": 37,
+      "edges_extracted": 21,
+      "entities": [
+        "LangGraph",
+        "AutoGen (Microsoft)",
+        "CrewAI",
+        "Vertex AI Agent Builder",
+        "Custom Framework",
+        "Vertex AI Vector Search",
+        "Qdrant (self-hosted via Docker)",
+        "Pinecone",
+        "Qdrant Cloud",
+        "Weaviate",
+        "n8n",
+        "Kestra",
+        "Apache Airflow",
+        "Prefect",
+        "goniibo.com",
+        "get-eps.com",
+        "Microsoft Agent Framework",
+        "ADR-004",
+        "ADR-005",
+        "ADR-006",
+        "ADR-007",
+        "ADR-008",
+        "Entra Agent ID",
+        "H1 (Niibo)",
+        "Azure AI Search",
+        "Qdrant federation",
+        "Three-layer memory",
+        "RN-001 research",
+        "DEC-008",
+        "FRAG pipeline",
+        "M365 data access",
+        "Zero Trust agent governance",
+        "Mem0Provider",
+        "CheckpointStorage",
+        "Whiteboard",
+        "GOD VERTEX",
+        "Niibo"
+      ],
+      "relationships": [
+        {
+          "from": "LangGraph",
+          "relation": "Niibo adopts LangGraph as the primary agentic framework for building and running all 46 agents.",
+          "to": "Niibo"
+        },
+        {
+          "from": "LangGraph",
+          "relation": "LangGraph was considered as an alternative but was not chosen in favor of ADR-008.",
+          "to": "ADR-008"
+        },
+        {
+          "from": "Vertex AI Vector Search",
+          "relation": "Vertex AI Vector Search is integrated into GOD VERTEX as the primary vector database.",
+          "to": "GOD VERTEX"
+        },
+        {
+          "from": "n8n",
+          "relation": "n8n and Kestra collaborate in workflow management with distinct roles for event-driven and scheduled workflows.",
+          "to": "Kestra"
+        },
+        {
+          "from": "n8n",
+          "relation": "The adoption of ADR-008 led to the replacement of n8n.",
+          "to": "ADR-008"
+        },
+        {
+          "from": "Kestra",
+          "relation": "The adoption of ADR-008 resulted in Kestra being replaced.",
+          "to": "ADR-008"
+        },
+        {
+          "from": "goniibo.com",
+          "relation": "The goniibo.com domain is separated from the get-eps.com domain to maintain strict role separation and professional presentation for each audience.",
+          "to": "get-eps.com"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "Niibo adopts Microsoft Agent Framework as part of an accepted solution per DEC-008.",
+          "to": "Niibo"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "H1 (Niibo) decided to adopt the Microsoft Agent Framework after reviewing enterprise requirements.",
+          "to": "H1 (Niibo)"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "ADR-008 is the architectural decision record for adopting the Microsoft Agent Framework.",
+          "to": "ADR-008"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The Microsoft Agent Framework uses Entra Agent ID for native identity integration and Zero Trust agent governance.",
+          "to": "Entra Agent ID"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "Azure AI Search is a component used to build the FRAG pipeline within the Microsoft Agent Framework.",
+          "to": "Azure AI Search"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The Microsoft Agent Framework includes a three-layer memory system consisting of Whiteboard, Mem0Provider, and CheckpointStorage.",
+          "to": "Three-layer memory"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The Microsoft Agent Framework includes the FRAG pipeline for its operations.",
+          "to": "FRAG pipeline"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The Microsoft Agent Framework provides M365 data access natively.",
+          "to": "M365 data access"
+        },
+        {
+          "from": "Microsoft Agent Framework",
+          "relation": "The Microsoft Agent Framework includes Zero Trust agent governance.",
+          "to": "Zero Trust agent governance"
+        },
+        {
+          "from": "ADR-008",
+          "relation": "The status of ADR-008 is accepted per DEC-008.",
+          "to": "DEC-008"
+        },
+        {
+          "from": "H1 (Niibo)",
+          "relation": "H1 (Niibo) reviewed RN-001 research to inform the decision on adopting the Microsoft Agent Framework.",
+          "to": "RN-001 research"
+        },
+        {
+          "from": "Azure AI Search",
+          "relation": "Qdrant federation supports building the FRAG pipeline with Azure AI Search.",
+          "to": "Qdrant federation"
+        },
+        {
+          "from": "Three-layer memory",
+          "relation": "The three-layer memory system includes Mem0Provider as a key component.",
+          "to": "Mem0Provider"
+        },
+        {
+          "from": "Three-layer memory",
+          "relation": "The three-layer memory system includes CheckpointStorage as a key component.",
+          "to": "CheckpointStorage"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-39e7cd1ff44ecaf6",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-A-07-adr-template.md",
+      "heading": "PWB A 07 adr template",
+      "char_count": 2470,
+      "token_est": 617,
+      "time_seconds": 113.37,
+      "nodes_extracted": 14,
+      "edges_extracted": 12,
+      "entities": [
+        "Zero Trust Agent Governance",
+        "M365 Data Access",
+        "LangGraph",
+        "n8n",
+        "Kestra",
+        "Azure AI Agent Service",
+        "Entra Agent ID Blueprints",
+        "ADR-008",
+        "Phase 2A Prototype Sprint",
+        "Microsoft Agent Framework Adoption",
+        "FRAG Pipeline Support",
+        "Phase 2B Agents + Memory",
+        "Phase 3 Internal FRAG",
+        "Phase 4 External FRAG"
+      ],
+      "relationships": [
+        {
+          "from": "Zero Trust Agent Governance",
+          "relation": "Zero Trust agent governance facilitates secure and controlled M365 data access without custom connectors.",
+          "to": "M365 Data Access"
+        },
+        {
+          "from": "LangGraph",
+          "relation": "LangGraph was evaluated but rejected in the context of ADR-008 due to its lack of enterprise identity governance and native M365 integration.",
+          "to": "ADR-008"
+        },
+        {
+          "from": "n8n",
+          "relation": "n8n was part of the original plan but was removed from Docker compose as a consequence of adopting Microsoft Agent Framework in ADR-008.",
+          "to": "ADR-008"
+        },
+        {
+          "from": "Kestra",
+          "relation": "Kestra was considered in the original plan but was also removed from Docker compose after adopting Microsoft Agent Framework in ADR-008.",
+          "to": "ADR-008"
+        },
+        {
+          "from": "Azure AI Agent Service",
+          "relation": "Azure AI Agent Service was evaluated and rejected due to its limitations in custom orchestration and support for FRAG pipelines as documented in ADR-008.",
+          "to": "ADR-008"
+        },
+        {
+          "from": "Azure AI Agent Service",
+          "relation": "Azure AI Agent Service was rejected due to its lack of support for FRAG pipeline as documented in ADR-008.",
+          "to": "FRAG Pipeline Support"
+        },
+        {
+          "from": "Entra Agent ID Blueprints",
+          "relation": "Entra Agent ID blueprints are required components that were adopted under the new framework as part of the decisions made in ADR-008.",
+          "to": "ADR-008"
+        },
+        {
+          "from": "ADR-008",
+          "relation": "ADR-008 documents the decision to adopt Microsoft's framework for native M365 integration and enterprise requirements.",
+          "to": "Microsoft Agent Framework Adoption"
+        },
+        {
+          "from": "ADR-008",
+          "relation": "Phase 2A prototype sprint evaluates SK vs LangGraph and is scheduled to be completed by Week 7 as part of the decisions made in ADR-008.",
+          "to": "Phase 2A Prototype Sprint"
+        },
+        {
+          "from": "ADR-008",
+          "relation": "Phase 2B focuses on agents and memory aspects of the project rollout plan documented in ADR-008.",
+          "to": "Phase 2B Agents + Memory"
+        },
+        {
+          "from": "ADR-008",
+          "relation": "Phase 3 involves internal FRAG as part of the project rollout plan outlined in ADR-008.",
+          "to": "Phase 3 Internal FRAG"
+        },
+        {
+          "from": "ADR-008",
+          "relation": "Phase 4 covers external FRAG aspects of the project rollout plan documented in ADR-008.",
+          "to": "Phase 4 External FRAG"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-fa6b4a51d25a11a0",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-B-01-azure-resource-registry.md",
+      "heading": "PWB B 01 azure resource registry",
+      "char_count": 5541,
+      "token_est": 1385,
+      "time_seconds": 131.66,
+      "nodes_extracted": 25,
+      "edges_extracted": 20,
+      "entities": [
+        "Niibo LLC",
+        "PWB-B-01",
+        "Azure Resource Registry",
+        "Azure Subscription 1",
+        "West US 2 (Washington)",
+        "rg-niibo-tailscale",
+        "rg-niibo-security",
+        "rg-niibo-ai",
+        "Nina",
+        "Bill",
+        "niibo-legal-secrets",
+        "niibo-it-secrets",
+        "West US 2",
+        "Southeast Asia",
+        "East US 2",
+        "NinaPM certificate thumbprint",
+        "NinaPM app registration ID",
+        "NinaPM service principal",
+        "Azure OpenAI resource URL",
+        "GitHub CLI / automation token",
+        "@niiboKM_bot Telegram HTTP API token",
+        "Bill's Telegram chat ID for Keymaster alerts",
+        "Power Automate webhook URL",
+        "Azure OpenAI API key",
+        "SECRETS PROTOCOL"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "The PWB-B-01 section of the Project Workbook documents infrastructure and platform registry for Niibo LLC.",
+          "to": "PWB-B-01"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "The Azure Resource Registry tracks all resources used by Niibo LLC in their infrastructure.",
+          "to": "Azure Resource Registry"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "The niibo-legal-secrets key vault is used by Niibo LLC to store legal secrets securely.",
+          "to": "niibo-legal-secrets"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "The rg-niibo-security resource group manages security vaults for Niibo LLC's legal and finance domains.",
+          "to": "rg-niibo-security"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Azure Subscription 1 is a subscription under which resources are provisioned for Niibo LLC.",
+          "to": "Azure Subscription 1"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "West US 2 (Washington) is the primary region where some of Niibo LLC\u2019s resources are deployed.",
+          "to": "West US 2 (Washington)"
+        },
+        {
+          "from": "PWB-B-01",
+          "relation": "The PWB-B-01 section documents the Azure Resource Registry for Niibo LLC's infrastructure.",
+          "to": "Azure Resource Registry"
+        },
+        {
+          "from": "rg-niibo-security",
+          "relation": "Nina is responsible for confirming and auditing the rg-niibo-security resource group for Niibo LLC.",
+          "to": "Nina"
+        },
+        {
+          "from": "rg-niibo-security",
+          "relation": "The niibo-it-secrets key vault is part of the rg-niibo-security resource group and stores IT secrets securely.",
+          "to": "niibo-it-secrets"
+        },
+        {
+          "from": "rg-niibo-ai",
+          "relation": "Bill confirms the status of the rg-niibo-ai resource group through the Azure portal.",
+          "to": "Bill"
+        },
+        {
+          "from": "niibo-it-secrets",
+          "relation": "niibo-it-secrets manages the NinaPM certificate thumbprint as a secure entry.",
+          "to": "NinaPM certificate thumbprint"
+        },
+        {
+          "from": "niibo-it-secrets",
+          "relation": "niibo-it-secrets manages the NinaPM app registration ID as a secure entry.",
+          "to": "NinaPM app registration ID"
+        },
+        {
+          "from": "niibo-it-secrets",
+          "relation": "niibo-it-secrets manages the identity and information of the NinaPM service principal.",
+          "to": "NinaPM service principal"
+        },
+        {
+          "from": "niibo-it-secrets",
+          "relation": "niibo-it-secrets handles the Azure OpenAI resource URL as a secure entry.",
+          "to": "Azure OpenAI resource URL"
+        },
+        {
+          "from": "niibo-it-secrets",
+          "relation": "niibo-it-secrets migrates and stores the GitHub CLI / automation token securely.",
+          "to": "GitHub CLI / automation token"
+        },
+        {
+          "from": "niibo-it-secrets",
+          "relation": "niibo-it-secrets manages the @niiboKM_bot Telegram HTTP API token as a secure entry.",
+          "to": "@niiboKM_bot Telegram HTTP API token"
+        },
+        {
+          "from": "niibo-it-secrets",
+          "relation": "niibo-it-secrets manages the Power Automate webhook URL as a secure entry.",
+          "to": "Power Automate webhook URL"
+        },
+        {
+          "from": "niibo-it-secrets",
+          "relation": "niibo-it-secrets will manage the Azure OpenAI API key once it is stored.",
+          "to": "Azure OpenAI API key"
+        },
+        {
+          "from": "NinaPM app registration ID",
+          "relation": "The SECRETS PROTOCOL indicates that the NinaPM app registration ID is safe to record as it is non-sensitive.",
+          "to": "SECRETS PROTOCOL"
+        },
+        {
+          "from": "NinaPM service principal",
+          "relation": "The SECRETS PROTOCOL indicates that object IDs associated with service principals like the NinaPM service principal are safe to record.",
+          "to": "SECRETS PROTOCOL"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-fbcb37435a1a7b4a",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-B-01-azure-resource-registry.md",
+      "heading": "PWB B 01 azure resource registry",
+      "char_count": 6459,
+      "token_est": 1614,
+      "time_seconds": 134.09,
+      "nodes_extracted": 30,
+      "edges_extracted": 14,
+      "entities": [
+        "Project-workbook-fbcb37435a1a7b4a",
+        "niibo-it-secrets: keymaster-telegram-chat-id",
+        "Bill",
+        "niibo-it-secrets: teams-webhook-niibo-onboarding",
+        "niibo-termius",
+        "Odoo Calendar Connection",
+        "Odoo Mail Connection",
+        "Odoo Mail Connection 2",
+        "Claude by Anthropic in Excel",
+        "Adobe Acrobat for M365",
+        "Document View",
+        "P2P Server",
+        "Portals-TestApplications",
+        "20x D365/Copilot Studio agents",
+        "5x Customer Service agents",
+        "3x Sales/Copilot bots",
+        "niibo-openai",
+        "rg-niibo-ai",
+        "Microsoft.CognitiveServices/accounts (S0)",
+        "East US 2",
+        "embed-small",
+        "gpt-4o",
+        "Bill (portal) + Nina",
+        "Foundry Agent Service Quickstart",
+        "Content Filtering (Guardrails + Controls)",
+        "Global Batch Processing",
+        "RN-008 Step 2",
+        "RN-008 Step 3",
+        "Sales Agent",
+        "Finance Agent"
+      ],
+      "relationships": [
+        {
+          "from": "Project-workbook-fbcb37435a1a7b4a",
+          "relation": "The project workbook records details of the niibo-termius app registration for Termius SSH management.",
+          "to": "niibo-termius"
+        },
+        {
+          "from": "Project-workbook-fbcb37435a1a7b4a",
+          "relation": "The project workbook records details of the Odoo Calendar Connection app registration for legacy Odoo integration.",
+          "to": "Odoo Calendar Connection"
+        },
+        {
+          "from": "Project-workbook-fbcb37435a1a7b4a",
+          "relation": "The project workbook records details of the Odoo Mail Connection app registration for legacy Odoo integration.",
+          "to": "Odoo Mail Connection"
+        },
+        {
+          "from": "Project-workbook-fbcb37435a1a7b4a",
+          "relation": "The project workbook records details of the Odoo Mail Connection 2 app registration for",
+          "to": "Odoo Mail Connection 2"
+        },
+        {
+          "from": "niibo-it-secrets: keymaster-telegram-chat-id",
+          "relation": "The secret stores Bill's Telegram chat ID for Keymaster alerts.",
+          "to": "Bill"
+        },
+        {
+          "from": "niibo-openai",
+          "relation": "niibo-openai is associated with the rg-niibo-ai resource group for managing AI-related resources.",
+          "to": "rg-niibo-ai"
+        },
+        {
+          "from": "niibo-openai",
+          "relation": "niibo-openai utilizes a Microsoft Cognitive Services account in the East US 2 region.",
+          "to": "Microsoft.CognitiveServices/accounts (S0)"
+        },
+        {
+          "from": "niibo-openai",
+          "relation": "Bill (portal) and Nina are involved in managing or operating the resources of niibo-openai.",
+          "to": "Bill (portal) + Nina"
+        },
+        {
+          "from": "embed-small",
+          "relation": "Both embed-small and gpt-4o are pending model deployments for different purposes within niibo-openai's operations.",
+          "to": "gpt-4o"
+        },
+        {
+          "from": "embed-small",
+          "relation": "The embed-small model deployment is part of RN-008 Step 2 in the overall deployment guide.",
+          "to": "RN-008 Step 2"
+        },
+        {
+          "from": "embed-small",
+          "relation": "The Sales Agent uses the embed-small model for generating embeddings related to sales tasks.",
+          "to": "Sales Agent"
+        },
+        {
+          "from": "gpt-4o",
+          "relation": "The gpt-4o model deployment is part of RN-008 Step 3 in the overall deployment guide.",
+          "to": "RN-008 Step 3"
+        },
+        {
+          "from": "gpt-4o",
+          "relation": "The Finance Agent uses the gpt-4o model for generating responses related to finance tasks.",
+          "to": "Finance Agent"
+        },
+        {
+          "from": "Foundry Agent Service Quickstart",
+          "relation": "The Foundry Agent Service Quickstart is a documented resource related to building agents, while Global Batch Processing is another method described for large-volume jobs.",
+          "to": "Global Batch Processing"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-793f85cca1630b1d",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-B-01-azure-resource-registry.md",
+      "heading": "PWB B 01 azure resource registry",
+      "char_count": 2765,
+      "token_est": 691,
+      "time_seconds": 112.39,
+      "nodes_extracted": 20,
+      "edges_extracted": 8,
+      "entities": [
+        "Azure Monitor",
+        "Diagnostic Settings",
+        "Activity Log",
+        "Azure Security Center / Defender",
+        "Resource Naming Compliance Audit",
+        "Nina",
+        "rg-niibo-tailscale",
+        "rg-niibo-security",
+        "niibo-it-secrets",
+        "niibo-legal-secrets",
+        "niibo-termius",
+        "NinaPM",
+        "rg-niibo-ai",
+        "niibo-openai resource",
+        "Change Log",
+        "Niibo LLC",
+        "Key Vaults",
+        "Subscription Level",
+        "Azure Resource Registry",
+        "PWB-B-01"
+      ],
+      "relationships": [
+        {
+          "from": "Azure Monitor",
+          "relation": "Nina is responsible for ensuring Azure Monitor configurations across all resource groups.",
+          "to": "Nina"
+        },
+        {
+          "from": "Diagnostic Settings",
+          "relation": "Diagnostic settings are required but not yet configured for Key Vaults to ensure proper logging and monitoring.",
+          "to": "Key Vaults"
+        },
+        {
+          "from": "Activity Log",
+          "relation": "The activity log at the subscription level is a record that has not been set up.",
+          "to": "Subscription Level"
+        },
+        {
+          "from": "Azure Security Center / Defender",
+          "relation": "Phase 1 remediation for Azure Security Center or Defender depends on Key Vaults being provisioned first.",
+          "to": "Key Vaults"
+        },
+        {
+          "from": "Resource Naming Compliance Audit",
+          "relation": "Nina performs the Resource Naming Compliance Audit to ensure that all resources are named according to specified formats.",
+          "to": "Nina"
+        },
+        {
+          "from": "Nina",
+          "relation": "Nina records changes made to various sections of the Azure resources in the Change Log.",
+          "to": "Change Log"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC maintains the Azure Resource Registry to manage and audit their cloud resources.",
+          "to": "Azure Resource Registry"
+        },
+        {
+          "from": "Azure Resource Registry",
+          "relation": "PWB-B-01 is a document version (Version 1.0) for Niibo LLC's Azure Resource Registry.",
+          "to": "PWB-B-01"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-9ed21fdd0ab7ed56",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-B-02-gcp-resource-registry.md",
+      "heading": "PWB B 02 gcp resource registry",
+      "char_count": 5733,
+      "token_est": 1433,
+      "time_seconds": 135.58,
+      "nodes_extracted": 43,
+      "edges_extracted": 18,
+      "entities": [
+        "Niibo LLC",
+        "goniibo.com",
+        "GCP Resource Registry",
+        "Service Account Keys",
+        "API Keys",
+        "OAuth Tokens",
+        "Private Key JSON",
+        "GCP Secret Manager",
+        "Azure Key Vault",
+        "Workload Identity Federation (WIF)",
+        "GCP Console",
+        "Organization Admin",
+        "PWB-B-02",
+        "NF-11",
+        "NF-20",
+        "NF-22",
+        "niibo-admin",
+        "Niibo Admin",
+        "niibo-ai-foundation",
+        "Niibo AI Foundation",
+        "niibo-brain",
+        "Niibo Brain",
+        "niibo-agents",
+        "Niibo Agents",
+        "anthropic-api-key",
+        "google-api-key",
+        "vertex-ai-sa-key",
+        "langfuse-secret-key",
+        "mem0-api-key",
+        "niibo-agent-master-key",
+        "god-vertex-api-key",
+        "WIF Pool Name",
+        "Azure AD -- goniibo.com tenant",
+        "`niibo-ai-foundation`",
+        "Vertex AI API",
+        "Vertex AI Vector Search",
+        "Vertex AI Prediction",
+        "Cloud Storage API",
+        "Cloud Logging API",
+        "Secret Manager API",
+        "IAM API",
+        "WIF -- no key file",
+        "niibo-wif-pool"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC owns and operates goniibo.com as its online presence.",
+          "to": "goniibo.com"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "The GCP Resource Registry is maintained by Niibo LLC to log and manage all Google Cloud Platform resources.",
+          "to": "GCP Resource Registry"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Azure Key Vault is used by Niibo LLC to store credential values securely outside of the registry document.",
+          "to": "Azure Key Vault"
+        },
+        {
+          "from": "Niibo LLC",
+          "relation": "Niibo LLC maintains the PWB-B-02 section of their Project Workbook focusing on GCP Resource Registry.",
+          "to": "PWB-B-02"
+        },
+        {
+          "from": "Service Account Keys",
+          "relation": "Service account keys are securely stored in the GCP Secret Manager and not recorded directly in the registry.",
+          "to": "GCP Secret Manager"
+        },
+        {
+          "from": "API Keys",
+          "relation": "API keys are securely stored in the GCP Secret Manager and not recorded directly in the registry.",
+          "to": "GCP Secret Manager"
+        },
+        {
+          "from": "OAuth Tokens",
+          "relation": "OAuth tokens are securely managed by the GCP Secret Manager without being recorded directly in the registry.",
+          "to": "GCP Secret Manager"
+        },
+        {
+          "from": "Private Key JSON",
+          "relation": "Private key JSON files are stored securely in the GCP Secret Manager and never directly recorded in the registry.",
+          "to": "GCP Secret Manager"
+        },
+        {
+          "from": "GCP Secret Manager",
+          "relation": "Workload Identity Federation (WIF) is a secure access method",
+          "to": "Workload Identity Federation (WIF)"
+        },
+        {
+          "from": "GCP Secret Manager",
+          "relation": "The anthropic-api-key is securely stored in GCP Secret Manager.",
+          "to": "anthropic-api-key"
+        },
+        {
+          "from": "Azure AD -- goniibo.com tenant",
+          "relation": "The Azure AD -- goniibo.com tenant is associated with the `niibo-wif-pool` for workload identity federation purposes.",
+          "to": "niibo-wif-pool"
+        },
+        {
+          "from": "`niibo-ai-foundation`",
+          "relation": "`niibo-ai-foundation` project utilizes the Vertex AI API for core services and is currently pending configuration.",
+          "to": "Vertex AI API"
+        },
+        {
+          "from": "`niibo-ai-foundation`",
+          "relation": "`niibo-ai-foundation` project uses Vertex AI Vector Search to manage 14 vector collection indexes and is pending configuration.",
+          "to": "Vertex AI Vector Search"
+        },
+        {
+          "from": "`niibo-ai-foundation`",
+          "relation": "`niibo-ai-foundation` project incorporates Vertex AI Prediction for providing model inference endpoints and is currently pending configuration.",
+          "to": "Vertex AI Prediction"
+        },
+        {
+          "from": "`niibo-ai-foundation`",
+          "relation": "`niibo-ai-foundation` project uses the Cloud Storage API for document blob storage and is pending configuration.",
+          "to": "Cloud Storage API"
+        },
+        {
+          "from": "`niibo-ai-foundation`",
+          "relation": "`niibo-ai-foundation` project utilizes the Cloud Logging API to support pipeline observability and is currently pending configuration.",
+          "to": "Cloud Logging API"
+        },
+        {
+          "from": "`niibo-ai-foundation`",
+          "relation": "`niibo-ai-foundation` project uses the Secret Manager API for managing secrets and is pending configuration across all projects.",
+          "to": "Secret Manager API"
+        },
+        {
+          "from": "`niibo-ai-foundation`",
+          "relation": "`niibo-ai-foundation` project utilizes the IAM API to manage service accounts across all projects and is currently pending configuration.",
+          "to": "IAM API"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "model": "qwen2.5:32b",
+      "segment_id": "project-workbook-913dbe9e891e6d44",
+      "collection": "project-workbook",
+      "division": "software",
+      "file_name": "PWB-B-02-gcp-resource-registry.md",
+      "heading": "PWB B 02 gcp resource registry",
+      "char_count": 4259,
+      "token_est": 1064,
+      "time_seconds": 110.25,
+      "nodes_extracted": 30,
+      "edges_extracted": 10,
+      "entities": [
+        "Niibo-ai-foundation",
+        "Vertex AI Vector Search",
+        "Vertex AI Prediction",
+        "Cloud Storage API",
+        "Cloud Logging API",
+        "Secret Manager API",
+        "IAM API",
+        "niibo-executive-index",
+        "niibo-legal-index",
+        "niibo-engineering-index",
+        "niibo-design-index",
+        "niibo-projects-index",
+        "niibo-manufacturing-index",
+        "niibo-logistics-index",
+        "niibo-finance-index",
+        "niibo-sales-index",
+        "niibo-marketing-index",
+        "niibo-hr-index",
+        "niibo-agents-index",
+        "niibo-brain-index",
+        "niibo-god-vertex-index",
+        "text-embedding-004",
+        "text-embedding-3-large",
+        "niibo-doc-ingestion",
+        "niibo-embeddings-cache",
+        "niibo-pipeline-logs",
+        "niibo-brain-archive",
+        "Nina",
+        "All projects",
+        "niibo-brain"
+      ],
+      "relationships": [
+        {
+          "from": "Niibo-ai-foundation",
+          "relation": "The Niibo-ai-foundation project uses Vertex AI Vector Search for managing vector collection indexes.",
+          "to": "Vertex AI Vector Search"
+        },
+        {
+          "from": "Niibo-ai-foundation",
+          "relation": "The Niibo-ai-foundation project uses Vertex AI Prediction for model inference endpoints.",
+          "to": "Vertex AI Prediction"
+        },
+        {
+          "from": "Niibo-ai-foundation",
+          "relation": "The Niibo-ai-foundation project utilizes the Cloud Storage API for document blob storage.",
+          "to": "Cloud Storage API"
+        },
+        {
+          "from": "Niibo-ai-foundation",
+          "relation": "The Niibo-ai-foundation project uses the Cloud Logging API to support pipeline observability.",
+          "to": "Cloud Logging API"
+        },
+        {
+          "from": "Niibo-ai-foundation",
+          "relation": "The Niibo-ai-foundation project uses the niibo-doc-ingestion bucket as a document upload landing zone.",
+          "to": "niibo-doc-ingestion"
+        },
+        {
+          "from": "Niibo-ai-foundation",
+          "relation": "The Niibo-ai-foundation project uses the niibo-embeddings-cache bucket for storing processed embeddings.",
+          "to": "niibo-embeddings-cache"
+        },
+        {
+          "from": "Niibo-ai-foundation",
+          "relation": "The Niibo-ai-foundation project uses the niibo-pipeline-logs bucket to store pipeline run logs.",
+          "to": "niibo-pipeline-logs"
+        },
+        {
+          "from": "Secret Manager API",
+          "relation": "The Secret Manager API is used for secret management across all projects.",
+          "to": "All projects"
+        },
+        {
+          "from": "IAM API",
+          "relation": "The IAM API handles service account management for all projects.",
+          "to": "All projects"
+        },
+        {
+          "from": "niibo-brain-archive",
+          "relation": "The niibo-brain project uses the niibo-brain-archive bucket for storing BRAIN documents",
+          "to": "niibo-brain"
+        }
+      ],
+      "status": "success",
+      "error_message": ""
+    }
+  ],
+  "per_collection": {
+    "ops-binder": {
+      "segments_total": 10,
+      "segments_success": 10,
+      "time_seconds_total": 1133.3,
+      "nodes_total": 188,
+      "edges_total": 120
+    },
+    "project-binder": {
+      "segments_total": 14,
+      "segments_success": 14,
+      "time_seconds_total": 1719.92,
+      "nodes_total": 351,
+      "edges_total": 222
+    },
+    "project-workbook": {
+      "segments_total": 19,
+      "segments_success": 19,
+      "time_seconds_total": 2351.33,
+      "nodes_total": 605,
+      "edges_total": 282
+    }
+  },
+  "graphml_summary": {
+    "ops-binder": {
+      "nodes": 168,
+      "edges": 120
+    },
+    "project-binder": {
+      "nodes": 264,
+      "edges": 222
+    },
+    "project-workbook": {
+      "nodes": 485,
+      "edges": 282
+    }
+  },
+  "supabase": {
+    "status": "ok",
+    "inserted_nodes": 860,
+    "inserted_edges": 624,
+    "inserted_runs": 3
+  },
+  "graph_nodes_payload": 860,
+  "graph_edges_payload": 624
+}

@@ -1,0 +1,1650 @@
+{
+  "generated_at": "2026-03-24T13:07:07Z",
+  "files": {
+    "project-binder:00 - Project Binder Index.md": {
+      "sha256": "867d25b8504de66de8a9e9069417ef5d94d33721ed3460d9bee7a40f0fe4cd55",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/00-INDEX.md": {
+      "sha256": "0b28db7b0f7ade42ce50590b27961976111e7f267b661e5bcd2e554e48e50752",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/00a Addendums/00-INDEX.md": {
+      "sha256": "9c20fc15b1a7e2024c40f96fadf4f208463792bea8c44dc7878f1e8a2c56516b",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/00a Addendums/ADD-001-microsoft-agent-framework.md": {
+      "sha256": "b75431c17e1274e8e089a2ce8f0d1fc4b15193655cc6a97c7dc029a7d8eb20ca",
+      "chunk_count": 30,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/COMMUNICATION-PLAN.md": {
+      "sha256": "9f78a08859d4945dccbd675b5810c50322e636f22825b880800a201893d08f9d",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/ENTITY-PROFILE-NIIBO.md": {
+      "sha256": "eddb8464172b1f33e6c937e0d5b5e9d0364ce5a9e72048f741fc6ff111ed2bec",
+      "chunk_count": 19,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/LEGAL-ENTITY-PROFILE.md": {
+      "sha256": "daa7178b6f0ce311c2b893067cd11a6b34cb455597f115dd28fcb4ceb9778326",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/ORG-CHART.md": {
+      "sha256": "33a6ce26a32df0712b9e7ccc247de7cbddc377c98ee56a3fb8b68544b53f2852",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/PROJECT-TEAM.md": {
+      "sha256": "e13e9ab5422a91e1daae913182da40121dedbaa74cb3dcbd734e9b27328e817d",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/RACI-MATRIX.md": {
+      "sha256": "75186cc874ff7245913e753819e29a25dabf3a89303968fdf2e5209f32d2713d",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:00 Project Info/STAKEHOLDER-REGISTER.md": {
+      "sha256": "fe0e0f6af7259228ecd2899265d49ca24b4bf45a23136dba4985a76b0c86cd0b",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:01 Change Requests/00-INDEX.md": {
+      "sha256": "4078b2f4820861ee4a8ac61b5cbda58d1ee0c102c1b9a44052d7d5f674efbe53",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:01 Change Requests/CR-001.md": {
+      "sha256": "8fb5a2e891fb0dbbf8a67bd2e4f8bd461b9e6a8726ba16500412669148d324bb",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:01 Change Requests/CR-002.md": {
+      "sha256": "175bf06e5c219a54abde0ce8c2f6b144cf7221c1c31faf8dba735341dd776433",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:01 Change Requests/CR-003.md": {
+      "sha256": "5c56456072f314d0c126d5d8fc6befc319af2648ed9ff7486e7fcc83ad51d363",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:01 Change Requests/CR-004.md": {
+      "sha256": "001114659aea09c489f736ee23dbd109120184d215efc461c9ae549deade75a5",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:01 Change Requests/CR-005.md": {
+      "sha256": "997902686af0ec391b0461509346b0cbe0f5ddb0d65f4269249a5cb04f70c5a5",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:01 Change Requests/CR-006.md": {
+      "sha256": "b44d9d6d5edca4539a1df20bb63b8d556a2af99f18e1344cf89337400739c314",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:01 Change Requests/CR-007.md": {
+      "sha256": "877043d8a3b43fe2843555273a00923fc2606fb0d4afb11e9147f5b0c5994481",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:02 RFIs/00-INDEX.md": {
+      "sha256": "f7dd94555ea0fd8d66c45210f66b09c3143b0ffd4a802601125e2ca7cc8c58d3",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:02 RFIs/RFI-001.md": {
+      "sha256": "5dee843246e73e7bfef6bdb8edba7bdd9a9a077d4a4469ff81efc37c35ed9e0c",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:02 RFIs/RFI-002.md": {
+      "sha256": "beae2e53114184ff40217e0e4e9e2cd95cee5b258072a370b53a9034e0a16f8f",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:03 Submittals/00-INDEX.md": {
+      "sha256": "bc48395dc29deddc51a7b89edd60cf6d16f601f28f64caf936414edd768236c9",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/00-INDEX.md": {
+      "sha256": "5baadfa23734c1293f65b287321faecac4639d6ebc3aae5db55c58c682157ef8",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-001.md": {
+      "sha256": "dd67e8d62cb10822ee3318be6d9660a02ab54c081d26c842f684cdc4a083a8c4",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-002.md": {
+      "sha256": "8450424ee6ec66944944362308a06609355987b3366069f0b3f8cda71ed82882",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-003.md": {
+      "sha256": "75dd380c62696d0a55a31ea15ed969501736d7baffad8138531a6949005b2a65",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-004.md": {
+      "sha256": "5e5765efa736331dd98a09164d453bbda6db5899a2f7573f5723520af0e84d1e",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-005.md": {
+      "sha256": "1fcbaceac48e6d63028cdb50fa276560db940044579bdb1376e6605a00264e7b",
+      "chunk_count": 13,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-006.md": {
+      "sha256": "d79cfb43058f45570c63fad1c38ad4c9facf5cf1fbf2c5f7519af9097e94eb21",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-007.md": {
+      "sha256": "cb07b4f532320972d5ba906dc2f1f39528c4551086b493bbb14d61cdc97c1f68",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-008.md": {
+      "sha256": "ff8a5895b075896064fe1ea24846c974ab9faaceb06ab39cc018a41748089a6e",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-009.md": {
+      "sha256": "91492456983e2bf568b3c600ad2307476dd475ef2565b56d1d3a7aa6976bfd45",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-010.md": {
+      "sha256": "766200e9cf3d35ed93d8a08bcdee8291d1ac0b9216c713fd38d20b6d93142d3b",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-011.md": {
+      "sha256": "b8d2e290dcfd7de813169e6d677eff2de3ef4af95e5f9e8a35386d306858989c",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-012.md": {
+      "sha256": "81d786187c7eced4cd8f01abb6aa08b935298824ea1f690b862bd1de35f6dac4",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-013.md": {
+      "sha256": "386850bf1753a1956ec4486cc1bbe76dff76daf33550afd5eba28bd011701614",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:04 Decisions/DEC-014.md": {
+      "sha256": "0d9712885e6b3c7e6dfe39bfca73c5cf0a16447899ee43fe4b92bff74dff6fcc",
+      "chunk_count": 26,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:05 Risks/00-INDEX.md": {
+      "sha256": "64fd12c1dfd9620dac3e8381c13e9b4902f92545948ed17a8c638ec9cbfe7dde",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:06 Issues/00-INDEX.md": {
+      "sha256": "1a7beacf81173ddd395daa2a5bfa6270eb9840deb6c8d1cc6096698e01a46f7d",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:06 Issues/ISS-001.md": {
+      "sha256": "d255845eb7321810440eacbcf1ff627676cfa56166aa2c486a46c1de0724f382",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:06 Issues/ISS-002.md": {
+      "sha256": "6c4d41cb188ce5150693948915c80ce07ef7bd9fab4a05d0892c07c138d9fd49",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/00-INDEX.md": {
+      "sha256": "dc93e0f4fae5910b887b5735129a8b83ea1452800d509ce9a87f2708c16b20cd",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-ANTHROPIC-API.md": {
+      "sha256": "c7d43bb9366656d8c950f5e29550a646a28ba002c0f33d581dc3c2033f733b15",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-CLICKHOUSE.md": {
+      "sha256": "b10f0cbd8c2b40b01b78b83a73ca6b19b589a24a84071fd1b887bc378b6ad86f",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-GCP.md": {
+      "sha256": "c7c7b55d22c8eb94e73a68c5fa474926bc1cc5e8021663a0c0a009a88195e91f",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-GITHUB.md": {
+      "sha256": "f1f8075efb16386f8506ee1a5349ea4a4855189a5a7e502b64b83b956c3bbfc0",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-JOPLIN-CLI.md": {
+      "sha256": "dc8e31e7f927f811bfc1560d0bb23516a9449942c410ed014c57eb725b16e7aa",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-JOPLIN-SERVER.md": {
+      "sha256": "c90fd87919d85e1a7be29b086841a58d6eb85b7095d53f029d0c83132c70dcbc",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-KESTRA.md": {
+      "sha256": "56d71135ed60fd457ead8097cddf666e534f58a8cce9e5ae231814f1b6809c68",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-LANGFUSE.md": {
+      "sha256": "fa07d2bb95ca6a385dc8f02526140c80281f394941f50ff97ee6f99b304d8c98",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-MEM0.md": {
+      "sha256": "a362844a3bed9d7f6054cb7f91e61a510dced5e67278b13e5c13bb7a62e5c951",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:05Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-N8N.md": {
+      "sha256": "570f0d0de676bd63b6e8eaf30862350ee1c2ba4c7e51dae3938110014773ddf0",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-OPENAI.md": {
+      "sha256": "d08a6623ff3bd8b4e1e7fbdc8d450dc28dd34a71bab7691c930f20e8251f106a",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-POSTGRESQL.md": {
+      "sha256": "399ddf49619cc477654c631b2b5ecf9466958fa76b7498dd62f99b91462e95b4",
+      "chunk_count": 14,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-PROTON-MAIL-BRIDGE.md": {
+      "sha256": "2350b3475f5a1791a5f24961033f78f5638f0dea529dce00dd118a3c3a31bbaf",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-PROTON-PASS-CLI.md": {
+      "sha256": "86bd201ba7892ae58acdc5a5a8dc11a6aa9a41ed49192bab50c5f2c31b823be1",
+      "chunk_count": 18,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-PROTON-PASS.md": {
+      "sha256": "ef9e54da995f99fac9ca97c8b901fcd00a3b66a2bbe3d0adf5f1f05f6a94b1d2",
+      "chunk_count": 15,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-QDRANT.md": {
+      "sha256": "edbecb21b1e7ca2b9df34a88b7fc6fbb9b1fe72c3e2f1716a27d178f689ef787",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:07 App Profiles/APP-PROFILE-REDIS.md": {
+      "sha256": "8458216c3d117158df6fca80ca3733b4528d3a99acc67ce79cd4671fe02cac5f",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:08 Configurations/00-INDEX.md": {
+      "sha256": "ed0b042ae00725c68bec502f0b502e544ec63b1a69cfbb2370da5dfd12d065a0",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:08 Configurations/DATA-RETENTION-POLICY.md": {
+      "sha256": "d942678e13f302a6e8dd941146a7b8e18b80b81c5959d121122d3cac99d5eb49",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:08 Configurations/Git Repository Registry.md": {
+      "sha256": "aa8854787a3e2fdab474f3e1e7943c20c5085fbc62466d699af27972d56c6b33",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:08 Configurations/INCIDENT-RESPONSE-PLAN.md": {
+      "sha256": "78a2dfcfa96ea9813fd91dc47f320b79f6725b691dd9bb84a5617ef8893ade73",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:08 Configurations/IT Master Registry.md": {
+      "sha256": "3935aade8eefc8d90e9b3aa22fe06bce74c6036935380797fc02035c465c8399",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:08 Configurations/MAILBOX-ARCHITECTURE-REGISTER.md": {
+      "sha256": "d00a840a9144c4194f1c890d3b654c7c95a151db4fe1fe2010454ff7f4550451",
+      "chunk_count": 18,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:08 Configurations/MFA-CONDITIONAL-ACCESS-CHECKLIST.md": {
+      "sha256": "3644de290c894e2802e219fdb7b4b400fea56de7d87c28e5b2a782528c451372",
+      "chunk_count": 15,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:08 Configurations/SECURITY-BASELINE-CHECKLIST.md": {
+      "sha256": "37ddd5d912f627ca21677bcb09cfeb75c9f7bf06c739fdd3a8c2b56f2522ec98",
+      "chunk_count": 14,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:08 Configurations/SECURITY-POLICY.md": {
+      "sha256": "626006fa5f359b815c62bb2db33e4206715eeb83a0a308bc7d06d26d9222d295",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:09 Tickets/00-INDEX.md": {
+      "sha256": "5144bf444fed21425d9f2086e0cf6b10beb61fbc1eeabc90672e4af31054eac6",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:09 Tickets/TKT-002-tailscale-marketplace-onboarding.md": {
+      "sha256": "35ada0c74e670fd6d257884494de6e95f54b9d183b255e5cc8b9eccdf7129ee3",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:09 Tickets/TKT-003.md": {
+      "sha256": "6d65a4dc52b2404d08f2260cfc18e9d4777000b6be53a2bfa71e350cf13a8746",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:09 Tickets/TKT-005-database-security-hardening.md": {
+      "sha256": "6a11b6534dca6625f5cb8f2c93550ec71cc90980b7d24db03c0bfde9d7a135e7",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/00-INDEX.md": {
+      "sha256": "81b74b8dd3cb3bbb6483df950a588295485c81ffb98f9b81422b909623049ac4",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/DAILY-LOG-2026-03-11.md": {
+      "sha256": "7e027b0f2770c3d0ae3246f5dc9400ca6a525119418207962b31a997aeddffbf",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WEEKLY-REPORT-2026-W11.md": {
+      "sha256": "0c0ef21f8728904c62147b58ac05cc92e649d4e3306a20da0eb02289f02b563c",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-05.md": {
+      "sha256": "5022433b65591aaae8cb03303088bf66ff71417284d6da0bd0e160c98fb916bd",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-06.md": {
+      "sha256": "e98fb7a99a5626dbc7ca3116936c8e172765e486604488e6a03cccc525688862",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-07.md": {
+      "sha256": "b3a543f96ddd804a1bfd08d1eb7ace93050b1fd4725a19d8449302431be2c248",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-08.md": {
+      "sha256": "9a5251551c3cf3a366b3d988435fd27ecda77fd2ea293c16d424a5d5ba1827a1",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-09.md": {
+      "sha256": "deb4f32368bc94ac955ae55aba04ff37781e8abeacb02cb4b7e105a5f94483e7",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-10.md": {
+      "sha256": "310a75940bb8ae018e607069d8ad5e9643037e8b6afc92e7f0b1d82e12069c3d",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-11-S2.md": {
+      "sha256": "444bdd1df24baf16f697dcc9a3d520ff87d0f5852955cfb29a39120a579bbe82",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-11.md": {
+      "sha256": "013566ee1d531259e93c947f7d9b5a16f2a95099d2fc8b90009ca153ee0536f4",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-12.md": {
+      "sha256": "6521cecf425a184b33520f58d616c1db4380d7d638515944451b8837a6a3e96c",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-13.md": {
+      "sha256": "afe1547c77ba5c47a4ef46e79fe9ab8dbe7ad60b243ab76d6bf336d6178b3f47",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-14.md": {
+      "sha256": "c398f37e0b85719bd9a44425752bc11f9ce58491d0089465803834a4a5f55712",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-15.md": {
+      "sha256": "843e608fd6491f5395cd2a1a3fe13c364ffbdd1a2d98930aff160b63c2e9281b",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-16.md": {
+      "sha256": "5383d4f19de8713e40b36ade86ce1f36cd1d8d893dacc33461ce79a9ddf54303",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-17.md": {
+      "sha256": "5151f37e60f3e8191a5c540ebcf274c80a17fdea3b3d33bfb656de7e2785eabe",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-18.md": {
+      "sha256": "45601cd1f3e49648c9a44a4f41e87fe08923aa3482af22468ce331497fabbf02",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-19.md": {
+      "sha256": "5106e2f87e32956a6b98d672a204b92fc21e6237436d543b069fe024cc254d14",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-20.md": {
+      "sha256": "74439af9df185c56e685a85e4291297bd31d47921f7c615d220794ab39388976",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-21.md": {
+      "sha256": "a8f5446367df688df3163a3dfa1696b1acb9b3c42d4809dbf131e3195efd0cd1",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-22.md": {
+      "sha256": "be872c04893d18272dce05f9221e0d00d95d56539c6225786a513e9b92be9cbd",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-2026-03-23.md": {
+      "sha256": "7cdcad0e426e6029864c960062352f03bcedb54f81045428d117a4cbab1f017f",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORK-SCHEDULE-TEMPLATE.md": {
+      "sha256": "343f6ddba21a5349e5184162b9c9dcea77420687e9032eaed8a7324f867ce142",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:10 Daily Logs/WORKBOOK-TRACKER.md": {
+      "sha256": "3dc3ef89047199381710f1ed92464f47148fa3af4802842a267a6c73587d690b",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:11 Weekly Reports/00-INDEX.md": {
+      "sha256": "9c1315a4c6b7765ca3c8ce7d3e4cf34225e2b3e7094899f16e52763ec9f74694",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:11 Weekly Reports/WEEKLY-REPORT-2026-W11.md": {
+      "sha256": "97a96159c6a56de8d5ed0c2bc2fabe9baf06717326ba8210150facb1ad8571ed",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/00-INDEX.md": {
+      "sha256": "40381a80f7fea1b75ff79671a98a5b6d435cbcdadf7065901e97c859f085f8a4",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-05-001.md": {
+      "sha256": "6226420481c621090e26bb41b7c18e400206064151bd13f9dcfb9f842cbdf2d4",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-05-002.md": {
+      "sha256": "c8781c2522c3e817ea7e6ef5fc8494dece56285d1f47b7d9c0911561c2b2a916",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-06-001.md": {
+      "sha256": "943c5826859f14bedd2b332566fd0906d9eb44c08c7deae8c584e6521ef2d56a",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-06-002.md": {
+      "sha256": "e397e2a6388c79d555486f5085346c73356a339ca70f9c73a6dbc646f6e1df98",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-06-003.md": {
+      "sha256": "d433c009661baa567b8b8002c2c74e6429f3ba1ceb792d93e2db11f138eb0f04",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-06-004.md": {
+      "sha256": "d1f6133639832764eb0ee236dc8971faa4315daf27c1efef242a66fdc325d825",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-07-001.md": {
+      "sha256": "5d0da0596810e0ba94b285f77866f9225eccaf40c08ec7f228e9001921940976",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-08-001.md": {
+      "sha256": "68c484d4de14109f7b5bf8bc902f1cf00c33f050651c8f3e7b03f8721e74808b",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-09-001.md": {
+      "sha256": "68d11ab328d04457d2583005ca11ee4e496794a73e94a137e794c2464c8e7fb7",
+      "chunk_count": 13,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-11-001.md": {
+      "sha256": "575b247fe516013e30d845fc2474d0a7e20eb087e20ec69566fffe943dcb0860",
+      "chunk_count": 17,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-12-001.md": {
+      "sha256": "c9782b19f7f11509458bc4d56ed92118eabb7ccc3c7e0a8ab6db1a7e9faf4c1c",
+      "chunk_count": 18,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-13-001.md": {
+      "sha256": "89d54cd55e6d92bb7772cec8eeb049d9308a8baff2792dbfef1873acdbb244d8",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-14-001.md": {
+      "sha256": "f0d982aae33cd6430af00fbc7eb9b863dc7bef54e28c2237cd263ca78f364643",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-14-002.md": {
+      "sha256": "eee815352baf45f00f4c536c46c90c2c832802f8127ab2ef13b4e41fd784d7f0",
+      "chunk_count": 19,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-14-003.md": {
+      "sha256": "e704eb8f2c1380a7449c69fcc1f695b541562a39948131072cb457ed33d5c897",
+      "chunk_count": 20,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-15-001.md": {
+      "sha256": "0956ef18e2a9f7a9fb21616e607a04194bc0ec6cad6a80750669c4917e87ea69",
+      "chunk_count": 28,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-16-001.md": {
+      "sha256": "5ee56966ea5d0e28d238c89948d77bc1a3d620c61806e6b110cee069fef55879",
+      "chunk_count": 44,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-17-001.md": {
+      "sha256": "0d36d33b57f5388e2c63297d08948890f4374591a7afeb91c3f33f8fca9d27ab",
+      "chunk_count": 31,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-18-001.md": {
+      "sha256": "8a38b4591ff0b3e799b785df6d0bbce4b3759f40d4a3b44a990bd4b37b4c42fb",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-19-001.md": {
+      "sha256": "a729f4bce8f096696c1757f79e996217d0dcbab205bef659c4873a527005ebc3",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-20-001.md": {
+      "sha256": "b1d7d587eea9d319c5a1368c0a55d50e82f7f907616655c172aa0e2afaf01823",
+      "chunk_count": 2,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-21-001.md": {
+      "sha256": "79344777ba0aa64c9abb7b232c81307a42995fb8dcc55603baa70565a9fbbf88",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:12 Session Logs/SESSION-2026-03-22-001.md": {
+      "sha256": "4fa4a46172868874b402bfe5e6c3e895ea199eee824321ec24d422eaff23fb30",
+      "chunk_count": 40,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:13 Task Logs/00-INDEX.md": {
+      "sha256": "c0e87739e5700b4c7796ddb2c8ef34ec6886c8f84ba620f1320b6b42a6bd5b8e",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:13 Task Logs/TASK-LOG-2026-03-11.md": {
+      "sha256": "98b99723d256c946095384098aa32ba408e5a37a913c774c7333de016d77367e",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:14 Meeting Notes/00-INDEX.md": {
+      "sha256": "d297565fbc718353bc12e430c2557f1e3fc9ffc357be5a65214783cb57c55bbe",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:14 Meeting Notes/MTG-001.md": {
+      "sha256": "6545b48923a0d32aaf5701b12fdf99e056346b5b14eb49bd272b219f99ebd0f4",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:14 Meeting Notes/MTG-002.md": {
+      "sha256": "1b8de6a6bc012061b3c0ef336df11a36d3206858feeb65f2443dd59151e1fce3",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:14 Meeting Notes/MTG-005.md": {
+      "sha256": "4cc09e2ccee26996d17ff6c0241723a801cd4af087e3db3de7f0e3586716bffc",
+      "chunk_count": 15,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:14 Meeting Notes/MTG-006-INFRASTRUCTURE-ROADMAP-REVIEW.md": {
+      "sha256": "9676c2513a4381978ba8ebee3a434b226a7a490ea8b00db6c165e8c0961be8d5",
+      "chunk_count": 13,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:14 Meeting Notes/MTG-007-PIPELINE-BUILD-AND-DOCUMENT-AI-STRATEGY.md": {
+      "sha256": "e8e0ac82f488588521ebba59a60caf96fd998a0c6dd374ed0a1e10f28b811e27",
+      "chunk_count": 24,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:15 Correspondence/00-INDEX.md": {
+      "sha256": "10e0ba346a9778ec85856afb52f18b12dd3ce6636d3aa823840aaec06d03117f",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:16 Cost Tracking/00-INDEX.md": {
+      "sha256": "66a6618070a7e7ae41615403798735d8353fb87d42dc05c5ee62d6c9eae04ceb",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:17 Contracts/00-INDEX.md": {
+      "sha256": "2af2d5afefd8449a963ee2d494502edf0fc75539fa561e1ad61fd7447420c93b",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:17 Contracts/VENDOR-SAAS-INVENTORY.md": {
+      "sha256": "51f900d88041aebc69c530bf6f535154bc035d7c44fec567ddad0a8b8ec24b06",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:18 Lessons Learned/00-INDEX.md": {
+      "sha256": "b01ad1b9557f7914f8c2138778a2487fe8a51de81df98fc0eb1727f39e178a4b",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:19 Gate Evidence/00-INDEX.md": {
+      "sha256": "111d00860ea1105ed8b65a8ee768172208f5d4fb35e26a57d525a5f1bee01cea",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:20 Closeout/00-INDEX.md": {
+      "sha256": "87999172a1fbedc92a1375f67ada0d3c6299aff3701f2abbccdabc73a1575a6d",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/00-INDEX.md": {
+      "sha256": "f3b26d0a7e006e179ba4ed43bc911fb356b92e73617d71ecd1ed9e7c59d37a44",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/PLAN-ARCHIVE-001-PROJECT-BINDER-FINALIZATION.md": {
+      "sha256": "c5fdac14ca7735345a402d2d8a8e05c749391e8110d97eb169bd279349bb9f48",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/PLAN-ARCHIVE-002-ENTRA-ID-RECOVERY.md": {
+      "sha256": "744f1afc1c6c9b4720742b2bd90a4ebd3ee525dc6bcb0eba14990403b8c9476d",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/PLAN-ARCHIVE-003-ACCOUNT-DISCOVERY.md": {
+      "sha256": "00fca83aa4bd6d4069c6fd38c4afcc49d114fa41841f3bd4700e6ccb120a3fec",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-001-enterprise-ai-agent-architecture.md": {
+      "sha256": "4b45148b3ee6a1be347e55c33e5f7adee91c7b59361b24629b2ce371e259e564",
+      "chunk_count": 31,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-002-FINANCE-DATA-ARCHITECTURE.md": {
+      "sha256": "236f9c3226f7c5c76e15b8813861a68f567f1fca4660bcad3948f289c681d0b9",
+      "chunk_count": 31,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-003-FINANCIAL-DOCUMENT-INVENTORY.md": {
+      "sha256": "0826e6aa4f438afdf50bfcc3852ffe705f53341cfb09a5ad312d502b71043f26",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-004-EMAIL-INGESTION-PIPELINE.md": {
+      "sha256": "e7ceb0a578bb3f5f6c1b0a9a85a0af408bab36faa4222904dc6d416341ca3025",
+      "chunk_count": 20,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-005-FILE-STORAGE-ARCHITECTURE.md": {
+      "sha256": "30ccff91d68cef6edc06aedf276cdcf8040e948ddf837f03ac9bf31a6eaa36f5",
+      "chunk_count": 24,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-006-DOCUMENT-INGESTION-ARCHITECTURE.md": {
+      "sha256": "c815e9eb300aebf7185b2f23e9533aa6ab81e28679e9a30983ffba0db807270e",
+      "chunk_count": 23,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-007-RAG-IMPLEMENTATION-PLAN.md": {
+      "sha256": "cfe2ff697f25a027902a11e31fe35d66e26964c8b77bc731ad181c13f229e35e",
+      "chunk_count": 52,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-008-AZURE-OPENAI-DEPLOYMENT-GUIDE.md": {
+      "sha256": "8cf3763b80cc6b2f7e79186e9735952d8343d485d1744943482f05c2bcdf462b",
+      "chunk_count": 17,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-009-QBO-EXPORT-AUDIT.md": {
+      "sha256": "1c4d5914826c758da478ddc7f1eeb76fc858a0d1ae7c79dc05d99e020a316156",
+      "chunk_count": 14,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-010-KEYMASTER-AGENT-PROFILE.md": {
+      "sha256": "e03a15638eda203bcf88687df9453c62e41c0d6c14001dcfdfcb88e224cb3889",
+      "chunk_count": 19,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-011-KEYMASTER-SOP.md": {
+      "sha256": "5cc3f013b044a2bfd796a179460b71e0773269d347ee7d8b4c45f47eb82a0077",
+      "chunk_count": 25,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-012-FILE-CLASSIFICATION-PIPELINE.md": {
+      "sha256": "fb4e1aac51737337e47e4a492604c8db8152c14dc5b5375423c7b5527c7e4525",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-013-DOCUMENT-AI-TOOLS-ANALYSIS.md": {
+      "sha256": "e58ab31b4360c081d35fb180981c5dcff257df42376c898f5566f1dbb1d28b07",
+      "chunk_count": 13,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-014-AGENT-WORKFORCE-HIRING-PLAN.md": {
+      "sha256": "026e8f72a3f7cc498a273eecbd89d72ef19ba817ab222c2aa363172aa6c910a3",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-015-FILE-TYPE-DICTIONARY.md": {
+      "sha256": "9151e5b7b3214eeccf391aec53924abffb0120aa366659801d08d1306b900b42",
+      "chunk_count": 42,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-016-ACCOUNT-DISCOVERY-CHECKLIST.md": {
+      "sha256": "7bee7f149bd901cd9f077b77f80fd625c754194e2c19fbdfa058b375a5c49ed0",
+      "chunk_count": 60,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-017-QWINN-PROJECT-PLAN.md": {
+      "sha256": "2c75cc9feb33308897a0c829ee54af37284e069b3949f6922e16e131740db055",
+      "chunk_count": 14,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-018-QWINN-EXECASSIST-PRD.md": {
+      "sha256": "acc93d408c639a1b7bc5229b26d795d702a5ff85ace30337214554f29a770a33",
+      "chunk_count": 32,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-019-QWINN-SEARCH-PRD.md": {
+      "sha256": "75915687967b67e140cd0df5c7169d07d673493f76c15d072305812d39faf719",
+      "chunk_count": 21,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-020-QWINN-SEARCH-SETUP-GUIDE.md": {
+      "sha256": "d33dfc6718c54e04b3ce05dad8f77408ba67bf921ba616c7614e823a6360ed1b",
+      "chunk_count": 22,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-021-CORTEX-COMPOUND-INTELLIGENCE-ARCHITECTURE.md": {
+      "sha256": "a0d1c243389214eda71f055c6fff2693c57bdcc5b70ed8f8434669a5ad62bfca",
+      "chunk_count": 16,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-022-FRAG-FEDERATED-RETRIEVAL-ACCESS-GATEWAY.md": {
+      "sha256": "57c1aceb9674bd56e7496626ba21d283977ec0d981879024b57c8269b7de426f",
+      "chunk_count": 28,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-023-SYSADMIN-AGENT-PRD.md": {
+      "sha256": "f18670ff25251796e757f5d3e25342446172642ce368c83a8ca8ff31e16ed9ce",
+      "chunk_count": 21,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-024-KNOWLEDGE-REPOSITORY-INGESTION-ARCHITECTURE.md": {
+      "sha256": "a353e7810f04489fdc467afa7f1653b00459df2ff16d89070fbc31ee04b3461a",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-025-MATTERMOST-SELF-HOSTED-MESSAGING.md": {
+      "sha256": "fb1d00199a1ab2c639209755736130ba1ee7cf134f5da8b7c04820961d46bb58",
+      "chunk_count": 24,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-026-KARPATHY-VIDEO-REFERENCE-LIBRARY.md": {
+      "sha256": "626ce3b39665166a2b80c0bdd098ba973983924a4550334a6f6c4d434a93ef75",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-027-AZURE-AI-FOUNDRY-AGENT-SERVICE-REFERENCE.md": {
+      "sha256": "9cadc348c0a1641aca6a71d47e3d3d31889f1ed7fa9fecd06c885d533e84f3a1",
+      "chunk_count": 171,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-028-EPS-SALES-BPM-WORKFLOWS.md": {
+      "sha256": "c74732aed86d4401f01d6d509248df3b438facce5806b41936c34536574cafff",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-029-CONTACT-EXTRACTION-CLASSIFICATION-BASELINE.md": {
+      "sha256": "e26343d242cea656a9fb2756f214abc7320f42e0958bd81fcf033ea7abb9c382",
+      "chunk_count": 21,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-030-CLOUD-KNOWLEDGE-INFRASTRUCTURE-PROJECT.md": {
+      "sha256": "38f6cb3a177790eaecd6e9617356c0c2fb273d8169073eaf6bdf6e1752076b93",
+      "chunk_count": 63,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-031-DATA-GOVERNANCE-TEMPORAL-ALGORITHMS.md": {
+      "sha256": "02b7fab9a242c0d87ee86ff52e80e16a8d2f0254de107f25688b84321487b044",
+      "chunk_count": 17,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-032-ATTACHMENT-SECURITY-ARCHITECTURE.md": {
+      "sha256": "f67211e692782f50030a3e6697193c4d240749452a6f26a35ed4f19776cc34fc",
+      "chunk_count": 14,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-033-SHAREPOINT-SCAFFOLDING-EPS-MARKETING.md": {
+      "sha256": "ef92468872475b7c20225f8197a1d6b491b66178570c66517ea73ecc5719821d",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-034-SHAREPOINT-SCAFFOLDING-EPS-ENGINEERING.md": {
+      "sha256": "55c37488312154465cb3a3f35665c5881f481f84ce8e975052a41c72b6b9558e",
+      "chunk_count": 21,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-035-M365-PLATFORM-ROLE-DEFINITION.md": {
+      "sha256": "9254e3972218f5a130cd865a439ab6369d46fba286cb750bb8613273800f93cc",
+      "chunk_count": 14,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-036-NIIBO-AGENTIC-BUSINESS-ARCHITECTURE.md": {
+      "sha256": "e4748b97d55ba634d9123f62089bc7d75a990d497f68c040edef1fad2d1aa3a4",
+      "chunk_count": 38,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-037-CORTEX-RISK-MITIGATION-RESEARCH.md": {
+      "sha256": "0fbe9dfeaab2a6f3fe6509310b9acfd79b8c6f863c31b280280823dd74383b7c",
+      "chunk_count": 66,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-038-AZURE-DEVOPS-APP-PROFILE.md": {
+      "sha256": "aac6219036c5ddc3ee62a99279a7cceec3b628b71d29380f91cc883ca7e7a3bc",
+      "chunk_count": 42,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-039-QWINN-SUBAGENT-ARCHITECTURE.md": {
+      "sha256": "e9fdfeec700e1e56cdd12afcb42a88778d132a9c886fff4cbc574a933d466114",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-040-MICROFISH-CROSS-SILO-PREDICTION-RESEARCH.md": {
+      "sha256": "5545b11d9bfaecd4ff7a4d900bafb940110493ab3ee1ffaf060fc08db7c3e7c4",
+      "chunk_count": 31,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-041-GOOGLE-DEVELOPER-APIS-SIGNALTRACE.md": {
+      "sha256": "1f91ca3acd199b86af94caf75b1f4336a407b51403b9b3deeb84d31e3398894d",
+      "chunk_count": 44,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-042-WEB-SEARCH-GROUNDING-GOOGLE-VS-AZURE.md": {
+      "sha256": "4a1a85494b0a5a9ce5fa2f27033827153eb84ee3773e6b1ca5144a490e6e0cc8",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-043-TRAINING-SILOS-REFERENCE-LIBRARY.md": {
+      "sha256": "43aa3059f1bdb39e06ad700526a62741ff59c7da14be50a6c3946f856ab7cc9c",
+      "chunk_count": 24,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-044-BOOKS-TO-ACTIONS-WORKFLOW.md": {
+      "sha256": "c124d2cd6b7310d17c229b44272e7e72ec50b696d90a94a044231eaf5eec65b1",
+      "chunk_count": 32,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-045-EMAIL-PIPELINE-ARCHITECTURE-TRACE-MAP.md": {
+      "sha256": "dada541178bbafe841cf0e0aba44a619c2a9806efb35a12f4fc0db27a8c5a8bb",
+      "chunk_count": 19,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-046-LIGHTRAG-MODEL-BENCHMARK-SOP.md": {
+      "sha256": "b51f952a3f6b64d435d2c57f8215ca1c2280d16c2e82aba5b683b4013ab52e76",
+      "chunk_count": 23,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-047-BANK-STATEMENT-AUTOMATION.md": {
+      "sha256": "e51e4cf39d3b60224122ef515550633945bf09445f3a0ed2eae14526e7e97d75",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-048-CONTACT-VALIDATOR-WORKFLOW.md": {
+      "sha256": "6a4271f89f13b8415bb24c381267ba22ada655b99485a08776c7e17dcde74905",
+      "chunk_count": 23,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:21 Research/RN-049-AGENT-FORK-ARCHITECTURE.md": {
+      "sha256": "85b93bb3c655defc105a0c1939ddd6a596a767ad635b4de006e1f9cbd53640d2",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/00-INDEX.md": {
+      "sha256": "f774185c326d57652790a6d471892547d11eec750d71158961ed5db7c8510968",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Atlas (Data Analyst)/00 Identity/ATLAS-001 Agent Profile and Charter.md": {
+      "sha256": "9ed4759694a8367fb2b634a2c6c37db2c9fd1ebda42b98dc1c848d29243b40f9",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Atlas (Data Analyst)/00 Identity/ATLAS-002 Responsibilities and Schedule.md": {
+      "sha256": "c3338b3d21c95d56939a16677950ced4d1ebdb9e8baaa0a32bcaadb55b7b0aeb",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Atlas (Data Analyst)/00 Identity/ATLAS-003 Session Log.md": {
+      "sha256": "7f53902c13069c4af1508909cbfd5fc02bef96e27313a312e9f84b3723ce4bea",
+      "chunk_count": 2,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Auditor (Consistency Checker)/00 Identity/AGENT-PROFILE.md": {
+      "sha256": "9df29bb5aec16c6f41884edaca655c0403f77fb1ca028b503669a5aef51cd04c",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Cartographer (Diagram Generator)/00 Identity/AGENT-PROFILE.md": {
+      "sha256": "1dc20ad7631366c9c8e019d0c4cc767ccae9c782d49702866a90ba0ad276b5a2",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Lance (Dev Executor)/00 Identity/PROFILE.md": {
+      "sha256": "4db498b2c5a185a73905b748722e3a81c6f50b4d116018da496e772b046660c5",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Lance (Dev Executor)/00 Identity/STANDING-ORDERS.md": {
+      "sha256": "989bc0812f9da9e360d804272e9346f34e1f91586267f8e8e6e3a4ca1db8a000",
+      "chunk_count": 2,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Lance (Dev Executor)/04 Task Queue/Task Log.md": {
+      "sha256": "58078b578241935542266a6eccfb0bf22f0f8765d28700c6865d6f7f6e7fb3ad",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Lance (Dev Executor)/05 Session History/Session History.md": {
+      "sha256": "db776e808ffc2993c632cbc04392488385322fd24cd73d573f3c37e38889838d",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Lance (Dev Executor)/08 Build Notes/Proton Pass Procedure.md": {
+      "sha256": "d5024c39f414cbd54e63daa016ca0a5505aaeddd7ef2c45f3a17ea8272ebac3f",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Nina (Document Controller)/00 Identity/PROFILE.md": {
+      "sha256": "31baf1a174cb0e5b4fca01936b79888b3666e5cbe0304ded6a83650cf465bd0d",
+      "chunk_count": 4,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Nina (Document Controller)/00 Identity/STANDING-ORDERS.md": {
+      "sha256": "defefcce1a941b642e66b106b39bba825e42e7696883fa97f2ee7841cdea5896",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Nina (Document Controller)/04 Task Queue/Task Log.md": {
+      "sha256": "d923736478b89ea2663f2bd5daa3e9f80a931fe20e4283ed88df22140de934fc",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Nina (Document Controller)/05 Session History/Session History.md": {
+      "sha256": "9775a135e0d776a16218d8db73cd31e624fe1bb9fe66de9eb3dc5c18b8ff2a2c",
+      "chunk_count": 3,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Nina (Document Controller)/06 Journal/Journal 2026-03-06.md": {
+      "sha256": "75159a4039356b6c478a1a80353e50cb69351fd2c503ac82b4f4d9d6b6eaf530",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Scout (File Discovery)/00 Identity/SCOUT-001 Agent Profile and Charter.md": {
+      "sha256": "844fa053b776dcd8e9b4e28126c088c6344a4e0766853f4ccb90984b8f88e0a8",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Scout (File Discovery)/00 Identity/SCOUT-002 Responsibilities and Schedule.md": {
+      "sha256": "483aad9733f80acdced161cba55e18ecd170d283d7a00590d17c273427ba0a4a",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Scout (File Discovery)/00 Identity/SCOUT-003 Session Log.md": {
+      "sha256": "73bafca2cb06d9f8b2054ebec19d11079827b3a77d40e8c34fc8b9752783b80f",
+      "chunk_count": 2,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- Scribe (Session Logger)/00 Identity/AGENT-PROFILE.md": {
+      "sha256": "ca8d45b6c1ffb9c2fdc63e9c16066a2574b6efda9ad51c9c8df6b395890cdf8b",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- SysAdmin/00 Identity/AGENT-PROFILE.md": {
+      "sha256": "349a35c2527dc83573f052cf3dda2cf7ba7ce4b4e4ee7454da4c7d2795464792",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:22 Agents/Agent -- The Watcher (Health Monitor)/00 Identity/AGENT-PROFILE.md": {
+      "sha256": "539486c9f842da9d2254093a1b50f4983dc1c22e595d3cbe5c177192870f149e",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/00-INDEX.md": {
+      "sha256": "a7bd62e6710e738e549ac8b5e7f6fc7fcae4e6d617241877731f105fa89277f6",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-001-LEGAL-ENTITY-PROFILE-DOCUMENT.md": {
+      "sha256": "bac4ab1238929acbc6e40b083d474cc0d473b3557ec698d3b97683bab435b134",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-002-VENDOR-SAAS-CONTRACT-INVENTORY.md": {
+      "sha256": "f3fbe6474735c0c2b0b4c6c7227d8bc890f66efd33d1bb0c513dc80cfef43773",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-003-LEGAL-CASES-REGISTER.md": {
+      "sha256": "e6b02607cdd93f65bf0c4a6951b00e87c846febecb9eaad1d5300b2148690e5e",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-004-NEXTGENPLAY-TRADEMARK-RENEWAL.md": {
+      "sha256": "681e3913bd9e2a474b08307480b92dd4e328143526d38dc3b9ae184cc58fee4b",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-005-PER-USER-CLOUD-STORAGE-AUDIT.md": {
+      "sha256": "60301223ad2740387a9c1c551cc07b9c852591c248b0a767be2bb2f9e6417756",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-006-CONVERT-JOE-CEN-SHARED-MAILBOXES.md": {
+      "sha256": "5f47a1516d96501894c932cf2b99e318a635edd9734d85cb0de8fc3ac76691b4",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-007-AZURE-INFRASTRUCTURE-PROVISIONING.md": {
+      "sha256": "8d69acbb2cbf80a968ff37d234dc1e3c2807954628bb0b3660aedda3047091b7",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-008-AGENT-TEAM-BUILD-SUPERSEDED.md": {
+      "sha256": "f87e97033d7a80c2de4d3b72af8ac7ba6a2f038a5ee086fa34443228c208f532",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-009-CR007-PHASE-2A-FOUNDATION.md": {
+      "sha256": "a914162f4c41fbe9824468f1c2e4fafcefe454ec5b410fa6e43dda2b85558537",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-010-QWINN-EXECASSIST-AZURE-AI-FOUNDRY.md": {
+      "sha256": "7549be1a9a050e67bb02a733e178ceac408874d1abc42c8bfa80254b614b47af",
+      "chunk_count": 36,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-011-QWINN-SEARCH-COPILOT-AGENT-BUILDER.md": {
+      "sha256": "8f59b8a9e336df67830385db490ab1f13596f0788a4bcc0d12b969d7c69097f2",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-012-ACCOUNT-DISCOVERY-WALKTHROUGH.md": {
+      "sha256": "3e7c520adf6ab7d028a2a0ce9af2ee893f32f3acb4468127bbe6c3b1202ebf5d",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-013-PROTON-MAIL-AUDIT-INGESTION.md": {
+      "sha256": "baf8f341e86ee880ea21035adfc16d7b0ea1b0faa924bf50ea930d16d9082768",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-014-NINA-TELEGRAM-BOT.md": {
+      "sha256": "a3229aa673925b86637c419fafeed922ca7f4863c5713aeb6bedfa85e86e7eb3",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-015-FIX-LOUIS-KEYMASTER-ZOMBIE-BEHAVIOR.md": {
+      "sha256": "ffc547aa0b9281b7ddd9b46f187db4ccefb13a02ef478b067dd7369933038f4d",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-016-CORTEX-COMMITTEE-CLASSIFIER.md": {
+      "sha256": "624c4946f94c2e08aa69b216c32f640b22e3869c25e717f36ed5f2b356f13bd6",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-017-NIIBO-WIZ-MAINTENANCE.md": {
+      "sha256": "bbfcab229859e27089f43d8f4d1aac2e0b78128318262f48ccbd4e6782f92570",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-018-WECHAT-DATABASE-ISOLATION.md": {
+      "sha256": "fa017f8d2087eb115158d6d53884e7926b37cd6dbf9b8a593293c3cdaaf357ce",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-019-FAISS-GPU-LOCAL-EMBEDDINGS.md": {
+      "sha256": "23c3f29c3d4e84dc49a8ac0cda31fc862242c9591238c52674a1af0911f777b7",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-020-MATTERMOST-VPS-DEPLOYMENT.md": {
+      "sha256": "f32de64d0a9caa88d38107f513f2865cb8049f80ad8cb827ab13e5260f43c5d6",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-021-LOUIS-AZ-LOGIN-DEPENDENCY.md": {
+      "sha256": "40447afa9117bfdc1d95e357727fee993d0e837309086c56ebba99ff086b1a64",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-022-LITTLESPARK-DIGITAL-DOMAIN-PURCHASE.md": {
+      "sha256": "2fcbd2138584e50a47cf11d33199d8870cf32d14bed13cd508d6f029aa9b5910",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-023-CORTEX-INGESTION-COMPLETION.md": {
+      "sha256": "42bd9f86fd2a42775cd7005651d14dbe5b1b50b70ea5c8dab612c3e3fc6753ff",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-024-SYSTEM-SCRUB-CLEANUP.md": {
+      "sha256": "95f8147d56e708d801f007470dff8144a667fcd6928b8cdcd28ef66ed062f016",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-025-QWINN-FIRST-TASK-AZURE-MODEL-VERIFICATION.md": {
+      "sha256": "060c706d225959dbcd63199ac897207912ddb429e22ee86878fc1239fa50776a",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-026-CRM-DASHBOARD-INTERFACE.md": {
+      "sha256": "549ab77bd556cda7c4329067ccebad5c875ce681f3cde2303cbee619dcea5afa",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-027-QWINN-PLANNER-POWER-AUTOMATE-FLOWS.md": {
+      "sha256": "13c8f9baab76bf569cc7039f553610af1be6ad2651e7e4f2ecee90860a54949b",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-028-KNOWLEDGE-SILO-IMPLEMENTATION.md": {
+      "sha256": "418b03b627b5d8a8dddcef4a8ddabe11c83ab686b60e1fc18d067871828ff1fc",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-029-BANK-STATEMENT-EXTRACTOR.md": {
+      "sha256": "dfaca73e0ff2c6e5c1c934c89ffb9da603bcbd90e633f20f2799dd0e88f5dcd2",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-029-LIGHTRAG-BENCHMARK-AND-STALL-ALERTS.md": {
+      "sha256": "da474a29d964002dd52607b8d59acc07ec54559d718ab4099a941432ecc3fc56",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-binder:23 Follow-Ups/FL-030-APP-REGISTRATION-SEPARATION.md": {
+      "sha256": "6ba513af5b4437c5587ec1bbbcb389ec346fd11de471b3c928ec7f02ddfd219e",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:06Z"
+    },
+    "project-workbook:PROJECT-WORKBOOK-INDEX.md": {
+      "sha256": "71ed8ba91097e9c17d02221a4b181c91e6c71eecbeba99e6cf0afb77c422032d",
+      "chunk_count": 17,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-A-01-project-charter.md": {
+      "sha256": "c17678c74cac16e58e92c2078e064884b2f0109e43ec0f7294e08d6346e1ca30",
+      "chunk_count": 15,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-A-02-scope-statement.md": {
+      "sha256": "2d8c1939564e375e805ffca006043f9d53b614f4b7c220ba5f08d77d080ddc67",
+      "chunk_count": 18,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-A-03-stakeholder-register.md": {
+      "sha256": "d92d76000ca86cc7d4c056cef6e0a28d0f924e6f43434be599ba678806dce67c",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-A-04-raci-matrix.md": {
+      "sha256": "fea454b9f1dfcb6eb619ec3d7d142b2222d038ccd16781b1ef9d79729277b7f1",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-A-05-assumptions-constraints.md": {
+      "sha256": "80894b98d86b3eb578503abb7fb6f9f06424b864aa946e9cc8a34174f23340a0",
+      "chunk_count": 19,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-A-06-change-request.md": {
+      "sha256": "2fcf757b6ad55888459f4a67391e037a29f37d7f1de4e4a1d05514769f342546",
+      "chunk_count": 15,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-A-07-adr-template.md": {
+      "sha256": "6906da738bf79a67098bd1edb9ae5c040204ca37f178c79dabba0e0a5e9b1817",
+      "chunk_count": 15,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-B-01-azure-resource-registry.md": {
+      "sha256": "6876cf44f4e2703cacf0fb8356c2dbca45325e1d8a2a8d2d2108c6a738e3c2e3",
+      "chunk_count": 17,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-B-02-gcp-resource-registry.md": {
+      "sha256": "41cb5f570e5ae7a3a04ad184d95ce1a69d0536ae3948b11ef0116f2ad2e25628",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-B-03-m365-tenant-registry.md": {
+      "sha256": "3ec66e669fe5a193c9c01f52c454cf468efc53a31acc627bdfb2e60df462f6ad",
+      "chunk_count": 16,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-B-04-app-registration-log.md": {
+      "sha256": "31242132194877ed2de6745abb82268fc8b4d1a665f730eb88889e941b39111e",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-B-05-secret-vault-inventory.md": {
+      "sha256": "700d5c8c268b82afb063325b65bb06e078df0d47a2e92dee63db91785b0a6875",
+      "chunk_count": 29,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-B-06-domain-dns-registry.md": {
+      "sha256": "cf3da6d627b389dedcdd899400f21a8ff54ab2b4463ac3a97cb792e09e66d2c6",
+      "chunk_count": 16,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-B-07-ssl-certificate-tracker.md": {
+      "sha256": "4a05fe2af5fb3066c0f2d051bb86959a556d99098ce14c0061a73663dcb386f2",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-B-08-docker-stack-registry.md": {
+      "sha256": "dadd07be4b9328ac531da9f59e46804397ed99cabbdca02134cd2082173d4c48",
+      "chunk_count": 18,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-C-01-entra-id-group-register.md": {
+      "sha256": "f101d9faf1f4075c5339484ff6af42a7f328dffa9a0950bfd82033cc126549b7",
+      "chunk_count": 19,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-C-02-user-account-inventory.md": {
+      "sha256": "a0009c280e31e246f0f90987ae23c24e8608c464e527ce6865a727cc5464c9e7",
+      "chunk_count": 16,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-C-03-mailbox-architecture-register.md": {
+      "sha256": "8e23caa9913c796d124d090a11d72e6f101775e865bca7763d0f2340a45daf94",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-C-04-mfa-conditional-access-checklist.md": {
+      "sha256": "f75009e0fb1947e64c13a1c19a0614791fa14ec9a5aac21542073f460504afdc",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-C-05-rbac-assignment-log.md": {
+      "sha256": "f273ac5e5753d1f30edcb440e9137a10d7950fde73950536c887a842cec011bd",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-C-06-service-principal-log.md": {
+      "sha256": "218d2d2936d94ac57e2d1aedb2eacfb92a8625a44b3d4d5d6c9bb0b4a9cf5bd4",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-D-01-phase1-gate-checklist.md": {
+      "sha256": "4d2b5ec4b2a1e4ef8ff678a45e9da10c78d202ec9ffecd32458b9a3279f55676",
+      "chunk_count": 18,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-D-02-phase2-gate-checklist.md": {
+      "sha256": "0f568c4267d5b330e18f3687b2c952b0419eb9d3ddaa1950808c7624eb73228d",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-D-03-phase3-gate-checklist.md": {
+      "sha256": "43e263d09530e89501e2f7d594426cd9790f4af4727bbb63490b71ff4731f3b9",
+      "chunk_count": 15,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-D-04-mvp-gate-checklist.md": {
+      "sha256": "605d01b15656a4ef0803c199e088afd96dd4b83e59dd6a053ee3c47332724e39",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-D-05-security-baseline-checklist.md": {
+      "sha256": "7074d5f6e5425a6ce4e0d4d524d2c2d0a10440ed6a9e11f06a0142706bd3cf14",
+      "chunk_count": 15,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-01-daily-operations-log.md": {
+      "sha256": "0e17ef2d928b2baacd7926571606de4d1eb1ffb9a60df1ceee1398e05c32c47d",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-02-weekly-status-report.md": {
+      "sha256": "c719f6a61ad03c497ccd9b8989cdeb5a64b2b63c2539d32df4752eaf11257731",
+      "chunk_count": 18,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-03-workflow-activation-checklist.md": {
+      "sha256": "e9d3904158b1fe9d1363f8195db0451f10c2d685de23a6a0daa6aaf421607e9b",
+      "chunk_count": 24,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-04-issue-blocker-log.md": {
+      "sha256": "ecae88e05c0eadbb2e4cb1435f0d98599453ee64ccd863c3d764ab2a0fb8dfe0",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-05-decision-log.md": {
+      "sha256": "89e3ce99a8f892b39ad112ab0553385fccaa940ba54cfc0d8049c1c175de2916",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-06-agent-test-run-log.md": {
+      "sha256": "e9255457c98247f8503487838914adf8bf1f1194b31249e55db88398fad2df1c",
+      "chunk_count": 19,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-07-rfi-register.md": {
+      "sha256": "7c529862aaa9119f7623fc53659d41a4e14d0b90b6c54ee06d751c6b7b83c0c4",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-08-change-order-register.md": {
+      "sha256": "69909172c2e5521e2f75e32193c7fc7f7f08c14fec668b5269db64e04422e151",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-09-submittal-log.md": {
+      "sha256": "23c0832a2fa75b630b83e27bdbf5007f7d5802471d3e3d9c6887ac56105f5e08",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-F-10-meeting-minutes-template.md": {
+      "sha256": "74c7c227d1984a687324faf2b583f7d1fd5c8c2873c757aa3d1ab7b4b76abeeb",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-G-01-project-budget-tracker.md": {
+      "sha256": "bdb11cdc525542c771a0f22621176b517010b07e2640db3fb51c82f60642aab5",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-G-02-api-cost-log.md": {
+      "sha256": "1b5a427683a1b2006c07669779c7f6a31dd7749fa32ceef82204ed8c6bd75280",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-G-03-vendor-saas-contract-register.md": {
+      "sha256": "072a90e601bf0cf31434601d8d0113eabb4b4b960adf8fa9d4706aa6cb291c62",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-01-app-profile-termius.md": {
+      "sha256": "260f7fa6738b0843e4cf6b71eb8d450b056ec3fcc77f8c990ded39f98f319dac",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-02-app-profile-n8n.md": {
+      "sha256": "8d25fca7ceaaf25a74a53974e02dae45e443d23bec435759714b5196de3db58e",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-03-app-profile-kestra.md": {
+      "sha256": "9a3a8441472b28bba929a66e77b50677930aecf93fe9dd0dcb129a514b421633",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-04-app-profile-qdrant.md": {
+      "sha256": "dcad45d4c4880d5c66ffd9b2df056a8ce10e23cc0023ce0f8b31cf9a3a86300f",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-05-app-profile-langfuse.md": {
+      "sha256": "d34fe0530291013f3d35a21720b5e9adf13ae40ce4ce24b1f600bdf29498cfd9",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-06-app-profile-mem0.md": {
+      "sha256": "5c4c44d5423e11f6ab305fa191bef815a552d6ae5593c332b9787aa1c7d5a5ad",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-07-app-profile-github.md": {
+      "sha256": "27d41ff4052e292f6f86e913fc1d60d7c6c8c697619e42ac7a91d96fa0513747",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-08-app-profile-template.md": {
+      "sha256": "15845c2f633badd4b8bc1fe1bb7f312302daea5aac2caa1b15decc560ef24b37",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-09-app-profile-proton-pass.md": {
+      "sha256": "f2c7bc538d849f532c8d226e54d15d95c0eb6c34d08fc27bfde036c4e19cb12d",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-10-app-profile-proton-pass-cli.md": {
+      "sha256": "013b480451772109cce161a7b96f8809b8b62750f176cb074684b66a42c39f91",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-11-app-profile-proton-mail-bridge.md": {
+      "sha256": "25aeacee8512670ec1dbc894fada802daf416321cb9afa02a6eae765ce4f65ec",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-12-app-profile-joplin-server.md": {
+      "sha256": "9f854dd1cbe38e733a126f4953387d61a217ed6d5834636b809567bd2f914ac2",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-13-app-profile-joplin-cli.md": {
+      "sha256": "a5c977bd86d828225618ba6c63455e759931dde3fb826cd4514e576fc2c5e34e",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-14-app-profile-anthropic-api.md": {
+      "sha256": "53aabcf7518207f9efd474200bc136281446f9fed76014a8a26cd3c906cf6176",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-15-app-profile-gcp.md": {
+      "sha256": "6ccfcae5a6350e4cba7baedbb81afadaec25983f9d70e53f4968d66cd0914df7",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-16-app-profile-openai.md": {
+      "sha256": "27229569939dea1d3ed7d187d9ebacf7c7bc24dab5ef37274bd59c3e8e958ae1",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-17-app-profile-postgresql.md": {
+      "sha256": "8dc105f08e9b5e377182de6f79b74cbbfeff2f849dbf6e53e997361f958c821f",
+      "chunk_count": 12,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-18-app-profile-redis.md": {
+      "sha256": "ae6dfc7086f1b28106277150064fcc1deac1741557be6d9263d59f0e7367468c",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-H-19-app-profile-clickhouse.md": {
+      "sha256": "13bd743d4474bf52aa9f259015c34c08f9d57ee50002ee76dd47a181d8c1327b",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "project-workbook:PWB-INDEX.md": {
+      "sha256": "217ecdcc9d99b790736e245826fd01dc34d83d9fcf555ddb06d379e4279d2005",
+      "chunk_count": 16,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:10 Infrastructure/00-INDEX.md": {
+      "sha256": "2232035d476444bdce7395a78b700267fd2be8226567effaa1b0dbe4cfec6bf1",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:10 Infrastructure/INFRA-DEV-ONBOARDING.md": {
+      "sha256": "0b4249b5381b61c27a6f925546cd38b21c184ab5d41cc94903929f9e3a40a014",
+      "chunk_count": 18,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:11 Tools/00-INDEX.md": {
+      "sha256": "54e9c14b9d240b3720e5b1243ea98289534c901e6b56883b4b15637b5ea60166",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:11 Tools/TOOL-001-ALIBABA-EXTRACTOR.md": {
+      "sha256": "9c10a94c5e48a7fe6fd85bb814ab228e2c1e100ed0318849b69c62fc95560e5c",
+      "chunk_count": 20,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:11 Tools/TOOL-002-STATEMENT-EXTRACTOR.md": {
+      "sha256": "76fc57067cc85e3bd561ba151368163f56da0ff7d428055541b7f96dc997e76e",
+      "chunk_count": 22,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:11 Tools/TOOL-003-CORTEX-INGESTION-PIPELINE.md": {
+      "sha256": "826141777300a8c07ef317e5a5ef01afb2f7f0e43c6d29f93b04465746c787da",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:11 Tools/TOOL-004-QWINN-GRAPH-TOOLS.md": {
+      "sha256": "3ba018d29513f4d740c544a095469c4f414992d0c2dcfb09ed14fb3fbe0a6ec3",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:11 Tools/TOOL-005-CORTEX-MAP.md": {
+      "sha256": "34498ccdfb604e4d624f2cfa3f6581ba8baf64b6f48c0b04154ea6877a7f462f",
+      "chunk_count": 6,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:11 Tools/TOOL-006-KEYMASTER-LOUIS.md": {
+      "sha256": "d9c2d77b2bf92f0df0ef466960f7cbbc0e57c8fb86d9638feec5743134e480bb",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:11 Tools/TOOL-007-JOPLIN-SYNC.md": {
+      "sha256": "170ef383ca94109a80e9eaac20b473d65a16d6175ff5d375181b18b3d69542e0",
+      "chunk_count": 5,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:11 Tools/TOOL-008-REFERENCE-LIBRARY.md": {
+      "sha256": "9f11813264fd0e931676f2b30eec3d52004aec33f0d9e87cae2dff0ee2a638c2",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/00-INDEX.md": {
+      "sha256": "266d64f2eb2f2335ff100174450e926fdba98f4c3c2f49bdbe4eca994fc32216",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/TMPL-BPM.md": {
+      "sha256": "f4ae687dc05e1294868949ec0c4e9ba225e5853a295519ffbf8873855c0c098e",
+      "chunk_count": 14,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/TMPL-COMPLIANCE-ITEM.md": {
+      "sha256": "ae587d5d17f2188369c7445e47a2f7100ca8cf59ae10b46fa78d8ed97655265c",
+      "chunk_count": 7,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/TMPL-CUSTOMER-PROFILE.md": {
+      "sha256": "2d3f5114efef7201b58170a3b5a5d26cf7a2822ed9336dab893f88407350ecc4",
+      "chunk_count": 9,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/TMPL-PHASE-LOG.md": {
+      "sha256": "99ea4697d57765d0ef4f36404bd3bc3573bb928c21f4e1df443946fda46aaced",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/TMPL-PRODUCT-PROFILE.md": {
+      "sha256": "ad5ad19973e461cca52c18c7fe17d9d08d0922a6ce173086ee0e570f7e2f5360",
+      "chunk_count": 11,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/TMPL-SERVICE-TICKET.md": {
+      "sha256": "cf7d4950492d0ff374c75db478255b49bfcb1c87eccbdec761849cef044d1d11",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/TMPL-SOP.md": {
+      "sha256": "318ac38bc290837580ff00ce5bf59f55f44aa90871b4e0ff9882ec99951be6f3",
+      "chunk_count": 10,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/TMPL-TOOL-PROFILE.md": {
+      "sha256": "4d19e11a57470c2329806425245de418981fc6b863bdd504457b431e5762b0d7",
+      "chunk_count": 13,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:12 Templates/TMPL-VENDOR-PROFILE.md": {
+      "sha256": "0c5bdeea99434937ad4b05309058a90b759b4cccf9fd87aa16fc0126aa2c83d0",
+      "chunk_count": 8,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:13 Service Tickets/00-INDEX.md": {
+      "sha256": "fece59c0a0e9a5eb54ad9458a47d252ea21d3bbe3dcfcc408eee81ec9e1cbac0",
+      "chunk_count": 1,
+      "updated_at": "2026-03-24T13:07:07Z"
+    },
+    "ops-binder:13 Service Tickets/TKT-004-JOPLIN-SYNC-SERVER-API.md": {
+      "sha256": "aadc5dd4af593c0a1e5d5ad18c104193f5efb9c68092a095973ad10ed0218a46",
+      "chunk_count": 15,
+      "updated_at": "2026-03-24T13:07:07Z"
+    }
+  }
+}
